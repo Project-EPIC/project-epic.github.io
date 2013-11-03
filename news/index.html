@@ -2,7 +2,14 @@
 layout: page
 title: News
 group: navigation
+weight: 4
 ---
+<ul class="nav-list">
+   {% assign pages_list = site.weighted_pages %}
+   {% assign group = 'news' %}
+   {% include JB/pages_list %}
+</ul>
+
 {% assign posts_collate = site.posts %}
 
 <ul class="posts">

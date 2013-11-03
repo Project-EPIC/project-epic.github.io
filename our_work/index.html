@@ -2,4 +2,10 @@
 layout: page
 title: Our Work
 group: navigation
+weight: 2
 ---
+<ul class="nav-list">
+   {% assign pages_list = site.weighted_pages %}
+   {% assign group = 'our_work' %}
+   {% include JB/pages_list %}
+</ul>
