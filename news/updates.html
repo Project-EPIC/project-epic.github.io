@@ -4,8 +4,4 @@ title: Updates
 group: news
 weight: 1
 ---
-<ul class="nav-list">
-   {% assign pages_list = site.weighted_pages %}
-   {% assign group = 'news' %}
-   {% include JB/pages_list %}
-</ul>
+{% include navigation/news_nav.html %}

@@ -4,8 +4,4 @@ title: General Info
 group: contact
 weight: 1
 ---
-<ul class="nav-list">
-   {% assign pages_list = site.weighted_pages %}
-   {% assign group = 'contact' %}
-   {% include JB/pages_list %}
-</ul>
+{% include navigation/contact_nav.html %}
