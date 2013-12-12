@@ -7,12 +7,12 @@ weight: 4
 {% include navigation/news_nav.html %}
 
 {% assign posts_collate = site.posts %}
-
+<br>
 <ul class="posts">
   {% for post in posts_collate %}
     <div class="post">
 		<div class="heading"><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></div>
-		{{ post.content }}
+		<p>{{ post.excerpt }}</p>
 	</div>
   {% endfor %}
 </ul>
