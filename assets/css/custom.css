@@ -1,5 +1,5 @@
 #home { 
-  background: url("/assets/img/coflood.jpg") 50% 0 repeat fixed; min-height: 1000px;
+  background: url("/assets/images/coflood.jpg") 50% 0 repeat fixed; min-height: 1000px;
   height: 1000px; 
   margin: 0 auto; 
   width: 100%; 
@@ -16,7 +16,7 @@
 }
  
 #about { 
-  background: url("/assets/img/hurricane.jpg") 50% 0 no-repeat; min-height: 1000px;  
+  background: url("/assets/images/hurricane.jpg") 50% 0 no-repeat; min-height: 1000px;  
   height: 1000px; 
   margin: 0 auto; 
   width: 100%; 
