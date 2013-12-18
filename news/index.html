@@ -4,19 +4,46 @@ title: News
 group: navigation
 weight: 4
 ---
-<ul class="nav-list">
-   {% assign pages_list = site.weighted_pages %}
-   {% assign group = 'news' %}
-   {% include JB/pages_list %}
-</ul>
-
 {% assign posts_collate = site.posts %}
+  
+<div class="row-fluid">
+   <div class="span10"> 
+		<ul class="posts">
+		  {% for post in posts_collate %}
+				<div style="text-align:center;font-size:x-large;margin-top:80px;margin-bottom:10px">
+					<a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+				</div>
+				<div style="text-align:center;font-size:small;color:DimGray">
+					{{ post.date | date_to_string }} 
+					{% if post.author %} by {{ post.author }} {% endif %}
+				</div>
+				<p>{{ post.content }}</p>
+			<hr>
+		  {% endfor %}
+		</ul>
+	</div>
+	<div class="span2">
+  	    {% include twitter_feed.html %}
+    </div>
+</div>
 
+<div style="text-align:center">
+<div class="pagination">
+    <ul>
+      <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
+    </ul>
+</div>
+</div>
+
+
+<!--
 <ul class="posts">
   {% for post in posts_collate %}
     <div class="post">
 		<div class="heading"><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></div>
-		{{ post.content }}
+		<p>{{ post.excerpt }}</p>
+		<p>By {{ post.author }}</p>
 	</div>
   {% endfor %}
 </ul>
+-->

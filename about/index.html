@@ -4,8 +4,4 @@ title: About Us
 group: navigation
 weight: 1
 ---
-<ul class="nav-list">
-   {% assign pages_list = site.weighted_pages %}
-   {% assign group = 'about' %}
-   {% include JB/pages_list %}
-</ul>
+{% include navigation/about_nav.html %}
