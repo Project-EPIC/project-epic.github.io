@@ -1,0 +1,66 @@
+#home { 
+  background: url("/assets/img/coflood.jpg") 50% 0 repeat fixed; min-height: 1000px;
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+}
+ 
+#home article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
+}
+ 
+#about { 
+  background: url("/assets/img/hurricane.jpg") 50% 0 no-repeat; min-height: 1000px;  
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+}
+ 
+#about article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
+}
+
+/* Custom container */
+.container-narrow {
+  margin: 0 auto;
+  width:83.3%;
+  max-width: 960px; }
+
+.container-narrow > hr {
+  margin: 30px 0; }
+
+.navbar .nav {
+  float: right; }
+
+/* overwrites to bootstrap */
+.page-header {
+	margin:0px;
+	display:block;
+ 	background: url("/assets/images/flatirons.jpg");
+	height:330px;
+	width:100%; }
+
+.navbar {
+	margin:0px; }
+
+.navbar-inner {
+	box-shadow: none;
+	border:none;
+	background:none;
+}
+
+h3 {
+	font-weight:normal;
+}
