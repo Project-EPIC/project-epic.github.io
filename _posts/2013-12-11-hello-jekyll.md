@@ -2,8 +2,9 @@
 layout: post
 title: "Hello Jekyll!"
 description: ""
-category: ""
+category: "EPIC website"
 tags: []
+author: Sahar Jambi
 published: true
 excerpt: Jekyll is a simple, blog-aware, static site generator.
 
@@ -14,6 +15,6 @@ Jekyll is a simple, blog-aware, static site generator. It takes a template direc
 
 To learn more about Jekyll, [get the PDF]({{ site.url }}/assets/mydoc.pdf) directly.
 
-![My helpful screenshot]({{ site.url }}/assets/images/jekyll.jpg)
+![jekyll]({{ site.url }}/assets/images/jekyll.jpg)
 
 [See My helpful screenshot.]({{ site.url }}/assets/images/jekyll.jpg)

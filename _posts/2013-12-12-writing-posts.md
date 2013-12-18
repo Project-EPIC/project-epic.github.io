@@ -2,8 +2,9 @@
 layout: post
 title: "Writing posts"
 description: ""
-category: ""
+category: "EPIC website"
 tags: []
+author: Sahar Jambi
 published: true
 excerpt: Jekyll is “blog aware".
 
