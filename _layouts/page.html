@@ -2,4 +2,15 @@
 layout: default
 ---
 {% include JB/setup %}
-{% include themes/twitter/page.html %}
+
+<div class="page-header page-header-{{ page.title | downcase | remove: ' ' }} page-group-{{ page.group | downcase | remove: ' ' | remove: '_' }}">
+	{% if page.url != '/index.html' %}
+ 		<h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
+	{% endif %}
+</div>
+
+<div class="row-fluid">
+  <div class="span12">
+    {{ content }}
+  </div>
+</div>
