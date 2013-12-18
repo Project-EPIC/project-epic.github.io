@@ -5,9 +5,6 @@ tagline: Empowering the Public with Information in Crisis
 ---
 {% assign post = site.posts.first %}
 
-<div class="frontimage">
-</div>
-
 <div class="frontabout">
 	<h3>About</h3>
 </div>
