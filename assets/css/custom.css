@@ -14,45 +14,24 @@
 
 #work_sections section {
   margin:0 auto;
+  padding:15px;
   position:relative;
   width:100%;
-  height:inherit;
+  min-height:300px;
+ -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+ box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
 
-#work_sections li {
-  height:300px;
-}
+#work_sections h3 { color:white; }
+#work_sections div { color:white; display:inline-block; }
 
-#work_sections li:nth-child(2n){
-  height: 500px;
-}
-
-#work_sections li:nth-child(2n-1){
-  height: 400px;
-}
-
-#work_sections li:nth-child(2n-2){
-  height: 300px;
-}
-
-.parallax1-color {
-  background: #CC3300 fixed; /* green */
-}
-
-.parallax2-color {
-  background: #0066CC fixed; /* blue */
-}
-
-.parallax3-color {
-  background: #00CC33 fixed; /* orange */
-}
-
-.parallax1-sample { background: url("/assets/images/parallax-sections/coflood-green.jpg") fixed;}
-.parallax2-sample { background: url("/assets/images/parallax-sections/hurricane-blue.jpg") fixed;}
-.parallax3-sample { background: url("/assets/images/parallax-sections/disaster-orange.jpg") fixed;}
-.parallax4-sample { background: url("/assets/images/parallax-sections/pet-rescue-green.jpg") fixed;}
-.parallax5-sample { background: url("/assets/images/parallax-sections/hurricane-sandy-blue.jpg") fixed;}
-.parallax6-sample { background: url("/assets/images/parallax-sections/students-orange.jpg") fixed;}
+.parallax1-sample { background: url("/assets/images/section-parallax/coflood-green.jpg") fixed;}
+.parallax2-sample { background: url("/assets/images/section-parallax/hurricane-blue.jpg") fixed;}
+.parallax3-sample { background: url("/assets/images/section-parallax/disaster-orange.jpg") fixed;}
+.parallax4-sample { background: url("/assets/images/section-parallax/pet-rescue-green.jpg") fixed;}
+.parallax5-sample { background: url("/assets/images/section-parallax/volunteers-green.jpg") fixed;}
+.parallax6-sample { background: url("/assets/images/section-parallax/hurricane-sandy-blue.jpg") fixed;}
+.parallax7-sample { background: url("/assets/images/section-parallax/students-orange.jpg") fixed;}
 
 /* Custom container */
 .container-narrow {
