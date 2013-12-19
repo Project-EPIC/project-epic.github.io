@@ -1,36 +1,58 @@
-#home { 
-  background: url("/assets/images/coflood.jpg") 50% 0 repeat fixed; min-height: 1000px;
-  height: 1000px; 
-  margin: 0 auto; 
-  width: 100%; 
-  max-width: 1920px; 
-  position: relative; 
+
+#timeline {
+  background: white;
+  width:100%;
+  height:200px;
+  border: 1pt solid black;
 }
- 
-#home article { 
-  height: 458px; 
-  position: absolute; 
-  text-align: center; 
-  top: 150px; 
-  width: 100%; 
+
+#work_sections {
+  list-style-type: none;
+  margin:10px auto 10px auto;
+  width:100%;
 }
- 
-#about { 
-  background: url("/assets/images/hurricane.jpg") 50% 0 no-repeat; min-height: 1000px;  
-  height: 1000px; 
-  margin: 0 auto; 
-  width: 100%; 
-  max-width: 1920px; 
-  position: relative; 
+
+#work_sections section {
+  margin:0 auto;
+  position:relative;
+  width:100%;
+  height:inherit;
 }
- 
-#about article { 
-  height: 458px; 
-  position: absolute; 
-  text-align: center; 
-  top: 150px; 
-  width: 100%; 
+
+#work_sections li {
+  height:300px;
 }
+
+#work_sections li:nth-child(2n){
+  height: 500px;
+}
+
+#work_sections li:nth-child(2n-1){
+  height: 400px;
+}
+
+#work_sections li:nth-child(2n-2){
+  height: 300px;
+}
+
+.parallax1-color {
+  background: #CC3300 fixed; /* green */
+}
+
+.parallax2-color {
+  background: #0066CC fixed; /* blue */
+}
+
+.parallax3-color {
+  background: #00CC33 fixed; /* orange */
+}
+
+.parallax1-sample { background: url("/assets/images/parallax-sections/coflood-green.jpg") fixed;}
+.parallax2-sample { background: url("/assets/images/parallax-sections/hurricane-blue.jpg") fixed;}
+.parallax3-sample { background: url("/assets/images/parallax-sections/disaster-orange.jpg") fixed;}
+.parallax4-sample { background: url("/assets/images/parallax-sections/pet-rescue-green.jpg") fixed;}
+.parallax5-sample { background: url("/assets/images/parallax-sections/hurricane-sandy-blue.jpg") fixed;}
+.parallax6-sample { background: url("/assets/images/parallax-sections/students-orange.jpg") fixed;}
 
 /* Custom container */
 .container-narrow {
@@ -50,8 +72,8 @@
 .page-header {
 	margin:0px;
 	display:block;
- 	background: url("/assets/images/flatirons.jpg");
-	height:330px;
+ 	background: url("/assets/images/flatirons-smaller.jpg") no-repeat;
+  height:250px;
 	width:100%; }
 	
 .page-header h1 {
