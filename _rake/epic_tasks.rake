@@ -22,3 +22,11 @@ task :fullbuild do
 	puts "Doing a full build of the website:"
 	puts "TODO"
 end
+
+desc "Serve Full Site from Localhost"
+task :fullpreview do
+	puts "Building site..."
+	system ("jekyll build")
+	puts "Copying to localhost"
+	system ("sudo cp -r -v _site/* /Library/WebServer/Documents/")
+end
