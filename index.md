@@ -9,9 +9,12 @@ tagline: Empowering the Public with Information in Crisis
 <script type="text/javascript">
 $(document).ready(function(){
   $('#Div_Slider_Test').bxSlider({
-  	pager: true,
+    auto: true,
+  	captions: true,
+    controls: false,
+    pager: false,
   	adaptiveHeight: true,
-  	auto: true
+  	responsive: true
   });
 });
 </script>
