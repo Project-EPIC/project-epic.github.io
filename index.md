@@ -6,6 +6,7 @@ tagline: Empowering the Public with Information in Crisis
 {% assign post = site.posts.first %}
 
 <!--This is the front page image slider-->
+
 <script type="text/javascript">
 $(document).ready(function(){
   $('#Div_Slider_Test').bxSlider({
