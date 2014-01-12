@@ -12,7 +12,7 @@ $(document).ready(function(){
     auto: true,
   	captions: true,
     controls: false,
-    pager: false,
+    pager: true,
   	adaptiveHeight: true,
   	responsive: true
   });
