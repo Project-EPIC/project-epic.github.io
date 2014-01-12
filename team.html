@@ -4,3 +4,13 @@ title: Team
 weight: 2
 group: navigation
 ---
+
+<ul>
+{% for person in site.data.team %}
+<li>
+{% if {{person.url}} %} <a href="{{person.url}}"> {% endif %}
+<h4 class="team-member-name">{{ person.name }}</h4>
+{% if {{person.url}} %} </a> {% endif %}
+</li>
+{% endfor %}
+</ul>

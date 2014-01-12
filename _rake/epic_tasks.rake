@@ -22,4 +22,3 @@ task :fullbuild do
 	puts "Doing a full build of the website:"
 	puts "TODO"
 end
-
