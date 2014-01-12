@@ -2,23 +2,9 @@
 layout: page
 title: Project Epic
 tagline: Empowering the Public with Information in Crisis
+js: homepage.js
 ---
 {% assign post = site.posts.first %}
-
-<!--This is the front page image slider-->
-
-<script type="text/javascript">
-$(document).ready(function(){
-  $('#Div_Slider_Test').bxSlider({
-    auto: true,
-  	captions: true,
-    controls: false,
-    pager: true,
-  	adaptiveHeight: true,
-  	responsive: true
-  });
-});
-</script>
 
 <ul id="Div_Slider_Test">
 <li><div>
