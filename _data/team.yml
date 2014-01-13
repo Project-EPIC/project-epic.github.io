@@ -1,0 +1,9 @@
+---
+- name: Robert Soden
+  url: http://www.google.com
+  role: :student
+- name: Leysia Palen
+  url: cs.colorado.edu/~lpalen
+  role: :professor
+- name: Jennings Anderson
+  role: :student

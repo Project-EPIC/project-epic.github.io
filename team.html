@@ -5,4 +5,32 @@ weight: 2
 group: navigation
 ---
 
+<<<<<<< HEAD
 <code>We will manage this page using Google Docs and Google Scholar</code>
+=======
+<h3>Faculty</h3>
+<ul>
+{% for person in site.data.team %}
+	{% if {{person.role}} == ":professor" %}
+	<li>
+	{% if {{person.url}} %} <a href="{{person.url}}"> {% endif %}
+	<h4 class="team-member-name">{{ person.name }}</h4>
+	{% if {{person.url}} %} </a> {% endif %}
+	</li>
+	{% endif %}
+{% endfor %}
+</ul>
+
+<h3>Students</h3>
+<ul>
+{% for person in site.data.team %}
+	{% if {{person.role}} == ":student" %}
+	<li>
+	{% if {{person.url}} %} <a href="{{person.url}}"> {% endif %}
+	<h4 class="team-member-name">{{ person.name }}</h4>
+	{% if {{person.url}} %} </a> {% endif %}
+	</li>
+	{% endif %}
+{% endfor %}
+</ul>
+>>>>>>> 2f7c759d3bccda2c45251f1dad74877db7df1f1f
