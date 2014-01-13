@@ -7,7 +7,7 @@ end
 desc "Get Team"
 task :team do
 	puts "Generating Team YAML file"
-	require "/Users/jenningsanderson/Dropbox/jekyll/epic/_buildtasks/team"
+	require "/Users/jenningsanderson/Dropbox/jekyll/epic/_buildtasks/team.rb"
 	
 	################### Test Case ###############
 	team = []
@@ -27,7 +27,7 @@ task :team do
 
 	#############################################
 	file = "/Users/jenningsanderson/Dropbox/jekyll/epic/_data/team.yml"	#Note, must call this as a rake task, not directly
-	write_team_file(team, file)
+	p write_team_file(team, file)
 end
 
 desc "Full Refresh & Build"

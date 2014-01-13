@@ -17,28 +17,32 @@ http://epic.cs.colorado.edu/build/?task=publications and then all is done automa
 <li><a href='?task=team'>Rebuild Team Page</a></li>
 </ul>
 
-<h4>Currently Building:</h4>
+<h2>Currently Building: -- For some reason, this is not working as hoped, it's definately a permissions issue and rather than troubleshoot it locally, which has not worked for the past couple hours, we'll make it work on the production server...</h2>
 <?php
 	//Change this directory to the jekyll directory on your local machine (or production server...)
     $jekyll_dir = '/Users/jenningsanderson/Dropbox/jekyll/epic';
 
-	switch ($_GET['task']) {
-    case 'team':
-        echo ("Team file...<br />");
-        echo ("Changing Directory to jekyll root (1 is success)...");
-        echo '<strong>'.chdir( $jekyll_dir ).'</strong>';
-        echo ("<br />Calling rake tasks...<br />");
-        echo '<strong>'.shell_exec("rake team").'</strong>';
+	if ($_GET['task']){
+        switch ($_GET['task']) {
+            case 'team':
+                echo ("Team file...<br />");
+                echo ("Changing Directory to jekyll root (1 is success)...");
+                echo '<strong>'.chdir( $jekyll_dir ).'</strong>';
+                echo ("<br />Calling rake tasks...<br />");
+                echo '<strong>'.shell_exec("rake team").'</strong>';
 
-        echo ("<br /><br />See Results: <a href=\"/team.html\">Team Page</a>");
-        break;
-    case 'publications':
-        echo "var is pubs";
-        break;
-    case 'news':
-        echo "var is news";
-        break;
-	}
+                echo ("<br /><br />See Results: <a href=\"/team.html\">Team Page</a>");
+                break;
+            case 'publications':
+                echo "var is pubs";
+                break;
+            case 'news':
+                echo "var is news";
+                break;
+        }
+    }else{
+        echo "<h3>Nothing set to build, use above links</h3>";
+    }
 ?>
 </body>
 </html>
