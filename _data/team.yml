@@ -3,7 +3,11 @@
   url: http://www.google.com
   role: :student
 - name: Leysia Palen
-  url: cs.colorado.edu/~lpalen
+  url: http://cs.colorado.edu/~lpalen
   role: :professor
 - name: Jennings Anderson
+  url: http://www.townsendjennings.com
+  role: :student
+- name: Jo White
+  url: http://www.google.com
   role: :student

@@ -13,9 +13,9 @@ task :team do
 	team = []
 	test_members = [
 		{:name => "Robert Soden", :role => :student, :url => "http://www.google.com"},
-		{:name => "Leysia Palen", :role => :professor, :url => "cs.colorado.edu/~lpalen"},
-		{:name => "Jennings Anderson", :role => :student}
-		#{:name => "Jo White", :role => :student, :url => "http://www.google.com"}
+		{:name => "Leysia Palen", :role => :professor, :url => "http://cs.colorado.edu/~lpalen"},
+		{:name => "Jennings Anderson", :role => :student, :url => "http://www.townsendjennings.com"},
+		{:name => "Jo White", :role => :student, :url => "http://www.google.com"}
 	]
 
 	test_members.each do |member|
