@@ -5,12 +5,28 @@ weight: 2
 group: navigation
 ---
 
+<h3>Faculty</h3>
 <ul>
 {% for person in site.data.team %}
-<li>
-{% if {{person.url}} %} <a href="{{person.url}}"> {% endif %}
-<h4 class="team-member-name">{{ person.name }}</h4>
-{% if {{person.url}} %} </a> {% endif %}
-</li>
+	{% if {{person.role}} == ":professor" %}
+	<li>
+	{% if {{person.url}} %} <a href="{{person.url}}"> {% endif %}
+	<h4 class="team-member-name">{{ person.name }}</h4>
+	{% if {{person.url}} %} </a> {% endif %}
+	</li>
+	{% endif %}
+{% endfor %}
+</ul>
+
+<h3>Students</h3>
+<ul>
+{% for person in site.data.team %}
+	{% if {{person.role}} == ":student" %}
+	<li>
+	{% if {{person.url}} %} <a href="{{person.url}}"> {% endif %}
+	<h4 class="team-member-name">{{ person.name }}</h4>
+	{% if {{person.url}} %} </a> {% endif %}
+	</li>
+	{% endif %}
 {% endfor %}
 </ul>
