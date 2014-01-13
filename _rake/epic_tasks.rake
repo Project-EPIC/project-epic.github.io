@@ -1,10 +1,3 @@
-desc "Run Test build file"
-task :test do
-  puts "Running Test Rake Task"
-  require "./_buildtasks/test_build"
-end # task :test
-
-
 desc "Get Publications"
 task :publications do
 	puts "Generating Publications YAML file"
