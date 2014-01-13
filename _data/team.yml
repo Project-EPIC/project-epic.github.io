@@ -7,6 +7,3 @@
   role: :professor
 - name: Jennings Anderson
   role: :student
-- name: Jo White
-  url: http://www.google.com
-  role: :student

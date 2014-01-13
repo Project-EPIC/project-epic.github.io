@@ -26,10 +26,11 @@ http://epic.cs.colorado.edu/build/?task=publications and then all is done automa
     case 'team':
         echo ("Team file...<br />");
         echo ("Changing Directory to jekyll root (1 is success)...");
-        echo chdir( $jekyll_dir );
+        echo '<strong>'.chdir( $jekyll_dir ).'</strong>';
         echo ("<br />Calling rake tasks...<br />");
-        echo shell_exec("rake team");
-        echo ("<br />See Results: <a href=\"/team.html\">Team Page</a>");
+        echo '<strong>'.shell_exec("rake team").'</strong>';
+
+        echo ("<br /><br />See Results: <a href=\"/team.html\">Team Page</a>");
         break;
     case 'publications':
         echo "var is pubs";
