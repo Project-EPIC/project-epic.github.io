@@ -22,10 +22,9 @@ def write_team_file(people, filename)
 		end
 
 		to_write << this_member
-	end
-	p to_write
-	
+	end	
 	File.open(filename, 'wb') {|f|
 		f.write(to_write.to_yaml)
 	}
+	return to_write
 end
