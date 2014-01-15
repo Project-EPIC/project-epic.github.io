@@ -1,5 +1,6 @@
 _site/*
 _theme_packages/*
+_buildtasks/auth_google_drive.rb
 
 Thumbs.db
 .DS_Store
