@@ -1,5 +1,5 @@
 require 'google_drive'
-@session = GoogleDrive.login("cuprojectepic@gmail.com", "CrisisInformatics2014")
+@session = GoogleDrive.login("cuprojectepic@gmail.com", "password")
 
 def session
 	return @session
