@@ -1,5 +1,7 @@
 auth_google_drive.rb
 _site/*
+rss.xml
+sitemap.txt
 _theme_packages/*
 _buildtasks/auth_google_drive.rb
 
