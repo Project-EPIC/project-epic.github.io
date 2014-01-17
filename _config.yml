@@ -24,6 +24,31 @@ author :
 
 production_url : http://username.github.io
 
+data : 
+  news :
+    key    : 0Aiwzrc8lx93KdEpoYlZPa2tRU25FT1Fzb2s4Yi16UlE
+    object : News
+    types  : ['News']
+
+  people :
+    key    : 0Aiwzrc8lx93KdDJrQllra3VmQkx1OTNlclNCY0hIWFE
+    object : Person
+    types  : ['Current', 'Alumni']
+
+  projects : 
+    key    : 0AihuFDqjCvbedDMzS0FRc1hTT3JVY2lRT2pfekszY3c
+    object : Project
+    types  : ['Projects']
+
+  publications :
+    key    : 0Aiwzrc8lx93KdFhudDZDZzdRTkVHQWtpUVNFd01xckE
+    object : Publication
+    types  : ['Publications']
+
+write_directory : './_data'
+build_tasks_directory : './_buildtasks'
+
+
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :

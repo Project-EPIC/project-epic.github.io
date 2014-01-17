@@ -1,46 +1,68 @@
 require './_buildtasks/parse_to_yaml'
 
-write_directory = './_data'
-data = {
-	:in_the_news => 	{ :key 	=> "0Aiwzrc8lx93KdEpoYlZPa2tRU25FT1Fzb2s4Yi16UlE",
-				  		:object => "News",
-				  		:types  => ['News']},
+yml_config = YAML::load(File.open('_config.yml'))
+@@site_data = yml_config['data']
+@@write_directory = yml_config['write_directory']
+@@buildtasks_dir = yml_config['build_tasks_directory']
 
-	:people  => 	{ 	:key    => "0AhQ6tqeOTfwBdFhrTmxXM0oxYkx2Vl9ucXJpd0hQRHc",
-				  		:object => "Person",
-				  		:types  => ['Current', 'Alumni']},
+def update_page(type, sheet)
+	key = @@site_data[type]['key']
+	object_type=@@site_data[type]["object"]
 
-	:projects   =>	{   :key  	=> "0AihuFDqjCvbedDMzS0FRc1hTT3JVY2lRT2pfekszY3c",
-						:object => "Project",
-						:types  => ['Projects']},
+	object_directory = @@buildtasks_dir+'/'+object_type
+	puts "Requiring #{object_directory}"
+	require object_directory
+	
+	puts "Going to Google Drive to Update: "
+	puts "\tType: #{type}"
+	puts "\tObject Type: #{object_type}"
+	puts "\tSheet: #{sheet}"
+	puts "\tKey: #{key}"
 
-	:publications =>{	:key 	=> "0Aiwzrc8lx93KdFhudDZDZzdRTkVHQWtpUVNFd01xckE",
-	 					:object => "Publication",
-						:types  => ['Publications']}
-}
+	objects = parse_spreadsheet(object_type,key,sheet)
+	write_to_yaml(objects, @@write_directory, sheet)
+	puts "==================================================================="
+end
 
 namespace :update do
-	#Iterate through each data type and define a rake task
-	data.each do |symbol, data|
-		task symbol.to_sym do
-			puts 'called #{data[#{symbol}]}'
-		end
+	@@site_data.each do |symbol, data|
+		eval %Q{
+			if data["types"].length == 1
+				desc "Updates the #{data["types"][0]} page from Google Drive data"
+				task data["types"][0].to_sym do
+					update_page(symbol, data["types"][0])
+				end
 
-		puts symbol, data
-	end
+			else
+				namespace symbol.to_sym do
+					data["types"].each do |data_type|
 
+						desc "Updates the #{symbol} page for only specified #{symbol}"
+						task data_type.gsub(/\s+/,'_').to_sym do
+							update_page(symbol, data_type)
+						end
+					end
+					desc "Update all #{symbol} from Google Drive"
+					task :all do
+						Rake.application.tasks.each do |t|
+  							unless t.name.to_s =~ /:all$/
+    							t.invoke if t.name =~ /^update:(#{symbol})/
+    						end
+    					end
+					end
+				end
+			end
+		}
+	end #End data iterator
 
-	desc "Update All"
+	desc "Run every update task"
 	task :all do
-		data.each do |task, values|
-			Rake::Task["update:all:#{task}"].reenable
-			Rake::Task["update:all:#{task}"].invoke
-		end
-	end
-
-	#Meta programming here to build each independent rake task (?) That would be really cool.
-	
-	
+  		Rake.application.tasks.each do |t|
+  			unless t.name.to_s =~ /:all$/
+    			t.invoke if t.name =~ /^update:/
+    		end
+    	end
+  end
 end #End namespace
 
 desc "Full Refresh & Build"

@@ -1,8 +1,8 @@
-class Publication
+class Project
 	attr_accessor :name, :type
 	def initialize(name, type)
 		@name = name
 		@type = type
-		puts "Publication: #{name}"
+		puts "Project Name: #{@name}"
 	end
 end
