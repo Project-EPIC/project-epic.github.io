@@ -1,11 +1,11 @@
 ---
 - name: virtual_desk
   type: Publications
-  Authors: Starbird, K., & Palen, L.
-  Year: '2013'
-  Download_Link: ! 'http://epic.cs.colorado.edu/wp-content/uploads/cscw2013_final.pdf '
-  Title: Working & Sustaining the Virtual “Disaster Desk”
-  Abstract: Humanity Road is a volunteer organization working within the domain of
+  authors: Starbird, K., & Palen, L.
+  year: '2013'
+  download_link: ! 'http://epic.cs.colorado.edu/wp-content/uploads/cscw2013_final.pdf '
+  title: Working & Sustaining the Virtual “Disaster Desk”
+  abstract: Humanity Road is a volunteer organization working within the domain of
     disaster response. The organization is entirely virtual, relying on ICT to both
     organize and execute its work of helping to inform the public on how to survive
     after disaster events. This paper follows the trajectory of Humanity Road from
@@ -19,11 +19,11 @@
     the civic sphere is mobilized.
 - name: mysql_nosql
   type: Publications
-  Authors: ! 'Schram, Aaron and Kenneth Anderson '
-  Year: '2012'
-  Download_Link: http://epic.cs.colorado.edu/wp-content/uploads/wfex04_schram.pdf
-  Title: ! 'MySQL to NoSQL: Data Modeling Challenges in Supporting Scalability.'
-  Abstract: Software systems today seldom reside as isolated systems confined to generating
+  authors: ! 'Schram, Aaron and Kenneth Anderson '
+  year: '2012'
+  download_link: http://epic.cs.colorado.edu/wp-content/uploads/wfex04_schram.pdf
+  title: ! 'MySQL to NoSQL: Data Modeling Challenges in Supporting Scalability'
+  abstract: Software systems today seldom reside as isolated systems confined to generating
     and consuming their own data. Col- lecting, integrating and storing large amounts
     of data from disparate sources has become a need for many software engineers,
     as well as for scientists in research settings. This paper presents the lessons
@@ -35,15 +35,15 @@
     research in the area of crisis informatics. We present both the software architecture
     and data modeling challenges that we encountered dur- ing the transition as well
     as the benefits we gained having migrated to the hybrid persistence architecture.
-  Etc: ! 'In 2012 ACM Conference on Systems, Programming, Languages and Applications:
+  etc: ! 'In 2012 ACM Conference on Systems, Programming, Languages and Applications:
     Software for Humanity, pp. 191-202. Tucson, Arizona, USA.'
 - name: petmatcher
   type: Publications
-  Authors: ! 'Barrenechea, M., Barron, J., White, J. '
-  Year: '2012'
-  Download_Link: http://epic.cs.colorado.edu/wp-content/uploads/p1237-barrenechea.pdf
-  Title: ! 'No Place Like Home: Pet-to-Family Reunification after Disaster.'
-  Abstract: Pets are important household members, and their welfare and safety are
+  authors: ! 'Barrenechea, M., Barron, J., White, J. '
+  year: '2012'
+  download_link: http://epic.cs.colorado.edu/wp-content/uploads/p1237-barrenechea.pdf
+  title: ! 'No Place Like Home: Pet-to-Family Reunification after Disaster'
+  abstract: Pets are important household members, and their welfare and safety are
     imperative to the emotional welfare of the family. Displacement of pets after
     disaster events is a serious matter to families and for public safety at large.
     People are not willing to evacuate without their non-human family members; many
@@ -59,16 +59,16 @@
     employs a reputation and reward system to encourage use; and uses match-based
     machine learning techniques to accelerate the manual matching tasks performed
     by digital volunteers.
-  Etc: Proceedings of the 2012 ACM annual conference extended abstracts on Human Factors
+  etc: Proceedings of the 2012 ACM annual conference extended abstracts on Human Factors
     in Computing Systems.
 - name: evolovingrole
   type: Publications
-  Authors: ! 'Hughes, Amanda L. and Leysia Palen. '
-  Year: '2012'
-  Download_Link: http://www.degruyter.com/view/j/jhsem.2012.9.issue-1/1547-7355.1976/1547-7355.1976.xml
-  Title: ! 'The Evolving Role of the Public Information Officer: An Examination of
-    Social Media in Emergency Management.'
-  Abstract: This work examines how the introduction of social media has affected the
+  authors: ! 'Hughes, Amanda L. and Leysia Palen. '
+  year: '2012'
+  download_link: http://www.degruyter.com/view/j/jhsem.2012.9.issue-1/1547-7355.1976/1547-7355.1976.xml
+  title: ! 'The Evolving Role of the Public Information Officer: An Examination of
+    Social Media in Emergency Management'
+  abstract: This work examines how the introduction of social media has affected the
     role of the Public Information Officer (PIO)—the public relations component of
     the National Incident Management System (NIMS). Through analysis of 25 PIO interviews,
     we examine the work practice of PIOs and find that social media expand not only
@@ -77,16 +77,16 @@
     and examine how the presence of social media challenges previous conceptualizations
     of PIO work. Lastly, we present a view of how PIO work could be better imagined
     for the future of emergency management organizations.
-  Etc: Journal of Homeland Security and Emergency Management. (2012)
+  etc: Journal of Homeland Security and Emergency Management. (2012)
 - name: multilayer_annotation
   type: Publications
-  Authors: Corvey, William J., Sarah Vieweg, Sudha Verma, Martha Palmer and James
+  authors: Corvey, William J., Sarah Vieweg, Sudha Verma, Martha Palmer and James
     H. Martin.
-  Year: '2012'
-  Download_Link: http://epic.cs.colorado.edu/wp-content/uploads/lrec_2012_final_120523.pdf
-  Title: Foundations of a Multilayer Annotation Framework for Twitter Communications
+  year: '2012'
+  download_link: http://epic.cs.colorado.edu/wp-content/uploads/lrec_2012_final_120523.pdf
+  title: Foundations of a Multilayer Annotation Framework for Twitter Communications
     During Crisis Events.
-  Abstract: In times of mass emergency, vast amounts of data are generated via computer-mediated
+  abstract: In times of mass emergency, vast amounts of data are generated via computer-mediated
     communication (CMC) that are difficult to manually collect and organize into a
     coherent picture. Yet valuable information is broadcast, and can provide useful
     insight into time and safety-critical situations if captured and analyzed efficiently
@@ -98,16 +98,16 @@
     tweets contributing to situational awareness and analyze the information type
     of the tweet content. We show classification results and describe future integration
     of these classifiers in the larger EPIC infrastructure.
-  Etc: Proceedings of the Eighth International Conference on Language Resources and
+  etc: Proceedings of the Eighth International Conference on Language Resources and
     Evaluation (LREC 2012), May 21-27, 2012, Istanbul, Turkey.
 - name: blogs_cscw12
   type: Publications
-  Authors: ! 'Gloria Mark, Mossaab Bagdouri, Leysia Palen, James Martin, Ban Al-Ani,
+  authors: ! 'Gloria Mark, Mossaab Bagdouri, Leysia Palen, James Martin, Ban Al-Ani,
     Kenneth Anderson '
-  Year: '2012'
-  Download_Link: http://epic.cs.colorado.edu/wp-content/uploads/cscw2012Iraqiblogs_smaller.pdf
-  Title: Blogs as a Collective War Diary.
-  Abstract: Disaster-related research in human-centered computing has typically focused
+  year: '2012'
+  download_link: http://epic.cs.colorado.edu/wp-content/uploads/cscw2012Iraqiblogs_smaller.pdf
+  title: Blogs as a Collective War Diary.
+  abstract: Disaster-related research in human-centered computing has typically focused
     on the shorter-term, emergency period of a disaster event, whereas effects of
     some crises are longterm, lasting years. Social media archived on the Internet
     provides researchers the opportunity to examine societal reactions to a disaster
@@ -123,14 +123,14 @@
     about daily life decreased as violence in the society increased; when violence
     waned, there was a resurgence of daily life topics, potentially illustrating how
     a society returns to normalcy.
-  Etc: Proceedings of CSCW’12, Seattle, WA.
+  etc: Proceedings of CSCW’12, Seattle, WA.
 - name: facebook_cscw12
   type: Publications
-  Authors: ! 'Semaan, B. and Mark, G. '
-  Year: '2012'
-  Download_Link: http://epic.cs.colorado.edu/wp-content/uploads/CSCW-2012-Facebook.pdf
-  Title: ! '‘Facebooking’ Towards Crisis Recovery and Beyond: Disruption as an Opportunity.'
-  Abstract: This paper reports on an ethnographic study of Facebook use amongst a
+  authors: ! 'Semaan, B. and Mark, G. '
+  year: '2012'
+  download_link: http://epic.cs.colorado.edu/wp-content/uploads/CSCW-2012-Facebook.pdf
+  title: ! '‘Facebooking’ Towards Crisis Recovery and Beyond: Disruption as an Opportunity'
+  abstract: This paper reports on an ethnographic study of Facebook use amongst a
     population living through ongoing disruption. We interviewed 45 Iraqi citizens,
     as well as received survey responses from 218 individuals, who have been experiencing
     the current Gulf War since March 2003. We show how people in a society experiencing
@@ -142,14 +142,14 @@
     maintain and develop new social norms, and to re-direct their country. We discuss
     how disruption can serve as an opportunity by which people can re-invent their
     societies and how our understandings of Facebook should evolve.
-  Etc: Proceedings of CSCW 2012, Seattle, WA.
+  etc: Proceedings of CSCW 2012, Seattle, WA.
 - name: egypt_blogosphere
   type: Publications
-  Authors: Ban Al-Ani, Gloria Mark, Justin Chung, and Jennifer Jones.
-  Year: '2012'
-  Download_Link: http://epic.cs.colorado.edu/wp-content/uploads/p17-al-ani.pdf
-  Title: ! 'The Egyptian blogosphere: a counter-narrative of the revolution.'
-  Abstract: In this paper we investigate the role blogs played within the context
+  authors: Ban Al-Ani, Gloria Mark, Justin Chung, and Jennifer Jones.
+  year: '2012'
+  download_link: http://epic.cs.colorado.edu/wp-content/uploads/p17-al-ani.pdf
+  title: ! 'The Egyptian blogosphere: a counter-narrative of the revolution.'
+  abstract: In this paper we investigate the role blogs played within the context
     of the Egyptian revolution of early 2011 using blog data authored between 2004-2011.  We
     conducted topic modeling analysis to gain a longitudinal view of the interaction
     of societal, personal and revolutionary blog topics over this period. Furthermore,
@@ -161,40 +161,40 @@
     the  18-day uprising. These narratives offer rich documentation of how blogs,
     and perhaps social media more generally, can be utilized by individuals operating
     under repressive conditions.
-  Etc: In Proceedings of the ACM 2012 conference on Computer Supported Cooperative
+  etc: In Proceedings of the ACM 2012 conference on Computer Supported Cooperative
     Work (CSCW &#8217;12). ACM, New York, NY, USA, 17-26.
 - name: heritage_matters
   type: Publications
-  Authors: Liu, Sophia, Leysia Palen and Elisa Giaccardi.
-  Year: '2012'
-  Title: ! 'Heritage Matters in Crisis Informatics: How Information and Communication
+  authors: Liu, Sophia, Leysia Palen and Elisa Giaccardi.
+  year: '2012'
+  title: ! 'Heritage Matters in Crisis Informatics: How Information and Communication
     Technology Can Support Legacies of Crisis Events.'
-  Etc: ! ' In Christine Hagar (Ed) Crisis Information Management: Communication and
+  etc: ! ' In Christine Hagar (Ed) Crisis Information Management: Communication and
     Technologies, pp. 65 &#8211; 86, Chandos Publishing.'
 - name: continuous_disruption
   type: Publications
-  Authors: ! 'Semaan, B., Mark, G., Al-Ani, B. '
-  Year: '2012'
-  Title: ! 'The Effects of Continual Disruption: Technological Resources Supporting
+  authors: ! 'Semaan, B., Mark, G., Al-Ani, B. '
+  year: '2012'
+  title: ! 'The Effects of Continual Disruption: Technological Resources Supporting
     Resilience in Regions of Conflict.'
-  Etc: ! 'In Christine Hagar (Ed.), Crisis Information Management: Communication and
+  etc: ! 'In Christine Hagar (Ed.), Crisis Information Management: Communication and
     Technologies, pp 9 -24, Chandos Publishing.'
 - name: twt
   type: Publications
-  Authors: Starbird, Kate, Leysia Palen, Sophia B. Liu, Sarah Vieweg, Amanda Hughes,
+  authors: Starbird, Kate, Leysia Palen, Sophia B. Liu, Sarah Vieweg, Amanda Hughes,
     Aaron Schram, Kenneth Mark Anderson, Mossaab Bagdouri, Joanne White, Casey McTaggart,
     and Chris Schenk.
-  Year: '2012'
-  Title: ! ' Promoting Structured Data in Citizen Communications during Disaster Response:
+  year: '2012'
+  title: ! ' Promoting Structured Data in Citizen Communications during Disaster Response:
     An Account of Strategies for Diffusion of the “Tweak the Tweet” Syntax.'
-  Etc: ! 'In Christine Hagar (Ed.), Crisis Information Management: Communication and
+  etc: ! 'In Christine Hagar (Ed.), Crisis Information Management: Communication and
     Technologies, pp 43 &#8211; 63. Chandos Publishing.'
 - name: beacons_of_hope
   type: Publications
-  Authors: ! 'Sarcevic, Aleskandra, Leysia Palen, Joanne White, Mossaab Bagdouri,
+  authors: ! 'Sarcevic, Aleskandra, Leysia Palen, Joanne White, Mossaab Bagdouri,
     Kate Starbird, Kenneth M. Anderson, '
-  Year: '2012'
-  Download_Link: http://epic.cs.colorado.edu/wp-content/uploads/Sarcevic-et-al-HaitiMedicalTwitterers.pdf
-  Title: ! '“Beacons of Hope” in Decentralized Coordination: Learning from On-the-Ground
+  year: '2012'
+  download_link: http://epic.cs.colorado.edu/wp-content/uploads/Sarcevic-et-al-HaitiMedicalTwitterers.pdf
+  title: ! '“Beacons of Hope” in Decentralized Coordination: Learning from On-the-Ground
     Medical Twitterers During the 2010 Haiti Earthquake'
-  Etc: 2012 ACM Conference on Computer Supported Cooperative Work, Bellevue, WA.
+  etc: 2012 ACM Conference on Computer Supported Cooperative Work, Bellevue, WA.

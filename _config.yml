@@ -24,11 +24,11 @@ author :
 
 production_url : http://username.github.io
 
-data : 
-  news :
+google_info : 
+  press :
     key    : 0Aiwzrc8lx93KdEpoYlZPa2tRU25FT1Fzb2s4Yi16UlE
-    object : News
-    types  : ['News']
+    object : Press
+    types  : ['Press']
 
   people :
     key    : 0Aiwzrc8lx93KdDJrQllra3VmQkx1OTNlclNCY0hIWFE

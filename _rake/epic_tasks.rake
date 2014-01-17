@@ -1,7 +1,7 @@
 require './_buildtasks/parse_to_yaml'
 
 yml_config = YAML::load(File.open('_config.yml'))
-@@site_data = yml_config['data']
+@@site_data = yml_config['google_info']
 @@write_directory = yml_config['write_directory']
 @@buildtasks_dir = yml_config['build_tasks_directory']
 

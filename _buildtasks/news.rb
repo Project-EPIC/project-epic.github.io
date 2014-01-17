@@ -1,4 +1,4 @@
-class News
+class Press
 	attr_accessor :name
 	def initialize(name, role)
 		@name = name
