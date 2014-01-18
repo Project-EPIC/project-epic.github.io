@@ -43,10 +43,6 @@ google_info :
     key    : 0Aiwzrc8lx93KdFhudDZDZzdRTkVHQWtpUVNFd01xckE
     object : Publication
     types  : ['Publications']
-  conferences : 
-    key    : 0AihuFDqjCvbedGVSWWV4THBFOWJwNld2UkxKR0NvNEE
-    object : Conference
-    types  : ['Upcoming','Past']
 
 write_directory : './_data'
 build_tasks_directory : './_buildtasks'
