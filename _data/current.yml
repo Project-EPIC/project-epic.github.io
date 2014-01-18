@@ -1,7 +1,7 @@
 ---
 - name: Leysia Palen
   status: Current
-  Role: PI
+  role: PI
 - name: Ken Anderson
   status: Current
 - name: Gloria Mark
@@ -10,34 +10,35 @@
   status: Current
 - name: Robert Soden
   status: Current
-  Role: Student
+  role: Student
 - name: Jennings Anderson
   status: Current
-  Role: Student
+  role: Student
+  gscholar_link: http://scholar.google.com/citations?user=Jxe5M_oAAAAJ
 - name: Mario
   status: Current
-  Role: Student
+  role: Student
 - name: Sahar Jambi
   status: Current
-  Role: Student
+  role: Student
 - name: Adam Cardenas
   status: Current
-  Role: Student
+  role: Student
 - name: Mazin Hakeem
   status: Current
-  Role: Student
+  role: Student
 - name: Marina Kogan
   status: Current
-  Role: Student
+  role: Student
 - name: Lise St. Denis
   status: Current
-  Role: Student
+  role: Student
 - name: Jo White
   status: Current
-  Role: Student
+  role: Student
 - name: Ahmet
   status: Current
-  Role: Student
+  role: Student
 - name: Kevin Stowe
   status: Current
-  Role: Student
+  role: Student

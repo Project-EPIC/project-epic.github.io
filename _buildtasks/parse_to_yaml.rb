@@ -31,6 +31,8 @@ def parse_spreadsheet(object_type,key,sheet)
 			end
 		end
 
+		this_object.validate
+
 		objects << this_object		#Add the object to the objects array
 	end
 	return objects

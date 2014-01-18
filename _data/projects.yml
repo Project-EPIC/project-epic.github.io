@@ -2,4 +2,4 @@
 - name: Emergency Pet Matcher
   type: Projects
   description: EPM is about lost doggies!
-  tags: epm
+  tag: epm

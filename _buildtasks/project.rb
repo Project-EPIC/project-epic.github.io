@@ -5,4 +5,9 @@ class Project
 		@type = type
 		puts "Project Name: #{@name}"
 	end
+
+	def validate
+		return nil
+	end
+
 end

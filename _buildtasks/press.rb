@@ -4,4 +4,9 @@ class Press
 		@name = name
 		puts "Article: #{name[0..45]}..."
 	end
+
+	def validate
+		return nil
+	end
+
 end
