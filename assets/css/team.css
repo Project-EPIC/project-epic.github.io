@@ -1,0 +1,13 @@
+.person-info-expand{
+	display: none;
+}
+
+.person-list{
+	list-display-type: none;
+}
+
+.person-list-item{
+	display: inline-block;
+	width: 300px;
+	height: 200px;
+}

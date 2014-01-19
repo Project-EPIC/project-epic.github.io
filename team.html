@@ -3,12 +3,39 @@ layout: page
 title: Team
 weight: 2
 group: navigation
+js: team.js
+css: team.css
 ---
 
-<ul>
+<ul class="person-list">
+{% assign this_person = 1 %}
 {% for person in site.data.current %}
-	<li>
-		<h3>{{ person.name }}</h3>
+	<li class="person-list-item">
+		<a rel="person-fancy-box-link" href="#person-{{this_person}}">
+		<div class="person-box">
+			{% if person.profile_pic %}
+				<img src={{person.profile_pic}} />
+			{% endif %}
+			<h3>{{ person.name }}</h3>
+		</div>
+		</a>
+
+		<!--This is the pop-up box-->
+		<div id="person-{{this_person}}" class="person-info-expand">
+			<img src={{person.profile_pic}} />
+			<h4>{{person.name}}</h4>
+			{% if person.interests %}
+				<ul>
+				{% for interest in person.interests %}
+					<li>{{interest}}</li>
+				{% endfor %}
+				</ul>
+			{% endif %}
+			{% if person.url %}
+				<a href="{{person.url}}">Personal Website</a>
+			{% endif %}
+		</div>
 	</li>
+	{% assign this_person = this_person | plus: 1 %}
 {% endfor %}
 </ul>
