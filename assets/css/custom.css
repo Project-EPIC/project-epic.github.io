@@ -89,3 +89,8 @@ ul.nav-list li a {
 h3 {
 	font-weight:normal;
 }
+
+/*Fancy Box Over-rides */
+.fancybox-nav {
+  width: 20%;
+}

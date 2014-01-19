@@ -2,5 +2,15 @@
 - name: Kate Starbird
   status: Alumni
   Role: Alumni
+  gscholar_link: http://scholar.google.com/citations?user=C6KSF5gAAAAJ&hl=en
+  url: http://faculty.washington.edu/kstarbi/
+  profile_pic: /assets/auto_generated/profile_pics/Kate_Starbird.jpg
+  affiliation: Professor, Human Centered Design &amp; Engineering, University of Washington
+  interests:
+  - Crisis Informatics
+  - Crowdsourcing
+  - Crowdwork
+  - CSCW
+  - Human Computer Interaction
 - name: Will Corvey
   status: Alumni
