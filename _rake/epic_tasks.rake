@@ -9,7 +9,7 @@ def update_page(type, sheet)
 	key = @@site_data[type]['key']
 	object_type=@@site_data[type]["object"]
 
-	object_directory = @@buildtasks_dir+'/'+object_type
+	object_directory = @@buildtasks_dir+'/'+object_type.downcase
 	puts "Requiring #{object_directory}"
 	require object_directory
 	

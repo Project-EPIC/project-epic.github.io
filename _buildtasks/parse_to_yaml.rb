@@ -20,12 +20,11 @@ def parse_spreadsheet(object_type,key,sheet)
 		end
 
 		#Make it a real object of specified type...
-
-						# Metaprogramming required here!
 		this_object = eval(object_type).new(object['name'], sheet.capitalize)
 
 		#Now add keys as instance variables to the person... Cool!
 		object.each do |k,v|
+			v.gsub!(/<script.*<\/script>/i,'') 			#No cross-scripting!
 			unless v==""
 				this_object.instance_variable_set("@#{k}", v)
 			end
