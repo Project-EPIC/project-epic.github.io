@@ -68,7 +68,8 @@ end #End namespace
 desc "Full Refresh & Build"
 task :fullbuild do
 	puts "Doing a full build of the website:"
-	puts "TODO"
+	system ("jekyll build")
+	system ("sudo cp -r -v _site/* /var/www")
 end
 
 desc "Serve Full Site from Localhost"
