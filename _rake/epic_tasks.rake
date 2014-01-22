@@ -80,12 +80,6 @@ task :localpreview do
 	system ("cp -r -v _site/* /Library/WebServer/Documents/")
 end
 
-desc "Full Refresh & Build"
-task :fullbuild do
-	puts "Doing a full build of the website:"
-	puts "TODO"
-end
-
 desc "Serve Full Site from Localhost"
 task :localpreview do
 	puts "Building site..."
