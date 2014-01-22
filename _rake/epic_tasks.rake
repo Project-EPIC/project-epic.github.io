@@ -66,24 +66,11 @@ namespace :update do
 end #End namespace
 
 desc "Full Refresh & Build"
-task :fullbuild do
-	puts "Doing a full build of the website:"
-	system ("jekyll build")
-	system ("sudo cp -r -v _site/* /var/www")
-end
+namespace :production do
 
-desc "Serve Full Site from Localhost"
-task :localpreview do
-	puts "Building site..."
-	system ("jekyll build")
-	puts "Copying to localhost"
-	system ("cp -r -v _site/* /Library/WebServer/Documents/")
-end
-
-desc "Serve Full Site from Localhost"
-task :localpreview do
-	puts "Building site..."
-	system ("jekyll build")
-	puts "Copying to localhost"
-	system ("cp -r -v _site/* /Library/WebServer/Documents/")
-end
+	task :build do
+		puts "Doing a full build of the website on the production:"
+		system ("jekyll build")
+		system ("sudo cp -r -v _site/* /www/epic")
+	end
+end #End production namespace
