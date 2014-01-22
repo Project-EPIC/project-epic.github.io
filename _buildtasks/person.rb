@@ -22,7 +22,7 @@ class Person
 	def scrape_google_scholar(url)
 		require 'nokogiri'
 		require 'open-uri'
-		doc_html = Nokogiri::HTML(open(url, "User-Agent" => "Me"))
+		doc_html = Nokogiri::HTML(open(url, "User-Agent" => "Mozilla/5.0 (Windows NT 6.0; rv:12.0) Gecko/20100101 Firefox/12.0 FirePHP/0.7.1"))
 
 		#Get photo URL: 
 		photo_url = doc_html.xpath(
