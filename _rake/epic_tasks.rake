@@ -1,9 +1,9 @@
 require './_buildtasks/parse_to_yaml'
 
 yml_config = YAML::load(File.open('_config.yml'))
-@@site_data = yml_config['google_info']
-@@write_directory = yml_config['write_directory']
-@@buildtasks_dir = yml_config['build_tasks_directory']
+site_data = yml_config['google_info']
+write_directory = yml_config['write_directory']
+buildtasks_dir = yml_config['build_tasks_directory']
 
 def update_page(type, sheet)
 	key = @@site_data[type]['key']
