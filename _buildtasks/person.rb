@@ -9,9 +9,8 @@ class Person
 		puts "Name: #{@name}"
 	end
 
-	def validate
-		
-		if @gscholar_link
+	def validate(params)
+		if @gscholar_link and params[:arg1]=='gscholar'
 			print "Scraping Google Scholar..."
 			scrape_google_scholar(@gscholar_link)
 			print "done\n"

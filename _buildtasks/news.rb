@@ -6,7 +6,7 @@ class Press
 	end
 
 	
-	def validate
+	def validate(params)
 		return nil
 	end
 

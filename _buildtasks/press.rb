@@ -5,7 +5,7 @@ class Press
 		puts "Article: #{name[0..45]}..."
 	end
 
-	def validate
+	def validate(params)
 		return nil
 	end
 

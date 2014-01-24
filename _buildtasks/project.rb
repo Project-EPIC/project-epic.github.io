@@ -6,7 +6,7 @@ class Project
 		puts "Project Name: #{@name}"
 	end
 
-	def validate
+	def validate(params)
 		return nil
 	end
 
