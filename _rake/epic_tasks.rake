@@ -6,7 +6,6 @@ yml_config = YAML::load(File.open('_config.yml'))
 @@buildtasks_dir = yml_config['build_tasks_directory']
 
 def update_page(type, sheet, param)
-	puts param
 	key = @@site_data[type]['key']
 	object_type=@@site_data[type]["object"]
 
