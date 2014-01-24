@@ -46,7 +46,7 @@ namespace :update do
 					task :all, :arg1 do |task, args|
 						Rake.application.tasks.each do |task_name|
   							unless task_name.name.to_s =~ /:all$/
-    							task_name.invoke(args) if task_name.name =~ /^update:(#{symbol})/
+    							task_name.invoke(args[:arg1]) if task_name.name =~ /^update:(#{symbol})/
     						end
     					end
 					end
@@ -59,7 +59,7 @@ namespace :update do
 	task :all, :arg1 do |task, args|
   		Rake.application.tasks.each do |t|
   			unless t.name.to_s =~ /:all$/
-    			t.invoke(args) if t.name =~ /^update:/
+    			t.invoke(args[:arg1]) if t.name =~ /^update:/
     		end
     	end
   end
