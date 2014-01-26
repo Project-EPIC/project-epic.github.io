@@ -9,15 +9,29 @@ css: publications.css
 ---
 {% include navigation/ourwork_nav.html %}
 
-<ul>
+{% assign this_year = site.data.publications.first.year %}
+<h3 class="pub_year {{this_year}}">{{this_year}}</h3>
+<ul class="papers-in-year {{this_year}}">
 {% for pub in site.data.publications %}
-	<li class="publication-item">
-		<h5>{{ pub.authors }} {{ pub.title }} {{ pub.year}} {{pub.etc}}</h5>
-	</li>
-	{% if pub.abstract %}
+	{% if pub.year == this_year %}
+		<li class="publication-item">
+			<h5 class="author">{{ pub.authors }}</h5>
+			<h5 class="title">{{ pub.title }} </h5>
+			<h5 class="year">{{pub.year}}</h5>
+			<h5 class="etc">{{pub.etc}}</h5>
+		</li>
 		<div class="publication-expand">
-			<p>{{pub.abstract}}</p>
+		<h3 class="title">{{pub.title}}</h4>
+		<h4 class="authors">{{pub.authors}}</h3>
+			{% if pub.abstract %}
+				<h6 class=>Abstract</h6>
+			<p class="abstract">{{pub.abstract}}</p>
+			{% endif %}
 		</div>
+		
+	{% else %}
+		{% assign this_year = pub.year %}
+		</ul><h3 class="pub_year {{this_year}}">{{this_year}}</h3>
+		<ul class="papers-in-year {{this_year}}">
 	{% endif %}
 {% endfor %}
-</ul>
