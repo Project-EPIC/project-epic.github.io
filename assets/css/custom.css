@@ -112,26 +112,6 @@ h3 {
 	font-weight:normal;
 }
 
-#front_slider li {
-	background: url("/assets/images/flatirons-smaller.jpg") no-repeat;
-  height:250px;
-	width:100%;
-}
-
-#front_left {
-	width:48%;
-	float:left;
-	overflow:hidden;
-	margin:0px 20px 0px 0px
-}
-
-#front_right {
-	width:48%;
-	float:right;
-	overflow:hidden;
-	margin:0px 0px 20px 0px
-}
-
 /*Fancy Box Over-rides */
 .fancybox-nav {
   width: 20%;
