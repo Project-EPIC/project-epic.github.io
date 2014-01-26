@@ -85,8 +85,7 @@
   - human-centered computing
   - crisis informatics
   role: Student
-  bio: Blah blah - there is a ' malicious piece of javascript here.... < script type="text/javascript">alert('this
-    is a security test')</script> My name is Mario
+  bio: This is a blurb about how cool Mario is
 - name: Sahar Jambi
   status: Current
   role: Student
