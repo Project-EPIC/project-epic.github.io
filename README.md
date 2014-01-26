@@ -10,7 +10,7 @@ These can be called from the /build/index.php page.
 Running rake fullbuild from the production repo will build the site.
 
 ##Tasks:
-''''rake -T'''' will show all of the available tasks for the website.
+````rake -T```` will show all of the available tasks for the website.
 
 Now the site should be live at <http://localhost>
 
