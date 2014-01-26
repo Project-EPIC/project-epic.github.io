@@ -47,6 +47,10 @@ google_info :
 write_directory : './_data'
 build_tasks_directory : './_buildtasks'
 
+production_repo: '~/epic'
+production_www: '/www/epic'
+
+
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
