@@ -1,12 +1,9 @@
-
-
 #vis {
   background: white;
   border: 1pt solid black;
 }
 
 div.tooltip {
-
   position:absolute;
   text-align:center;
   padding:2px;
@@ -113,6 +110,20 @@ ul.nav-list li a {
 
 h3 {
 	font-weight:normal;
+}
+
+#front_left {
+	width:43%;
+	float:left;
+	overflow:hidden;
+	margin:0px 20px 0px 0px
+}
+
+#front_right {
+	width:43%;
+	float:right;
+	overflow:hidden;
+	margin:0px 0px 20px 0px
 }
 
 /*Fancy Box Over-rides */

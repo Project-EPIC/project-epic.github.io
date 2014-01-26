@@ -15,7 +15,6 @@ js: homepage.js
 <li><div>
 <h3>This is the second slide</h3>
 <p>I will put different information here.</p>
-<a href="http://www.google.com">This is a link to google</a>
 </div></li>
 
 <li><div>
@@ -29,13 +28,13 @@ js: homepage.js
 </div></li>
 </ul>
 
-<div class="front_left">
+<div id="front_left">
 	<div class="frontabout">
 		<h3>About</h3>
 		<p>Project Epic launched in September 2009 and is supported by a $2.8M grant from the US National Science Foundation. It is a multi-disciplinary, multi-university, multi-lingual research effort to support the information needs by members of the public during times of mass emergency. In this age of social media, we bring our behavioral and technical knowledge of “computer mediated communication” to the world of crisis studies and emergency response. As researchers, we are committed to careful study of socio-technical transformation and building human-centered computation. In addition to empirical observational study that requires new ways of studying massive “widescale” coordination across the internet, we conduct “action research” and employ “participatory design” oriented approaches. We aim to look beyond today’s state of the art and anticipate future socio-technical change.</p>
 	</div>
-	<div class="frontnews">
-		<h3>News</h3>
+	<div id="frontnews">
+		<h3>Latest News</h3>
 		<ul class="posts">
     	<div class="post">
 				<div class="heading"><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></div>
@@ -45,8 +44,9 @@ js: homepage.js
 		</ul>
 	</div>
 </div>
-<div class="front_right">
+<div id="front_right">
 	<div class="fronttwitter">
+		<h3>Project EPIC on Twitter</h3>
 		{% include twitter_feed.html %}
 	</div>
 </div>
