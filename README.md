@@ -6,8 +6,11 @@ Wanting a familiar editing platform, this site pulls data from Google Drive when
 
 These can be called from the /build/index.php page.
 
-### Testing
-To test on local machine (must have php running to see build page), modify file paths in the rake files and ruby scripts under _buildtasks then run: ````rake localpreview````
+###Deployment
+Running rake fullbuild from the production repo will build the site.
+
+##Tasks:
+''''rake -T'''' will show all of the available tasks for the website.
 
 Now the site should be live at <http://localhost>
 
