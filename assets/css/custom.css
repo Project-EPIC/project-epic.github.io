@@ -113,14 +113,14 @@ h3 {
 }
 
 #front_left {
-	width:43%;
+	width:48%;
 	float:left;
 	overflow:hidden;
 	margin:0px 20px 0px 0px
 }
 
 #front_right {
-	width:43%;
+	width:48%;
 	float:right;
 	overflow:hidden;
 	margin:0px 0px 20px 0px

@@ -35,13 +35,13 @@ js: homepage.js
 	</div>
 	<div id="frontnews">
 		<h3>Latest News</h3>
-		<ul class="posts">
     	<div class="post">
 				<div class="heading"><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></div>
 				<p>{{ post.excerpt }}</p>
-				<p>By {{ post.author }}</p>
+				{% if post.author %}
+					<p>By {{ post.author }}</p>
+				{% endif %}
 			</div>
-		</ul>
 	</div>
 </div>
 <div id="front_right">
