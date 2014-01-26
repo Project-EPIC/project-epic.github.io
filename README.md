@@ -12,8 +12,6 @@ Running rake fullbuild from the production repo will build the site.
 ##Tasks:
 ````rake -T```` will show all of the available tasks for the website.
 
-Now the site should be live at <http://localhost>
-
 
 ### Credit Where Credit is Due
 Built on Jekyll-Bootstrap, which is released under the [MIT](http://opensource.org/licenses/MIT) license.  For more:  <http://jekyllbootstrap.com>
