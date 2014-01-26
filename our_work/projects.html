@@ -3,7 +3,26 @@ layout: page
 title: Projects
 group: our_work
 weight: 1
+parent: Our Work
 ---
 {% include navigation/ourwork_nav.html %}
 
-<code>We need to determine what a project is and what will go here</code>
+<ul>
+{% for project in site.data.projects %}
+	<li>
+		<h5>{{ project.name }} </h5>
+		<p>{{ project.description }} </p>
+		<ul class="posts">
+			{% for post in site.tags.project.tag limit: 20 %}
+  				<div class="post_info">
+   					<li>
+         			<a href="{{ post.url }}">{{ post.title }}</a>
+         			<span>({{ post.date | date:"%Y-%m-%d" }})</span>
+    				</li>
+    			</div>
+  			{% endfor %}
+			</ul>
+		</ul>
+	</li>
+{% endfor %}
+</ul>

@@ -1,126 +1,72 @@
 require './_buildtasks/parse_to_yaml'
 
-write_directory = './_data'
-data = {
-	:in_the_news => 	{ :key 	=> "0Aiwzrc8lx93KdEpoYlZPa2tRU25FT1Fzb2s4Yi16UlE",
-				  		:object => "News",
-				  		:types  => ['News']},
+yml_config = YAML::load(File.open('_config.yml'))
+@@site_data = yml_config['google_info']
+@@write_directory = yml_config['write_directory']
+@@buildtasks_dir = yml_config['build_tasks_directory']
 
-	:people  => 	{ 	:key    => "0AhQ6tqeOTfwBdFhrTmxXM0oxYkx2Vl9ucXJpd0hQRHc",
-				  		:object => "Person",
-				  		:types  => ['Faculty', 'Students', 'Alumni']},
-}
-	# :publications =>{	:key 	=> " -Key TBD- ",
-	# 					:object => "Publication",
-	# 					:types  => ['Publications']}}
+def update_page(type, sheet, param)
+	key = @@site_data[type]['key']
+	object_type=@@site_data[type]["object"]
+
+	object_directory = @@buildtasks_dir+'/'+object_type.downcase
+	puts "Requiring #{object_directory}"
+	require object_directory
+	
+	puts "Going to Google Drive to Update: "
+	puts "\tType: #{type}"
+	puts "\tObject Type: #{object_type}"
+	puts "\tSheet: #{sheet}"
+	puts "\tKey: #{key}"
+
+	objects = parse_spreadsheet(object_type,key,sheet, param)
+	write_to_yaml(objects, @@write_directory, sheet)
+	puts "==================================================================="
+end
 
 namespace :update do
+	@@site_data.each do |symbol, data|
+		eval %Q{
+			if data["types"].length == 1
+				desc "Updates the #{data["types"][0]} page from Google Drive data"
+				task data["types"][0].to_sym, :arg1 do |task, args|
+					update_page(symbol, data["types"][0], args)
+				end
 
-	desc "Update All"
-	task :all do
-		data.each do |task, values|
-			Rake::Task["update:all:#{task}"].reenable
-			Rake::Task["update:all:#{task}"].invoke
-		end
-	end
-	
-	namespace :all do
-		desc "Update All People"
-		task :people do
-			data[:people][:types].each do |type|
-				Rake::Task["update:people"].reenable
-				Rake::Task["update:people"].invoke(type)
+			else
+				namespace symbol.to_sym do
+					data["types"].each do |data_type|
+						desc "Updates the #{symbol} page for only specified #{symbol}"
+						task data_type.gsub(/\s+/,'_').to_sym, :arg1 do |t, args|
+							update_page(symbol, data_type, args)
+						end
+					end
+					desc "Update all #{symbol} from Google Drive"
+					task :all, :arg1 do |task, args|
+						Rake.application.tasks.each do |task_name|
+  							unless task_name.name.to_s =~ /:all$/
+    							task_name.invoke(args[:arg1]) if task_name.name =~ /^update:(#{symbol})/
+    						end
+    					end
+					end
+				end
 			end
-		end
+		}
+	end #End data iterator
 
-		desc "Update All Courses"
-		task :courses do
-			data[:courses][:types].each do |type|
-				Rake::Task["update:courses"].reenable
-				Rake::Task["update:courses"].invoke(type)
-			end
-		end 
-	end #end all namespace
-		
-	desc "Update People"
-	task :people, :arg1 do |t, args|
-		unless data[:people][:types].include? args[:arg1]
-		 	puts "Please specify a type, for example: 
-			rake update:people[Faculty]
-			rake update:people[Students]
-			rake update:people[Alumni]
-			rake update:people[Researchers]"
-		else
-			require './_buildtasks/people'
-			puts "Generating People YAML file for #{args[:arg1]}"
-			
-			people = parse_spreadsheet(
-				session, data[:people][:object], data[:people][:key], args[:arg1])
-			
-			write_to_yaml(people, write_directory, args[:arg1])
-		end
-	end
-
-	desc "Update Courses"
-	task :courses, :arg1 do |t, args|
-		unless data[:courses][:types].include? args[:arg1]
-			puts "Please specify a type, for example: 
-			rake courses type=Undergraduate
-			rake courses type=Graduate"
-		else
-			require './_buildtasks/courses'
-			type = ENV['type']
-			puts "Generating Course YAML file for #{args[:arg1]}"
-			
-			courses = parse_spreadsheet(
-				session, data[:courses][:object], data[:courses][:key], args[:arg1])
-			
-			write_to_yaml(courses, write_directory, args[:arg1])
-		end
-	end
-
-	desc "Get Publications"
-	task :publications do
-		unless ENV['type']
-			puts "Please specify a type, for example: 
-			rake publications type=test"
-		else
-			equire './_buildtasks/people'
-			type = ENV['type']
-			puts "Generating Publications YAML file for #{type}"
-			
-			pubs = parse_spreadsheet(
-				session, data[:publications][:object], data[:pubs][:publications], type)
-			
-			write_to_yaml(pubs, write_directory, type)
-		end
-	end
+	desc "Run every update task"
+	task :all, :arg1 do |task, args|
+  		Rake.application.tasks.each do |t|
+  			unless t.name.to_s =~ /:all$/
+    			t.invoke(args[:arg1]) if t.name =~ /^update:/
+    		end
+    	end
+  end
 end #End namespace
 
-desc "Full Refresh & Build"
+desc "Build and Deploy"
 task :fullbuild do
-	puts "Doing a full build of the website:"
-	puts "TODO"
-end
-
-desc "Serve Full Site from Localhost"
-task :localpreview do
-	puts "Building site..."
-	system ("jekyll build")
-	puts "Copying to localhost"
-	system ("cp -r -v _site/* /Library/WebServer/Documents/")
-end
-
-desc "Full Refresh & Build"
-task :fullbuild do
-	puts "Doing a full build of the website:"
-	puts "TODO"
-end
-
-desc "Serve Full Site from Localhost"
-task :localpreview do
-	puts "Building site..."
-	system ("jekyll build")
-	puts "Copying to localhost"
-	system ("cp -r -v _site/* /Library/WebServer/Documents/")
+	puts "Doing a full build of the website."
+	site_dir = yml_config['production_www']
+	system ("jekyll build -d #{site_dir}")
 end

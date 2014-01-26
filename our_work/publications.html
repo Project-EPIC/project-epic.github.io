@@ -3,7 +3,14 @@ layout: page
 title: Publications
 group: our_work
 weight: 2
+parent: Our Work
 ---
 {% include navigation/ourwork_nav.html %}
 
-<code>We will manage this page using Google Docs</code>
+<ul>
+{% for pub in site.data.publications %}
+	<li>
+		<h5>{{ pub.authors }} {{ pub.title }} {{ pub.year}} {{pub.etc}}</h5>
+	</li>
+{% endfor %}
+</ul>

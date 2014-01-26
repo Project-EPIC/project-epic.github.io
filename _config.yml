@@ -24,6 +24,30 @@ author :
 
 production_url : http://username.github.io
 
+google_info : 
+  press :
+    key    : 0Aiwzrc8lx93KdEpoYlZPa2tRU25FT1Fzb2s4Yi16UlE
+    object : Press
+    types  : ['Press']
+
+  people :
+    key    : 0Aiwzrc8lx93KdDJrQllra3VmQkx1OTNlclNCY0hIWFE
+    object : Person
+    types  : ['Current', 'Alumni']
+
+  projects : 
+    key    : 0AihuFDqjCvbedDMzS0FRc1hTT3JVY2lRT2pfekszY3c
+    object : Project
+    types  : ['Projects']
+  publications :
+    key    : 0Aiwzrc8lx93KdFhudDZDZzdRTkVHQWtpUVNFd01xckE
+    object : Publication
+    types  : ['Publications']
+
+write_directory : './_data'
+build_tasks_directory : './_buildtasks'
+
+
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
@@ -117,8 +141,8 @@ JB :
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:
   #
-  #   pages_list :
-  #     provider : "custom"   
+  pages_list :
+    provider : "custom"
   #
   # Setting any helper's provider to 'custom' will bypass the helper code
   # and include your custom code. Your custom file must be defined at:

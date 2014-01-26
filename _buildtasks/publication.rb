@@ -1,8 +1,14 @@
 class Publication
-	attr_accessor :name, :role
-	def initialize(name, role)
+	attr_accessor :name, :type
+	def initialize(name, type)
 		@name = name
-		@role = role
-		puts "Name: #{@name}"
+		@type = type
+		puts "Publication: #{name}"
 	end
+
+
+	def validate(params)
+		return nil
+	end
+
 end
