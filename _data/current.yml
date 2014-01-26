@@ -2,14 +2,6 @@
 - name: Leysia Palen
   status: Current
   gscholar_link: http://scholar.google.com/citations?user=x0OsogEAAAAJ&hl=en
-  url: https://www.cs.colorado.edu/~palen/
-  profile_pic: /assets/auto_generated/profile_pics/Leysia_Palen.jpg
-  affiliation: Associate Professor of Computer Science, University of Colorado Boulder
-  interests:
-  - Human computer interaction
-  - computer supported cooperative work
-  - social computing
-  - crisis informatics
   role: PI
   bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non odio
     a lacus molestie volutpat. Quisque laoreet neque non elementum dignissim. Suspendisse
@@ -58,14 +50,6 @@
 - name: Jennings Anderson
   status: Current
   gscholar_link: http://scholar.google.com/citations?user=Jxe5M_oAAAAJ
-  url: http://www.townsendjennings.com/
-  profile_pic: /assets/auto_generated/profile_pics/Jennings_Anderson.jpg
-  affiliation: University of Colorado at Boulder
-  interests:
-  - Human Centered Computing
-  - Big Data
-  - Data Mining
-  - Crisis Informatics
   role: Student
   bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non odio
     a lacus molestie volutpat. Quisque laoreet neque non elementum dignissim. Suspendisse
@@ -77,13 +61,6 @@
 - name: Mario
   status: Current
   gscholar_link: http://scholar.google.com/citations?user=m463-VoAAAAJ
-  url: http://www.mbarrenecheajr.com/
-  profile_pic: /assets/auto_generated/profile_pics/Mario.jpg
-  affiliation: Student in Computer Science, University of Colorado at Boulder
-  interests:
-  - human-centered software engineering
-  - human-centered computing
-  - crisis informatics
   role: Student
   bio: This is a blurb about how cool Mario is
 - name: Sahar Jambi
@@ -119,7 +96,7 @@
 - name: Marina Kogan
   status: Current
   role: Student
-  bio: ! 'Marina is a student '
+  bio: 'Marina is a student '
 - name: Lise St. Denis
   status: Current
   role: Student
@@ -133,13 +110,6 @@
 - name: Jo White
   status: Current
   gscholar_link: http://scholar.google.com/citations?user=cU2HRV8AAAAJ&hl=en
-  profile_pic: /assets/auto_generated/profile_pics/Jo_White.jpg
-  affiliation: PhD Student, University of Colorado Boulder
-  interests:
-  - HCI
-  - media
-  - crisis informatics
-  - social media
   role: Student
   bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non odio
     a lacus molestie volutpat. Quisque laoreet neque non elementum dignissim. Suspendisse
