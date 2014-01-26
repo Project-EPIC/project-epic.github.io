@@ -13,9 +13,11 @@ css: publications.css
 {% for pub in site.data.publications %}
 	<li class="publication-item">
 		<h5>{{ pub.authors }} {{ pub.title }} {{ pub.year}} {{pub.etc}}</h5>
-		<div class="publication-expand">
-		<p>{{pub.abstract}}</p>
-		</div>
 	</li>
+	{% if pub.abstract %}
+		<div class="publication-expand">
+			<p>{{pub.abstract}}</p>
+		</div>
+	{% endif %}
 {% endfor %}
 </ul>
