@@ -112,6 +112,12 @@ h3 {
 	font-weight:normal;
 }
 
+#front_slider li {
+	background: url("/assets/images/flatirons-smaller.jpg") no-repeat;
+  height:250px;
+	width:100%;
+}
+
 #front_left {
 	width:48%;
 	float:left;

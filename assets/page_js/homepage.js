@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('#Div_Slider_Test').bxSlider({
+  $('#front_slider').bxSlider({
     auto: true,
   	captions: true,
     controls: false,
