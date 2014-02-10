@@ -15,6 +15,7 @@ css: publications.css
 {% for pub in site.data.publications %}
 	{% if pub.year == this_year %}
 		<li class="publication-item">
+			<a id={{pub.name}}></a>
 			<h5 class="author">{{ pub.authors }}</h5>
 			<h5 class="title">{{ pub.title }} </h5>
 			<h5 class="year">{{pub.year}}</h5>
