@@ -1,15 +1,13 @@
 {
 	"nodes": [
-
-		{"id":0, "section":"se-1", "name":"Crisis Informatics Infrastructure", "group":1},
-		{"id":1, "section":"se-2", "name":"Smarter Data Modeling", "group":1},
-
-		{"id":2, "section":"nlp-1", "name":"Semantic Analysis", "group":2},
-		{"id":3, "section":"nlp-2", "name":"Location, Location, Location", "group":2},
-
-		{"id":4, "section":"sb-1", "name":"The Beginning", "group":3},
-		{"id":5, "section":"sb-2", "name":"Crisis in a Networked World", "group":3},
-		{"id":6, "section":"sb-3", "name":"A Vision", "group":3}	
+		{"id":0, "section":"sb-1", "name":"The Beginning", "group":1},
+		{"id":1, "section":"sb-2", "name":"Crisis in a Networked World", "group":1},
+		{"id":2, "section":"sb-3", "name":"A Vision", "group":1},
+		{"id":3, "section":"se-1", "name":"Crisis Informatics Infrastructure", "group":2},
+		{"id":4, "section":"se-2", "name":"Smarter Data Modeling", "group":2},
+		{"id":5, "section":"nlp-1", "name":"Semantic Analysis", "group":3},
+		{"id":6, "section":"nlp-2", "name":"Location, Location, Location", "group":3}
+	
 	],
 	"links": [
 		{"source":0, "target":6, "value":4},
