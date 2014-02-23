@@ -8,5 +8,4 @@ $(document).ready(function(){
   	responsive: true,
   	speed: 2000
   });
-
 });

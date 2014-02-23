@@ -12,13 +12,21 @@
 	border: 2px solid #999;
 }
 
-.pub_year{
+.pub_section{
 	border-bottom: 1px solid #333;
 }
 
-.papers-in-year{
+.papers-in{
 	list-style-type: none;
 	margin-left: 15px;
+}
+
+
+.year{
+	
+}
+
+.category{
 }
 
 /* Paper title */

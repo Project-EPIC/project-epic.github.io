@@ -17,6 +17,8 @@
     by episodic influxes of volunteers. This case enlightens discussion about technology-supported
     civic participation, and the means by which dedicated long-term commitment to
     the civic sphere is mobilized.
+  category:
+  - Category 1
 - name: beacons_of_hope
   type: Publications
   authors: ! 'Sarcevic, Aleskandra, Leysia Palen, Joanne White, Mossaab Bagdouri,
@@ -38,6 +40,8 @@
     We extrapolate from these findings to theorize about how “beaconing” behavior
     is a sign of latent potential for coordination upon which mechanisms of coordination
     can capitalize.
+  category:
+  - Category 2
   etc: 2012 ACM Conference on Computer Supported Cooperative Work, Bellevue, WA.
 - name: blogs_cscw12
   type: Publications
@@ -62,6 +66,8 @@
     about daily life decreased as violence in the society increased; when violence
     waned, there was a resurgence of daily life topics, potentially illustrating how
     a society returns to normalcy.
+  category:
+  - Category 3
   etc: Proceedings of CSCW’12, Seattle, WA.
 - name: continuous_disruption
   type: Publications
@@ -69,6 +75,8 @@
   year: '2012'
   title: ! 'The Effects of Continual Disruption: Technological Resources Supporting
     Resilience in Regions of Conflict.'
+  category:
+  - Category 4
   etc: ! 'In Christine Hagar (Ed.), Crisis Information Management: Communication and
     Technologies, pp 9 -24, Chandos Publishing.'
 - name: egypt_blogosphere
@@ -89,6 +97,8 @@
     the  18-day uprising. These narratives offer rich documentation of how blogs,
     and perhaps social media more generally, can be utilized by individuals operating
     under repressive conditions.
+  category:
+  - Category 1
   etc: In Proceedings of the ACM 2012 conference on Computer Supported Cooperative
     Work (CSCW &#8217;12). ACM, New York, NY, USA, 17-26.
 - name: evolovingrole
@@ -107,6 +117,8 @@
     and examine how the presence of social media challenges previous conceptualizations
     of PIO work. Lastly, we present a view of how PIO work could be better imagined
     for the future of emergency management organizations.
+  category:
+  - Category 2
   etc: Journal of Homeland Security and Emergency Management. (2012)
 - name: facebook_cscw12
   type: Publications
@@ -126,6 +138,8 @@
     maintain and develop new social norms, and to re-direct their country. We discuss
     how disruption can serve as an opportunity by which people can re-invent their
     societies and how our understandings of Facebook should evolve.
+  category:
+  - Category 3
   etc: Proceedings of CSCW 2012, Seattle, WA.
 - name: heritage_matters
   type: Publications
@@ -133,6 +147,8 @@
   year: '2012'
   title: ! 'Heritage Matters in Crisis Informatics: How Information and Communication
     Technology Can Support Legacies of Crisis Events.'
+  category:
+  - Category 4
   etc: ! ' In Christine Hagar (Ed) Crisis Information Management: Communication and
     Technologies, pp. 65 &#8211; 86, Chandos Publishing.'
 - name: how_will
@@ -156,6 +172,8 @@
     In addition, we show how features of this retweet recommendation behavior could
     be used in combination with other indicators to identify information that is new
     and likely coming from the ground.
+  category:
+  - Category 1
   etc: 2012 ACM Conference on Computer Supported Cooperative Work, Bellevue, WA.
 - name: learning_from_crowd
   type: Publications
@@ -176,6 +194,8 @@
     for classifying on-the-ground Twitterers, finding that machine learning techniques
     using a Support Vector Machine with asymmetric soft margins can be effective in
     identifying those likely to be on the ground during a mass disruption event.
+  category:
+  - Category 2
   etc: To appear in the Proceedings of the Conference on Information Systems for Crisis
     Response and Management (ISCRAM 2012), Vancouver, BC.
 - name: multilayer_annotation
@@ -198,6 +218,9 @@
     tweets contributing to situational awareness and analyze the information type
     of the tweet content. We show classification results and describe future integration
     of these classifiers in the larger EPIC infrastructure.
+  category:
+  - Category 1
+  - Category 2
   etc: Proceedings of the Eighth International Conference on Language Resources and
     Evaluation (LREC 2012), May 21-27, 2012, Istanbul, Turkey.
 - name: mysql_nosql

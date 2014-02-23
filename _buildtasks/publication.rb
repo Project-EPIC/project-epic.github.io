@@ -8,7 +8,14 @@ class Publication
 
 
 	def validate(params)
-		return nil
+		get_categories
+	end
+
+	def get_categories
+		if @category
+			@category = @category.split(',').collect!{|cat| cat.strip }
+		end
+		print @category
 	end
 
 end
