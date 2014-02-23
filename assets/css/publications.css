@@ -1,8 +1,70 @@
+#publications_chooser{text-align: center;}
+#publications_chooser ul{list-style-type: none; margin: 0, auto;}
+#publications_chooser li{
+	display: inline-block;
+	margin: 0px 5px 0px 5px;
+}
+#publications_chooser a{
+	font-size: 1.5em;
+
+}
+
+
+
 .publication-item{
 	cursor: pointer;
+	margin: 10px;
+}
+
+.publication-item:hover{
+	color: #00C;
 }
 
 .publication-expand{
-	padding: 20px 0px 100px 10px;
-	border: 5px solid #999;
+	padding: 20px 20px 100px 10px;
+	border: 2px solid #999;
+}
+
+.pub_section{
+	border-bottom: 1px solid #333;
+}
+
+.papers-in{
+	list-style-type: none;
+	margin-left: 15px;
+}
+
+
+.year{
+	
+}
+
+.category{
+}
+
+/* Paper title */
+h5{
+	display: inline;
+}
+
+h5.author{
+	font-weight: 300;
+}
+
+h5.title{
+	font-weight: 500;
+}
+
+h5.year{
+	font-weight: 300;
+}
+
+h5.etc{
+	font-weight: 200;
+}
+
+/*Paper expand */
+p.abstract{
+	border: 1px solid #EEE;
+	padding: 10px;
 }

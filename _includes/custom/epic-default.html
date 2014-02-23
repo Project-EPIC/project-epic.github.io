@@ -46,6 +46,10 @@
     <script src="/assets/page_js/{{ page.js }}" type="text/javascript"></script>
     {% endif %}
 
+    {% if page.scroller %}
+    <script src="/assets/js/epic-scrolling-nav.js" type="text/javascript"></script>
+    {% endif %}
+
 
     <!-- Le fav and touch icons -->
   <!-- Update these with your own images
@@ -73,7 +77,21 @@
          </div>
       </div>
     </div>
-
+    
+    {% if page.scroller %}
+      <div class="navbar container-narrow navbar-scroller navbar-inner">
+        <ul class="nav">
+        {% for link in page.scroller %}
+          <li><a href=#{{link[1]}}>{{ link[0] }}</a></li>
+        {% endfor %}
+        </ul>
+      </div>
+      <script type="text/javascript">
+      $(".navbar-scroller").css({ "display" : "none" });
+      </script>
+  
+    {% endif %}
+    
     <div class="container-narrow">
       <div class="content">              
         {{ content }}

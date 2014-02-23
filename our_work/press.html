@@ -4,9 +4,16 @@ title: In the Press
 group: our_work
 weight: 5
 parent: Our Work
+css: press.css
 ---
 {% include navigation/ourwork_nav.html %}
 
-The top of this needs to include a sentence or two about press inquiries and the kinds of interviews Project Epic is well placed to respond to.
+<div id="press_notes">
+Bacon ipsum dolor sit amet flank spare ribs frankfurter t-bone meatball brisket. Chicken spare ribs landjaeger pig flank, bacon t-bone salami andouille strip steak ham. Flank ground round shankle cow, meatloaf kielbasa porchetta prosciutto tenderloin t-bone turducken. Hamburger kielbasa meatball beef, pork chop bacon sirloin leberkas corned beef cow.
+</div>
 
-<code>We will manage past news articles on this page using Google Docs</code>
+<ul id ='press_list'>
+{% for press in site.data.press %}
+	<li><a href="{{ press.Link }}">{{ press.name }}</a></li>
+{% endfor %}
+</ul>	

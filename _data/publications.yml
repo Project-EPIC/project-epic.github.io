@@ -17,6 +17,212 @@
     by episodic influxes of volunteers. This case enlightens discussion about technology-supported
     civic participation, and the means by which dedicated long-term commitment to
     the civic sphere is mobilized.
+  category:
+  - Category 1
+- name: beacons_of_hope
+  type: Publications
+  authors: ! 'Sarcevic, Aleskandra, Leysia Palen, Joanne White, Mossaab Bagdouri,
+    Kate Starbird, Kenneth M. Anderson, '
+  year: '2012'
+  download_link: http://epic.cs.colorado.edu/wp-content/uploads/Sarcevic-et-al-HaitiMedicalTwitterers.pdf
+  title: ! '“Beacons of Hope” in Decentralized Coordination: Learning from On-the-Ground
+    Medical Twitterers During the 2010 Haiti Earthquake'
+  abstract: We examine the  public, social media communications of 110 emergency medical
+    response teams and organizations in the immediate aftermath of the January 12,
+    2010 Haiti earthquake. We  found  the teams through an inductive analysis of Twitter
+    communications acquired over the three-week emergency period from 89,114 Twitterers.
+    We then analyzed the teams’  Twitter streams, as well as all digital media they
+    generated and pointed to in their streams—blog posts, photographs, videos, status
+    updates and field reports—to understand the medical coordination challenges they
+    faced from pre-deployment readiness to on the-ground action. Here we identify
+    opportunities for improving coordination in a decentralized and distributed environment
+    where staffing, disease trajectories, and other circumstances rapidly change.
+    We extrapolate from these findings to theorize about how “beaconing” behavior
+    is a sign of latent potential for coordination upon which mechanisms of coordination
+    can capitalize.
+  category:
+  - Category 2
+  etc: 2012 ACM Conference on Computer Supported Cooperative Work, Bellevue, WA.
+- name: blogs_cscw12
+  type: Publications
+  authors: ! 'Gloria Mark, Mossaab Bagdouri, Leysia Palen, James Martin, Ban Al-Ani,
+    Kenneth Anderson '
+  year: '2012'
+  download_link: http://epic.cs.colorado.edu/wp-content/uploads/cscw2012Iraqiblogs_smaller.pdf
+  title: Blogs as a Collective War Diary.
+  abstract: Disaster-related research in human-centered computing has typically focused
+    on the shorter-term, emergency period of a disaster event, whereas effects of
+    some crises are longterm, lasting years. Social media archived on the Internet
+    provides researchers the opportunity to examine societal reactions to a disaster
+    over time. In this paper we examine how blogs written during a protracted conflict
+    might reflect a collective view of the event. The sheer amount of data originating
+    from the Internet about a significant event poses a challenge to researchers;
+    we employ topic modeling and pronoun analysis as methods to analyze such large-scale
+    data. First, we discovered that blog war topics temporally tracked the actual,
+    measurable violence in the society suggesting that blog content can be an indicator
+    of the health or state of the affected population. We also found that people exhibited
+    a collective identity when they blogged about war, as evidenced by a higher use
+    of first person plural pronouns compared to blogging on other topics. Blogging
+    about daily life decreased as violence in the society increased; when violence
+    waned, there was a resurgence of daily life topics, potentially illustrating how
+    a society returns to normalcy.
+  category:
+  - Category 3
+  etc: Proceedings of CSCW’12, Seattle, WA.
+- name: continuous_disruption
+  type: Publications
+  authors: ! 'Semaan, B., Mark, G., Al-Ani, B. '
+  year: '2012'
+  title: ! 'The Effects of Continual Disruption: Technological Resources Supporting
+    Resilience in Regions of Conflict.'
+  category:
+  - Category 4
+  etc: ! 'In Christine Hagar (Ed.), Crisis Information Management: Communication and
+    Technologies, pp 9 -24, Chandos Publishing.'
+- name: egypt_blogosphere
+  type: Publications
+  authors: Ban Al-Ani, Gloria Mark, Justin Chung, and Jennifer Jones.
+  year: '2012'
+  download_link: http://epic.cs.colorado.edu/wp-content/uploads/p17-al-ani.pdf
+  title: ! 'The Egyptian blogosphere: a counter-narrative of the revolution.'
+  abstract: In this paper we investigate the role blogs played within the context
+    of the Egyptian revolution of early 2011 using blog data authored between 2004-2011.  We
+    conducted topic modeling analysis to gain a longitudinal view of the interaction
+    of societal, personal and revolutionary blog topics over this period. Furthermore,
+    a qualitative  analysis of blog posts during the period that bracketed the political
+    uprising revealed Egyptian bloggers’ concerns. Reporting events and supplying
+    commentary provided bloggers with a means to voice dissent against  institutionalized
+    power represented by  the  government-controlled media. In short, blogs reveal
+    a counter-narrative to the government-supplied version of events in Egypt during
+    the  18-day uprising. These narratives offer rich documentation of how blogs,
+    and perhaps social media more generally, can be utilized by individuals operating
+    under repressive conditions.
+  category:
+  - Category 1
+  etc: In Proceedings of the ACM 2012 conference on Computer Supported Cooperative
+    Work (CSCW &#8217;12). ACM, New York, NY, USA, 17-26.
+- name: evolovingrole
+  type: Publications
+  authors: ! 'Hughes, Amanda L. and Leysia Palen. '
+  year: '2012'
+  download_link: http://www.degruyter.com/view/j/jhsem.2012.9.issue-1/1547-7355.1976/1547-7355.1976.xml
+  title: ! 'The Evolving Role of the Public Information Officer: An Examination of
+    Social Media in Emergency Management'
+  abstract: This work examines how the introduction of social media has affected the
+    role of the Public Information Officer (PIO)—the public relations component of
+    the National Incident Management System (NIMS). Through analysis of 25 PIO interviews,
+    we examine the work practice of PIOs and find that social media expand not only
+    the scope and type of PIO work activity, but also the “information pathways” that
+    exist between PIOs, the media, and members of the public. We model these changes
+    and examine how the presence of social media challenges previous conceptualizations
+    of PIO work. Lastly, we present a view of how PIO work could be better imagined
+    for the future of emergency management organizations.
+  category:
+  - Category 2
+  etc: Journal of Homeland Security and Emergency Management. (2012)
+- name: facebook_cscw12
+  type: Publications
+  authors: ! 'Semaan, B. and Mark, G. '
+  year: '2012'
+  download_link: http://epic.cs.colorado.edu/wp-content/uploads/CSCW-2012-Facebook.pdf
+  title: ! '‘Facebooking’ Towards Crisis Recovery and Beyond: Disruption as an Opportunity'
+  abstract: This paper reports on an ethnographic study of Facebook use amongst a
+    population living through ongoing disruption. We interviewed 45 Iraqi citizens,
+    as well as received survey responses from 218 individuals, who have been experiencing
+    the current Gulf War since March 2003. We show how people in a society experiencing
+    conflict use Facebook in ways that are different to uses in non-war societies.
+    We find that Facebook supports people living in crisis environments at two levels.
+    First, Facebook aids people directly to recover from disruption. People used Facebook
+    to create “safe lists”, to seek help and provide assistance, and to re-construct
+    their social scaffolding. But at a deeper level, citizens also used Facebook to
+    maintain and develop new social norms, and to re-direct their country. We discuss
+    how disruption can serve as an opportunity by which people can re-invent their
+    societies and how our understandings of Facebook should evolve.
+  category:
+  - Category 3
+  etc: Proceedings of CSCW 2012, Seattle, WA.
+- name: heritage_matters
+  type: Publications
+  authors: Liu, Sophia, Leysia Palen and Elisa Giaccardi.
+  year: '2012'
+  title: ! 'Heritage Matters in Crisis Informatics: How Information and Communication
+    Technology Can Support Legacies of Crisis Events.'
+  category:
+  - Category 4
+  etc: ! ' In Christine Hagar (Ed) Crisis Information Management: Communication and
+    Technologies, pp. 65 &#8211; 86, Chandos Publishing.'
+- name: how_will
+  type: Publications
+  authors: Starbird, Kate and Leysia Palen.
+  year: '2012'
+  download_link: http://epic.cs.colorado.edu/wp-content/uploads/StarbirdPalen_RevolutionRetweeted.pdf
+  title: ! '(How) Will the Revolution be Retweeted?: Information Propagation in the
+    2011 Egyptian Uprising.'
+  abstract: This paper examines microblogging information diffusion activity during
+    the 2011 Egyptian political uprisings. Specifically, we examine the use of the
+    retweet mechanism on Twitter, using empirical evidence of information propagation
+    to reveal aspects of  work that the crowd conducts. Analysis of the widespread
+    contagion of a popular meme reveals interaction between those who were “on the
+    ground” in Cairo and those who were not. However, differences between information
+    that appeals to the larger crowd and those who were doing on-the-ground work reveal
+    important interplay between the two realms. Through both qualitative and statistical
+    description, we show how the crowd expresses solidarity and does the work of information
+    processing through recommendation and filtering. We discuss how these aspects
+    of work mutually sustain crowd interaction in a politically sensitive context.
+    In addition, we show how features of this retweet recommendation behavior could
+    be used in combination with other indicators to identify information that is new
+    and likely coming from the ground.
+  category:
+  - Category 1
+  etc: 2012 ACM Conference on Computer Supported Cooperative Work, Bellevue, WA.
+- name: learning_from_crowd
+  type: Publications
+  authors: ! 'Starbird, Kate, Grace Muzny and Leysia Palen. '
+  year: '2012'
+  download_link: http://epic.cs.colorado.edu/wp-content/uploads/LearningfromCrowdStarbirdMuznyPalen.pdf
+  title: ! 'Learning from the Crowd: Collaborative Filtering Techniques for Identifying
+    On-the-Ground Twitters during Mass Disruptions.'
+  abstract: Social media tools, including the microblogging platform Twitter, have
+    been appropriated during mass disruption events by those affected as well as the
+    digitally-convergent crowd. Though tweets sent by those local to an event could
+    be a resource both for responders and those affected, most Twitter activity during
+    mass disruption events is generated by the remote crowd. Tweets from the remote
+    crowd can be seen as noise that must be filtered, but another perspective considers
+    crowd activity as a filtering and recommendation mechanism. This paper tests the
+    hypothesis that crowd behavior can serve as a collaborative filter for identifying
+    people tweeting from the ground during a mass disruption event. We test two models
+    for classifying on-the-ground Twitterers, finding that machine learning techniques
+    using a Support Vector Machine with asymmetric soft margins can be effective in
+    identifying those likely to be on the ground during a mass disruption event.
+  category:
+  - Category 2
+  etc: To appear in the Proceedings of the Conference on Information Systems for Crisis
+    Response and Management (ISCRAM 2012), Vancouver, BC.
+- name: multilayer_annotation
+  type: Publications
+  authors: Corvey, William J., Sarah Vieweg, Sudha Verma, Martha Palmer and James
+    H. Martin.
+  year: '2012'
+  download_link: http://epic.cs.colorado.edu/wp-content/uploads/lrec_2012_final_120523.pdf
+  title: Foundations of a Multilayer Annotation Framework for Twitter Communications
+    During Crisis Events.
+  abstract: In times of mass emergency, vast amounts of data are generated via computer-mediated
+    communication (CMC) that are difficult to manually collect and organize into a
+    coherent picture. Yet valuable information is broadcast, and can provide useful
+    insight into time and safety-critical situations if captured and analyzed efficiently
+    and effectively. We describe a natural language processing component of the EPIC
+    (Empowering the Public with Information in Crisis) Project infrastructure, designed
+    to extract linguistic and behavioral information from tweet text to aid in the
+    task of information integration. The system incorporates linguistic annotation,
+    in the form of Named Entity Tagging, as well as behavioral annotations to capture
+    tweets contributing to situational awareness and analyze the information type
+    of the tweet content. We show classification results and describe future integration
+    of these classifiers in the larger EPIC infrastructure.
+  category:
+  - Category 1
+  - Category 2
+  etc: Proceedings of the Eighth International Conference on Language Resources and
+    Evaluation (LREC 2012), May 21-27, 2012, Istanbul, Turkey.
 - name: mysql_nosql
   type: Publications
   authors: ! 'Schram, Aaron and Kenneth Anderson '
@@ -61,124 +267,44 @@
     by digital volunteers.
   etc: Proceedings of the 2012 ACM annual conference extended abstracts on Human Factors
     in Computing Systems.
-- name: evolovingrole
+- name: situational_aware
   type: Publications
-  authors: ! 'Hughes, Amanda L. and Leysia Palen. '
+  authors: Vieweg, Sarah.
   year: '2012'
-  download_link: http://www.degruyter.com/view/j/jhsem.2012.9.issue-1/1547-7355.1976/1547-7355.1976.xml
-  title: ! 'The Evolving Role of the Public Information Officer: An Examination of
-    Social Media in Emergency Management'
-  abstract: This work examines how the introduction of social media has affected the
-    role of the Public Information Officer (PIO)—the public relations component of
-    the National Incident Management System (NIMS). Through analysis of 25 PIO interviews,
-    we examine the work practice of PIOs and find that social media expand not only
-    the scope and type of PIO work activity, but also the “information pathways” that
-    exist between PIOs, the media, and members of the public. We model these changes
-    and examine how the presence of social media challenges previous conceptualizations
-    of PIO work. Lastly, we present a view of how PIO work could be better imagined
-    for the future of emergency management organizations.
-  etc: Journal of Homeland Security and Emergency Management. (2012)
-- name: multilayer_annotation
+  title: ! 'Situational Awareness in Mass Emergency: A Behavioral and Linguistic Analysis
+    of Microblogged Communications.'
+  etc: University of Colorado at Boulder PhD Dissertation.
+- name: software_tools
   type: Publications
-  authors: Corvey, William J., Sarah Vieweg, Sudha Verma, Martha Palmer and James
-    H. Martin.
+  authors: McTaggart, Casey.
   year: '2012'
-  download_link: http://epic.cs.colorado.edu/wp-content/uploads/lrec_2012_final_120523.pdf
-  title: Foundations of a Multilayer Annotation Framework for Twitter Communications
-    During Crisis Events.
-  abstract: In times of mass emergency, vast amounts of data are generated via computer-mediated
-    communication (CMC) that are difficult to manually collect and organize into a
-    coherent picture. Yet valuable information is broadcast, and can provide useful
-    insight into time and safety-critical situations if captured and analyzed efficiently
-    and effectively. We describe a natural language processing component of the EPIC
-    (Empowering the Public with Information in Crisis) Project infrastructure, designed
-    to extract linguistic and behavioral information from tweet text to aid in the
-    task of information integration. The system incorporates linguistic annotation,
-    in the form of Named Entity Tagging, as well as behavioral annotations to capture
-    tweets contributing to situational awareness and analyze the information type
-    of the tweet content. We show classification results and describe future integration
-    of these classifiers in the larger EPIC infrastructure.
-  etc: Proceedings of the Eighth International Conference on Language Resources and
-    Evaluation (LREC 2012), May 21-27, 2012, Istanbul, Turkey.
-- name: blogs_cscw12
+  title: Analysis and Implementation of Software Tools to Support Research in Crisis
+    Informatics.
+  etc: University of Colorado at Boulder MS Thesis.
+- name: supporting_pet
   type: Publications
-  authors: ! 'Gloria Mark, Mossaab Bagdouri, Leysia Palen, James Martin, Ban Al-Ani,
-    Kenneth Anderson '
+  authors: ! 'Barron, Joshua. '
   year: '2012'
-  download_link: http://epic.cs.colorado.edu/wp-content/uploads/cscw2012Iraqiblogs_smaller.pdf
-  title: Blogs as a Collective War Diary.
-  abstract: Disaster-related research in human-centered computing has typically focused
-    on the shorter-term, emergency period of a disaster event, whereas effects of
-    some crises are longterm, lasting years. Social media archived on the Internet
-    provides researchers the opportunity to examine societal reactions to a disaster
-    over time. In this paper we examine how blogs written during a protracted conflict
-    might reflect a collective view of the event. The sheer amount of data originating
-    from the Internet about a significant event poses a challenge to researchers;
-    we employ topic modeling and pronoun analysis as methods to analyze such large-scale
-    data. First, we discovered that blog war topics temporally tracked the actual,
-    measurable violence in the society suggesting that blog content can be an indicator
-    of the health or state of the affected population. We also found that people exhibited
-    a collective identity when they blogged about war, as evidenced by a higher use
-    of first person plural pronouns compared to blogging on other topics. Blogging
-    about daily life decreased as violence in the society increased; when violence
-    waned, there was a resurgence of daily life topics, potentially illustrating how
-    a society returns to normalcy.
-  etc: Proceedings of CSCW’12, Seattle, WA.
-- name: facebook_cscw12
+  title: Supporting Pet-to-Family Reunification in Disaster by Leveraging Human and
+    Machine Computation.
+  etc: University of Colorado at Boulder MS Thesis.
+- name: trial_by_fire
   type: Publications
-  authors: ! 'Semaan, B. and Mark, G. '
+  authors: ! 'St. Denis, Amanda Hughes and Leysia Palen. '
   year: '2012'
-  download_link: http://epic.cs.colorado.edu/wp-content/uploads/CSCW-2012-Facebook.pdf
-  title: ! '‘Facebooking’ Towards Crisis Recovery and Beyond: Disruption as an Opportunity'
-  abstract: This paper reports on an ethnographic study of Facebook use amongst a
-    population living through ongoing disruption. We interviewed 45 Iraqi citizens,
-    as well as received survey responses from 218 individuals, who have been experiencing
-    the current Gulf War since March 2003. We show how people in a society experiencing
-    conflict use Facebook in ways that are different to uses in non-war societies.
-    We find that Facebook supports people living in crisis environments at two levels.
-    First, Facebook aids people directly to recover from disruption. People used Facebook
-    to create “safe lists”, to seek help and provide assistance, and to re-construct
-    their social scaffolding. But at a deeper level, citizens also used Facebook to
-    maintain and develop new social norms, and to re-direct their country. We discuss
-    how disruption can serve as an opportunity by which people can re-invent their
-    societies and how our understandings of Facebook should evolve.
-  etc: Proceedings of CSCW 2012, Seattle, WA.
-- name: egypt_blogosphere
-  type: Publications
-  authors: Ban Al-Ani, Gloria Mark, Justin Chung, and Jennifer Jones.
-  year: '2012'
-  download_link: http://epic.cs.colorado.edu/wp-content/uploads/p17-al-ani.pdf
-  title: ! 'The Egyptian blogosphere: a counter-narrative of the revolution.'
-  abstract: In this paper we investigate the role blogs played within the context
-    of the Egyptian revolution of early 2011 using blog data authored between 2004-2011.  We
-    conducted topic modeling analysis to gain a longitudinal view of the interaction
-    of societal, personal and revolutionary blog topics over this period. Furthermore,
-    a qualitative  analysis of blog posts during the period that bracketed the political
-    uprising revealed Egyptian bloggers’ concerns. Reporting events and supplying
-    commentary provided bloggers with a means to voice dissent against  institutionalized
-    power represented by  the  government-controlled media. In short, blogs reveal
-    a counter-narrative to the government-supplied version of events in Egypt during
-    the  18-day uprising. These narratives offer rich documentation of how blogs,
-    and perhaps social media more generally, can be utilized by individuals operating
-    under repressive conditions.
-  etc: In Proceedings of the ACM 2012 conference on Computer Supported Cooperative
-    Work (CSCW &#8217;12). ACM, New York, NY, USA, 17-26.
-- name: heritage_matters
-  type: Publications
-  authors: Liu, Sophia, Leysia Palen and Elisa Giaccardi.
-  year: '2012'
-  title: ! 'Heritage Matters in Crisis Informatics: How Information and Communication
-    Technology Can Support Legacies of Crisis Events.'
-  etc: ! ' In Christine Hagar (Ed) Crisis Information Management: Communication and
-    Technologies, pp. 65 &#8211; 86, Chandos Publishing.'
-- name: continuous_disruption
-  type: Publications
-  authors: ! 'Semaan, B., Mark, G., Al-Ani, B. '
-  year: '2012'
-  title: ! 'The Effects of Continual Disruption: Technological Resources Supporting
-    Resilience in Regions of Conflict.'
-  etc: ! 'In Christine Hagar (Ed.), Crisis Information Management: Communication and
-    Technologies, pp 9 -24, Chandos Publishing.'
+  download_link: http://epic.cs.colorado.edu/wp-content/uploads/TrustedDigitalVolunteersStDenisHughesPalen.pdf
+  title: ! 'Trial By Fire: The Deployment of Trusted Digital Volunteers in the 2011
+    Shadow Lake Fire.'
+  abstract: We report on the use of a team of trusted digital volunteers during the
+    2011 Shadow Lake Fire that occurred in the US Pacific Northwest to extend the
+    social media capacity of a Type I incident management team. In this case study,
+    we outline the tools and processes used by this virtual team to coordinate their
+    activities, monitor social media communication and to establish communications
+    with the public around the event. Finally, we discuss the potential merits and
+    limitations of implementing a team of trusted volunteers and explore how this
+    idea could be incorporated into emergency management organizations.
+  etc: To appear in the Proceedings of the Conference on Information Systems for Crisis
+    Response and Management (ISCRAM 2012), Vancouver, BC.
 - name: twt
   type: Publications
   authors: Starbird, Kate, Leysia Palen, Sophia B. Liu, Sarah Vieweg, Amanda Hughes,
@@ -189,12 +315,519 @@
     An Account of Strategies for Diffusion of the “Tweak the Tweet” Syntax.'
   etc: ! 'In Christine Hagar (Ed.), Crisis Information Management: Communication and
     Technologies, pp 43 &#8211; 63. Chandos Publishing.'
-- name: beacons_of_hope
+- name: data_analytics
   type: Publications
-  authors: ! 'Sarcevic, Aleskandra, Leysia Palen, Joanne White, Mossaab Bagdouri,
-    Kate Starbird, Kenneth M. Anderson, '
-  year: '2012'
-  download_link: http://epic.cs.colorado.edu/wp-content/uploads/Sarcevic-et-al-HaitiMedicalTwitterers.pdf
-  title: ! '“Beacons of Hope” in Decentralized Coordination: Learning from On-the-Ground
-    Medical Twitterers During the 2010 Haiti Earthquake'
-  etc: 2012 ACM Conference on Computer Supported Cooperative Work, Bellevue, WA.
+  authors: ! 'Anderson, Kenneth, and Aaron Schram. '
+  year: '2011'
+  download_link: http://epic.cs.colorado.edu/wp-content/uploads/icse2011.pdf
+  title: Design and Implementation of a Data Analytics Infrastructure In Support of
+    Crisis Informatics Research.
+  abstract: Crisis informatics is an emerging research area that studies how information
+    and communication technology (ICT) is used in emergency response. An important
+    branch of this area includes investigations of how members of the public make
+    use of ICT to aid them during mass emergencies. Data collection and analytics
+    during crisis events is a critical prerequisite for performing such research,
+    as the data generated during these events on social media networks are ephemeral
+    and easily lost. We report on the current state of a crisis informatics data analytics
+    infrastructure that we are developing in support of a broader, interdisciplinary
+    research program. We also comment on the role that software engineering research
+    plays in these increasingly common, highly-interdisciplinary research efforts.
+  etc: In the 33rd International Conference on Software Engineering, 21-28 May 2011,
+    Honolulu, Hawaii.
+- name: everyday_analysts
+  type: Publications
+  authors: ! 'Palen, L., Vieweg, S., and Anderson, K. '
+  year: '2011'
+  download_link: http://epic.cs.colorado.edu/wp-content/uploads/Everyday-Analysts-paper.pdf
+  title: Supporting “Everyday Analysts” in Time- and Safety- Critical Situations.
+  abstract: ! 'The need for quick, timely and accurate information is critical in
+    emergency events. People assemble information from both official and unofficial
+    sources. As digital access expands, people will increasingly incorporate digital
+    sources into decision-making and assess it against the local circumstances they
+    experience. If we extrapolate to what such behavior means for the future, we argue
+    that information management under emergency conditions will need to become increasingly
+    socially distributed. A natural point of contention in such a view is the matter
+    of how to assess the quality of information: how “good” or “bad” it is; whether
+    it is “misinformation” or “disinformation.”  Borrowing from Simon’s satisficing,
+    we consider the matter of the assessment of information helpfulness and credibility
+    as a function of the “everyday analytic” skills that people use to take action
+    during mass emergencies. We discuss steps in a research agenda for the development
+    of analytical support tools.'
+  etc: The Information Society Journal, 27(1), pp. 52-62.
+- name: grassroots_heritage
+  type: Publications
+  authors: Liu, Sophia.
+  year: '2011'
+  title: ! 'Grassroots Heritage: A Multi-Method Investigation of How Social Media
+    Sustain the Living Heritage of Historic Crises. '
+  etc: University of Colorado at Boulder PhD Dissertation.
+- name: nlp_to_rescue
+  type: Publications
+  authors: ! 'Verma, Sudha, Sarah Vieweg, Will Corvey, Leysia Palen, Jim Martin, Martha
+    Palmer, Aaron Schram and Ken Anderson. '
+  year: '2011'
+  download_link: http://epic.cs.colorado.edu/wp-content/uploads/vermaetal.pdf
+  title: NLP to the Rescue? Extracting &#8220;Situational Awareness&#8221; Tweets
+    During Mass Emergency.
+  abstract: In times of mass emergency, vast amounts of data are generated via computer-mediated
+    communication (CMC) that are difficult to manually cull and organize into a coherent
+    picture. Yet valuable information is broadcast, and can provide useful insight
+    into time- and safety-critical situations if captured and analyzed properly and
+    rapidly. We describe an approach for automatically identifying messages communicated
+    via Twitter that contribute to situational awareness, and explain why it is beneficial
+    for those seeking information during mass emergencies. We collected Twitter messages
+    from four different crisis events of varying nature and magnitude and built a
+    classifier to automatically detect messages that may contribute to situational
+    awareness, utilizing a combination of hand- annotated and automatically-extracted
+    linguistic features. Our system was able to achieve over 80% accuracy on categorizing
+    tweets that contribute to situational awareness. Additionally, we show that a
+    classifier developed for a specific emergency event performs well on similar events.
+    The results are promising, and have the potential to aid the general public in
+    culling and analyzing information communicated during times of mass emergency.
+  etc: In the Fifth International AAAI Conference on Weblogs and Social Media, 17-21
+    July 2011, Barcelona, Spain.
+- name: recovery_resilience
+  type: Publications
+  authors: ! 'Semaan, Bryan. '
+  year: '2011'
+  title: ! 'Recovery, Resilience and Beyond: ICT Use During Ongoing Disruption.'
+  etc: University of California, Irvine PhD Dissertation.
+- name: repairing_infra
+  type: Publications
+  authors: ! 'Semaan, B. and Mark, G. '
+  year: '2011'
+  download_link: http://epic.cs.colorado.edu/wp-content/uploads/ACM-TOCHI-2011.pdf
+  title: ! 'Repairing infrastructure during ongoing crisis: Technology-mediated social
+    arrangements to support recovery.'
+  abstract: When societies experience disruption as caused by natural disasters, various
+    official government agencies, relief organizations, and emergent citizen groups
+    engage in activities that aid in the recovery effort—the process that leads to
+    the resumption of normal life. In war environments however, societal trust can
+    be affected and people may develop distrust of the institutions and associated
+    individuals that provide and resolve breakdowns in infrastructure. This paper
+    reports on an ethnographic study of the use of ICTs by citizens experiencing ongoing
+    disruption in a conflict zone. We conducted 86 interviews with Iraqi civilians
+    who experienced the 2nd Gulf War beginning in March 2003. We show how citizens
+    used ICTs to continuously resolve breakdowns in infrastructure during ongoing
+    disruption caused by the conflict by creating new, reliable technology-mediated
+    social arrangements that enabled people to maintain daily routines for travel,
+    education and obtaining information. We then discuss new ways to think about infrastructure
+    and implications for the disaster relief effort.
+  etc: ACM Transactions on Computer-Human Interaction (TOCHI), vol 18, issue 4, December
+    2011.
+- name: topic_modeling
+  type: Publications
+  authors: Bagdouri, Mossaab.
+  year: '2011'
+  title: Topic modeling as an analysis tool to understand the impact of the Iraq war
+    on the Iraqi blogosphere.
+  etc: University of Colorado at Boulder MS Thesis.
+- name: trust_with_icts
+  type: Publications
+  authors: ! 'Semaan, Bryan and Gloria Mark. '
+  year: '2011'
+  download_link: http://epic.cs.colorado.edu/wp-content/uploads/pr193-semaan.pdf
+  title: ! 'Creating a Context of Trust with ICTs: Restoring a Sense of Normalcy in
+    the Environment.'
+  abstract: This paper reports on an ethnographic study of the technology-enabled
+    behavior that took place amongst a citizen population living in a conflict zone.
+    We interviewed 65 Iraqi citizens who experienced the current Gulf War beginning
+    in March 2003. In the context of a disrupted environment, trust in people and
+    institutions can erode. We find that trust is contextual–-as aspects of the physical
+    world change, conceptions of trust can also change. We show how people were able
+    to create a context of trust in the environment by using ICTs to manage their
+    public identity, to conduct background checks, and to develop collaborative practices
+    that relied on those with whom interpersonal trust previously existed. These new
+    practices, in turn, enabled people to maintain work collaborations, to determine
+    whether or not to continue interacting with others in public, to be able to travel
+    safely, and to find trustworthy jobs. In developing these new practices we argue
+    that technology enabled people to restore a sense of normalcy in an environment
+    that had radically changed.
+  etc: In the ACM 2011 Conference on Computer Supported Cooperative Work (CSCW 2011),
+    Hangzhou, China, long paper, pp. TBA.
+- name: voluntweeters
+  type: Publications
+  authors: Starbird, Kate and Leysia Palen .
+  year: '2011'
+  download_link: http://www.cs.colorado.edu/~palen/voluntweetersStarbirdPalen.pdf
+  title: “Voluntweeters:” Self-Organizing by Digital Volunteers in Times of Crisis.
+  abstract: This empirical study of “digital volunteers” in the aftermath of the January
+    12, 2010 Haiti earthquake describes their behaviors and mechanisms of self-organizing
+    in the information space of a microblogging environment, where collaborators were
+    newly found and distributed across continents. The paper explores the motivations,
+    resources, activities and products of digital volunteers. It describes how seemingly
+    small features of the technical environment offered structure for self-organizing,
+    while considering how the social-technical milieu enabled individual capacities
+    and collective action. Using social theory about self organizing, the research
+    offers insight about features of coordination within a setting of massive interaction.
+  etc: In the ACM 2011 Conference on Computer Human Interaction (CHI 2011), Vancouver,
+    BC, Canada, long paper, pp. TBA.
+- name: blogging_in_conflict
+  type: Publications
+  authors: Al-Ani, B., Mark, G., and Semaan, B.
+  year: '2010'
+  download_link: http://portal.acm.org/citation.cfm?id=1753326.1753485
+  title: ! 'Blogging in a region of conflict: Supporting transition to recovery.'
+  etc: In Proceedings of the 28th International Conference on Human Factors in Computing
+    Systems (Atlanta, Georgia, USA, April 10 &#8211; 15, 2010). CHI 2010. ACM, New
+    York, NY, 1069-1078. Honorable Mention for Best Paper.
+- name: blogging_through_conflict
+  type: Publications
+  authors: ! 'Al-Ani, B., Mark, G., Semaan, B. '
+  year: '2010'
+  download_link: http://portal.acm.org/citation.cfm?id=1841853.1841859
+  title: ! 'Blogging through Conflict: Sojourners in the Age of Social Media.'
+  etc: InProceedings of the 3rd international Conference on intercultural Collaboration
+    (Copenhagen, Denmark, August 19 &#8211; 20, 2010). ICIC &#8217;10. ACM, New York,
+    NY, 29-38.
+- name: chatter_on_thered
+  type: Publications
+  authors: ! 'Starbird, K., Palen, L., Hughes, A. L., and Vieweg, S. '
+  year: '2010'
+  download_link: http://www.cs.colorado.edu/~palen/chatter_on_the_red.pdf
+  title: ! 'Chatter on the Red: What hazards threat reveals about the social life
+    of microblogged information.'
+  etc: In Proceedings of the 2010 ACM Conference on Computer Supported Cooperative
+    Work (Savannah, Georgia, USA, February 06 &#8211; 10, 2010). CSCW 2010. ACM, New
+    York, NY, 241-250. Nominated for “Best of CSCW.”
+- name: cose
+  type: Publications
+  authors: ! 'Novinger, Matthew. '
+  year: '2010'
+  title: ! 'COSE: Crisis Oriented Search Engine.'
+  etc: University of Colorado at Boulder MS Thesis.
+- name: crisis_map
+  type: Publications
+  authors: ! 'Liu, S. B. and Ayala Iacucci, A. '
+  year: '2010'
+  download_link: http://www.webmazine.org/issues/bull245/documents/mashups.pdf
+  title: Crisis Map Mashups in a Participatory Age.
+  etc: American Congress on Surveying and Mapping (ACSM) Bulletin, June 2010, pp.
+    10-14.
+- name: curated_crisis
+  type: Publications
+  authors: ! 'Liu, S. B. '
+  year: '2010'
+  title: The Rise of Curated Crisis Content.
+  etc: Short paper presented at the 7th Information Systems for Crisis Response and
+    Management (ISCRAM) Conference (Seattle, Washington, USA, May 2010). ISCRAM 2010.
+- name: microblogging
+  type: Publications
+  authors: ! 'Vieweg, Sarah, Amanda Hughes, Kate Starbird, Leysia Palen '
+  year: '2010'
+  download_link: http://www.cs.colorado.edu/~palen/vieweg_1700_chi2010.pdf
+  title: ! 'Microblogging During Two Natural Hazards Events: What Twitter May Contribute
+    to Situational Awareness.'
+  etc: In Proceedings of the 28th International Conference on Human Factors in Computing
+    Systems (Atlanta, Georgia, USA, April 10 &#8211; 15, 2010). CHI 2010. ACM, New
+    York, NY, 1079-1088.
+- name: new_cartographers
+  type: Publications
+  authors: ! 'Liu, S. B. and Palen, L. '
+  year: '2010'
+  download_link: http://www.ingentaconnect.com/content/acsm/cagis/2010/00000037/00000001/art00007
+  title: ! 'The New Cartographers: Crisis Map Mashups and the Emergence of Neogeographic
+    Practice.'
+  etc: Cartography and Geographic Information Science (CaGIS) Journal Special Issue
+    on Mapping Hazards and Disasters, Volume 37, Number 1, pp. 69-90.
+- name: pass_it_on
+  type: Publications
+  authors: ! 'Starbird, K. and Palen, L. '
+  year: '2010'
+  title: ! 'Pass It On?: Retweeting in Mass Emergencies.'
+  etc: Presented at the 7th International Information Systems for Crisis Response
+    and Management Conference (Seattle, WA, USA, May 2010). ISCRAM 2010.
+- name: policy_social
+  type: Publications
+  authors: ! 'Sicker, Douglas C., Blumensaadt, L.,  Grunwald, D., Palen, L. and Anderson,
+    K. '
+  year: '2010'
+  download_link: http://epic.cs.colorado.edu/wp-content/uploads/sicker_2010.pdf
+  title: Policy Issues Facing the Use of Social Network Information During Times of
+    Crisis.
+  abstract: The exchange of information during times of crisis/disaster has traditionally
+    been the purview of public safety, the National Guard and other local, state or
+    federal authorities.  However, this model is undergoing a change with the availability
+    of new mobile communications capabilities and the rise of social networking sites.  The
+    general public can now create and share information about crises as they unfold,
+    and researchers have documented the timeliness and surprising accuracy of this
+    information.  As part of a large National Science Foundation funded project, researchers
+    at the University of Colorado are developing tools to extract, organize and assess
+    the flow of crisis related information as posted on social networking sites.  With
+    the promise of improved warning and coordination, such tools should help reduce
+    the impacts of large-scale disruptions, including political crises, natural disasters,
+    pandemics and terrorist threats.  In this model, members of the public can obtain
+    (and produce) information about an emergency that is specialized to their needs—as
+    well as meta-information specialized for crisis situations— that helps them make
+    judgments about the ever-growing amount of information.  Such meta-information
+    includes features of its source; judgments about the authoritativeness of the
+    source; its concurrence (or not) with official sources; its timeliness (as the
+    information may be better than official sources); other spatio-temporal features
+    of the information’s life; and anticipation of who would be looking for this information
+    and why. Data mining and information extraction techniques have a critical place
+    here, as does the creation of trust models and security techniques to offer privacy
+    or possibly anonymity. <br>However, if mechanisms are provided to enhance the
+    users&#8217; privacy and even offer the capability for anonymous information contributions,
+    it is possible that malicious entities may exploit this anonymity and inject false
+    and misleading information into information streams. It is worth noting that false
+    information could be introduced into the system without these features; it is
+    just that an anonymizing system removes the consequence of being identified.  Fundamentally,
+    establishing identity within a networked environment is a challenging problem.  For
+    instance, a classic problem within the field of reputation systems is the Sybil
+    attack, which occurs when a single entity establishes a large number of identities,
+    for instance, by adding a large number of nodes to a peer-to-peer network.  This
+    has implications on designing reputation systems to detect the injection of bad
+    information by malicious parties, since it is always possible for them to simply
+    add a new identity to the system to counteract any previous misbehavior.  Given
+    this fact, we take an alternate approach to determining reputable users and information
+    during an event.  We will look at two possible implicit reputation indicators,
+    one using client location services and another using analysis methods based on
+    network graphs and activity within networks.  Using network analysis methods,
+    it may be possible to infer location, influence and other attributes based on
+    communication, context and association with others in the network.  Data for these
+    methods is available via public application programming interfaces (APIs) from
+    some online social networks.  Monitoring these public APIs during crisis situations,
+    we are able to use these analysis methods to infer information about users as
+    the crisis is evolving.<br>With the development of these tools, we must consider
+    public policy issues that arise from this research.  First, we ask what public
+    policy issues emerge as a result of this vision of empirical research and development
+    activities, and how they can be framed using a crisis informatics lens? Investigations
+    of this kind require consideration about how crisis-related data is collected,
+    analyzed and disseminated within the context of current federal and state laws,
+    policies and regulations.  Because information aggregation efforts may cross national
+    borders, we will also take into account similar (and often more stringent) laws
+    and policies in other countries.  Important questions in this area center on issues
+    of legal precedent, communications-related laws and policies, regulations and
+    authorities regarding information dissemination during disasters and privacy and
+    security issues.  Other questions include how the policy context will affect our
+    own information capture and aggregation methods.  As an over-arching concern,
+    we question whether it will be possible to design methods for capturing and processing
+    diverse content ethically and in adherence of law, while also not creating new,
+    insurmountable policy issues around information aggregation.  Next, we ask what
+    is the risk of legal liabilities that might arise.  Who is responsible if the
+    information is wrong?  What if the system suppresses the dissemination of vital
+    information?  Does this constitute some type of negligence or a failure to adhere
+    to required duty?
+  etc: The 38th Annual Telecommunications Policy Research Conference (TPRC) for Public
+    Safety and Emergency session (October 1-3, 2010, Arlington, Virginia).
+- name: river_valley
+  type: Publications
+  authors: ! 'Palen, L., Starbird, K., Vieweg, S. and Hughes, A. '
+  year: '2010'
+  download_link: http://onlinelibrary.wiley.com/doi/10.1002/bult.2010.1720360505/abstract
+  title: Twitter-based information distribution during the 2009 Red River Valley flood
+    threat.
+  etc: Bulletin of the American Society for Information Science and Technology, American
+    Society for Information Science and Technology, Volume 36, Issue 5, (June/July
+    2010), pp. 13-17.
+- name: role_of_trust
+  type: Publications
+  authors: ! 'Semaan, B., Mark, G., Al-Ani, B. '
+  year: '2010'
+  download_link: http://epic.cs.colorado.edu/wp-content/uploads/bsemaan-ISCRAM10.pdf
+  title: ! 'Developing Information Technologies and Government Policies for Citizens
+    Experiencing Disruption: The Role of Trust and Context.'
+  etc: Presented at the 7th International Information Systems for Crisis Response
+    and Management Conference (Seattle, WA, USA, May 2-5, 2010). ISCRAM 2010.
+- name: technology-mediated
+  type: Publications
+  authors: ! 'Palen, L., Anderson, K. M., Mark, G., Martin, J., Sicker, D., Palmer,
+    M., and Grunwald, D. '
+  year: '2010'
+  download_link: http://www.cs.colorado.edu/~palen/computingvisionspaper.pdf
+  title: A vision for technology-mediated support for public participation and assistance
+    in mass emergencies and disasters.
+  etc: In Proceedings of the 2010 ACM-BCS Visions of Computer Science Conference (Edinburgh,
+    United Kingdom, April 14 &#8211; 16, 2010). ACM-BCS Visions of Computer Science.
+    British Computer Society, Swinton, UK, 1-12.
+- name: trends_curatorial
+  type: Publications
+  authors: Liu, Sophia B.
+  year: '2010'
+  download_link: http://www.cepis.org/upgrade/index.jsp?p=2100&n=2102#liu
+  title: Trends in Distributed Curatorial Technology to Manage Data in a Networked
+    World.
+  etc: ! 'UPGRADE Journal: 2010 &#8211; Emerging Information Technologies (II), Volume
+    XI, Number 3, August 2010 Issue, 18-24.'
+- name: tweak_the_tweet
+  type: Publications
+  authors: ! 'Starbird, K. and Stamberger, J. '
+  year: '2010'
+  title: ! 'Tweak the Tweet: Leveraging Microblogging Proliferation with a Prescriptive
+    Grammar to Support Citizen Reporting.'
+  etc: Short paper presented at the 7th International Information Systems for Crisis
+    Response and Management Conference (Seattle, Washington, USA, May 2010). ISCRAM
+    2010.
+- name: twitter_mass
+  type: Publications
+  authors: ! 'Corvey, W. J., Vieweg, S., Rood, T. and Palmer, M. '
+  year: '2010'
+  download_link: http://portal.acm.org/citation.cfm?id=1860667.1860679
+  title: ! 'Twitter in Mass Emergency: What NLP Techniques can Contribute.'
+  etc: In Proceedings of the NAACL HLT 2010 Workshop on Computational Linguistics
+    in a World of Social Media (Los Angeles, California, June 2010), 23–24.
+- name: ushahidi_haiti
+  type: Publications
+  authors: ! 'Liu, S. B., Anahi Ayala Iacucci and Patrick Meier. '
+  year: '2010'
+  download_link: http://www.webmazine.org/issues/current/documents/ushahidi.pdf
+  title: ! 'Ushahidi Haiti and Chile: Next Generation Crisis Mapping.'
+  etc: American Congress on Surveying and Mapping (ACSM) Bulletin, August Issue, pp.
+    10-13.
+- name: internet_war
+  type: Publications
+  authors: Mark, G., Semaan, B.
+  year: '2009'
+  download_link: http://www.ics.uci.edu/~pr-react/iwic133-mark.pdf
+  title: ! 'Expanding a Country&#8217;s Borders During War: The Internet War Diary.'
+  etc: In Proceedings of the ACM International Workshop on Intercultural Collaboration
+    IWIC 2009 (Palo Alto, February 20-21, 2009).
+- name: mashups
+  type: Publications
+  authors: ! 'Liu, S. and Palen, L. '
+  year: '2009'
+  download_link: http://www.iscram.org/ISCRAM2009/papers/Contributions/223_Spatiotemporal%20Mashups-A%20Survey%20of%20Current_Liu2009.pdf
+  title: ! 'Spatiotemporal Mashups: A Survey of Current Tools to Inform Next Generation
+    Crisis Support.'
+  etc: Proceedings of the 2009 Information Systems for Crisis Response and Management
+    Conference (ISCRAM 2009), Gothenberg, Sweden (~5000 words).
+- name: old_new_iraq
+  type: Publications
+  authors: Mark, G., Al-Ani, B., Semaan, B.
+  year: '2009'
+  download_link: http://www.ics.uci.edu/~pr-react/fp445-mark.pdf
+  title: ! 'Resilience Through Technology Adoption: Merging the Old and the New in
+    Iraq.'
+  etc: In the Proceedings of the ACM Conference on Human Factors in Computing Systems
+    CHI 2009 (Boston, Apri 4-9, 2009).
+- name: photojournalism
+  type: Publications
+  authors: Liu, S., Palen, L., Sutton, J., Hughes, A., and Vieweg, S.
+  year: '2009'
+  title: Citizen Photojournalism During Crisis Events.
+  etc: ! 'In Allan, S. and Thorsen, E. (Eds.), Citizen Journalism: Global Perspectives.
+    New York: Peter Lang.'
+- name: twitter_adoption
+  type: Publications
+  authors: ! 'Hughes, A. and Palen, L. '
+  year: '2009'
+  download_link: http://www.iscram.org/ISCRAM2009/papers/Contributions/211_Twitter%20Adoption%20and%20Use%20in%20Mass%20Convergence_Hughes2009.pdf
+  title: Twitter Adoption and Use in Mass Convergence and Emergency Events.
+  etc: Proceedings of the 2009 Information Systems for Crisis Response and Management
+    Conference (ISCRAM 2009), Gothenberg, Sweden, (~5000 words)
+- name: virginia_tech
+  type: Publications
+  authors: Palen, L., Vieweg, S., Liu, S., Hughes, A.
+  year: '2009'
+  download_link: http://www.cs.colorado.edu/~palen/palen_etal_sageoct.pdf
+  title: ! 'Crisis in a Networked World: Features of Computer-Mediated Communication
+    in the April 16, 2007 Virginia Tech Event.'
+  etc: ! 'Social Science Computing Review, Sage, (pp 467-480). '
+- name: war_zones
+  type: Publications
+  authors: ! 'Mark, G., Al-Ani, B., Semaan, B. '
+  year: '2009'
+  download_link: http://www.ics.uci.edu/~pr-react/mark-Infrastructure-ISCRAM.pdf
+  title: Repairing Human Infrastructure in War Zones.
+  etc: In the Proceedings of the Conference on Information Systems for Crisis Response
+    and Management ISCRAM 2009 (Gothenburg, May 10-13, 2009).
+- name: backchannels
+  type: Publications
+  authors: Sutton, J., Palen, L., and Shklovski, I.
+  year: '2008'
+  download_link: http://www.cs.colorado.edu/~palen/Papers/iscram08/BackchannelsISCRAM08.pdf
+  title: ! 'Backchannels on the Front Lines: Emergent Use of Social Media in the 2007
+    Southern California Fires.'
+  etc: ! 'Proceedings of the Information Systems for Crisis Response and Management
+    Conference (ISCRAM 2008). '
+- name: bigger_picture
+  type: Publications
+  authors: Liu, S., Palen, L., Sutton, J., Hughes, A, and Vieweg, S.
+  year: '2008'
+  download_link: http://www.cs.colorado.edu/~palen/Papers/iscram08/OnlinePhotoSharingISCRAM08.pdf
+  title: ! 'In Search of the Bigger Picture: The Emergent Role of On-Line Photo-Sharing
+    in Times of Disaster.'
+  etc: Proceedings of the Information Systems for Crisis Response and Management Conference
+    (ISCRAM 2008).
+- name: finding_community
+  type: Publications
+  authors: Shklovski, I., Palen, L., and Sutton, J.
+  year: '2008'
+  download_link: http://portal.acm.org/citation.cfm?id=1460563.1460584&coll=ACM&dl=ACM&CFID=62860127&CFTOKEN=42686834
+  title: Finding Community Through Information and Communication Technology in Disaster
+    Events (long paper).
+  etc: In the 2008 ACM Proceedings of Computer Supported Cooperative Work Conference.
+- name: intelligence_disaster
+  type: Publications
+  authors: Vieweg, S., Palen, L., Liu, S., Hughes, A., and Sutton, J.
+  year: '2008'
+  download_link: http://www.cs.colorado.edu/~palen/Papers/iscram08/CollectiveIntelligenceISCRAM08.pdf
+  title: ! 'Collective Intelligence in Disaster: An Examination of the Phenomenon
+    in the Aftermath of the 2007 Virginia Tech Shootings.'
+  etc: Proceedings of the Information Systems for Crisis Response and Management Conference
+    (ISCRAM 2008).
+- name: online_social_media
+  type: Publications
+  authors: Palen, L.
+  year: '2008'
+  title: Online Social Media in Crisis Events (short article).
+  etc: EDUCAUSE Quarterly, vol. 31, no. 3 (July–September 2008).
+- name: online_widescale
+  type: Publications
+  authors: Palen, L., and Vieweg, S.
+  year: '2008'
+  download_link: http://portal.acm.org/citation.cfm?id=1460563.1460583&coll=ACM&dl=ACM&CFID=62860127&CFTOKEN=42686834
+  title: ! 'The Emergence of Online Widescale Interaction in Unexpected Events: Assistance,
+    Alliance and Retreat (long paper).'
+  etc: In the 2008 ACM Proceedings of Computer Supported Cooperative Work Conference.
+- name: patterns of_action
+  type: Publications
+  authors: Mark, G., Semaan, B.
+  year: '2008'
+  download_link: http://www.ics.uci.edu/~pr-react/p137-mark.pdf
+  title: ! 'Resilience in Collaboration: Technology as a Resource for New Patterns
+    of Action.'
+  etc: In Proceedings of the ACM Conference on Computer Supported Cooperative Work
+    CSCW 2008 (San Diego, November 8-12, 2008).
+- name: site-seeing
+  type: Publications
+  authors: Hughes, A., L. Palen, J. Sutton, S. Liu, & S. Vieweg.
+  year: '2008'
+  download_link: http://www.cs.colorado.edu/~palen/Papers/iscram08/OnlineConvergenceISCRAM08.pdf
+  title: ! '“Site-Seeing” in Disaster: An Examination of On-Line Social Convergence.'
+  abstract: On-line websites and applications are increasingly playing a role in disaster
+    response and recovery. Yet with the wide variety of on-line grassroots activities
+    that occur in such situations, it can be difficult to make sense of them. In this
+    paper, we describe on-line behavior as socially convergent activity, interpreting
+    it within existing sociological understandings of behavior in disaster events.
+    We discuss seven types of convergent behavior and give examples of on-line activities
+    for each type. By seeing these activities as an essential part of the disaster
+    social arena, we can begin to think about how to support socially convergent phenomena
+    in new and creative ways.
+  etc: Proc. of Information Systems for Crisis Response and Management Conference
+    (ISCRAM) 2008.
+- name: social_convergence
+  type: Publications
+  authors: Hughes, Amanda, Leysia Palen, Jeannette Sutton, Sophia Liu, and Sarah Vieweg.
+  year: '2008'
+  download_link: http://www.cs.colorado.edu/~palen/Papers/iscram08/OnlineConvergenceISCRAM08.pdf
+  title: ! '“Site-Seeing” in Disaster: An Examination of On-Line Social Convergence.'
+  etc: Proceedings of the Information Systems for Crisis Response and Management Conference
+    (ISCRAM 2008).
+- name: citizen_comm
+  type: Publications
+  authors: ! 'Palen, L., and Liu, S. '
+  year: '2007'
+  download_link: http://www.cs.colorado.edu/~palen/palen_papers/palen-crisis.pdf
+  title: ! 'Citizen Communications in Crisis: Anticipating a Future of ICT-Supported
+    Participation.'
+  etc: ! 'Proceedings of the ACM Conference on Human Factors in Computing Systems
+    CHI 2007, 727-736. '
+- name: forums_supporting
+  type: Publications
+  authors: ! 'Palen, L., Hiltz, S. R., and Liu, S. '
+  year: '2007'
+  download_link: http://www.cs.colorado.edu/~palen/palen_papers/palen-CACM.pdf
+  title: Online Forums Supporting Grassroots Participation in Emergency Preparedness
+    and Response.
+  etc: ! 'Communications of the ACM, 50 (3) (Mar. 2007): 54-58. '

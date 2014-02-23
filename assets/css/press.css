@@ -1,0 +1,14 @@
+#press_notes {
+	padding:10px;
+	background:#eee;
+}
+
+#press_list {
+	margin:0px; 
+}
+
+#press_list li {
+	list-style-type:none;
+	text-indent:0px;
+	margin:15px 0px;
+}
