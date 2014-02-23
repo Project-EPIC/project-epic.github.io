@@ -1,0 +1,41 @@
+---
+layout: page
+title: Publications
+parent: [Our Work, Publications]
+js: publications.js
+css: publications.css
+scroller:
+  Category 1 : Category1
+  Category 2 : Category2
+  Category 3 : Category3
+  Category 4 : Category4
+---
+{% include navigation/ourwork_nav.html %}
+
+<!--Add the Year / Category Chooser -->
+{% include custom/publications_chooser.html %}
+
+{% for category in page.scroller %}
+<h3 class="pub_section {{category[0]}}">{{category[0]}}</h3>
+<ul class="papers-in category {{category[0]}}" id="{{category[1]}}">
+	{% for pub in site.data.publications %}
+		{% if pub.category contains category[0] %}
+			<li class="publication-item">
+				<a id={{pub.name}}></a>
+				<h5 class="author">{{ pub.authors }}</h5>
+				<h5 class="title">{{ pub.title }} </h5>
+				<h5 class="year">{{pub.year}}</h5>
+				<h5 class="etc">{{pub.etc}}</h5>
+			</li>
+			<div class="publication-expand">
+				<h3 class="title">{{pub.title}}</h4>
+				<h4 class="authors">{{pub.authors}}</h3>
+				{% if pub.abstract %}
+					<h6 class=>Abstract</h6>
+					<p class="abstract">{{pub.abstract}}</p>
+				{% endif %}
+			</div>
+		{% endif %}
+	{% endfor %}
+</ul>
+{% endfor %}
