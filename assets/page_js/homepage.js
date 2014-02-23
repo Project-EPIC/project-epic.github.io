@@ -5,6 +5,8 @@ $(document).ready(function(){
     controls: false,
     pager: true,
   	adaptiveHeight: true,
-  	responsive: true
+  	responsive: true,
+  	speed: 2000
   });
+
 });
