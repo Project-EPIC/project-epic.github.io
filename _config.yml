@@ -156,5 +156,6 @@ JB :
   
   # prose media directory
   prose:
+    rooturl: '_posts'
     media:'_posts/images'
   
