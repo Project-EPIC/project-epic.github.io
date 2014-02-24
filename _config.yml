@@ -23,6 +23,17 @@ author :
 
 production_url : http://username.github.io
 
+# prose config
+prose:
+  rooturl: '_posts'
+  media:'_posts/images'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+
+
 google_info : 
   press :
     key    : 0Aiwzrc8lx93KdEpoYlZPa2tRU25FT1Fzb2s4Yi16UlE
@@ -153,9 +164,3 @@ JB :
   # where [HELPER] is the name of the helper you are overriding.
   
   nav_list: {'about/index.html'}
-  
-  # prose media directory
-  prose:
-    rooturl: '_posts'
-    media:'_posts/images'
-  
