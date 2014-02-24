@@ -2,4 +2,4 @@
 published: true
 ---
 
-![](/)## Yeah Bitches![](/_posts/robert.jpg)
+![](/_posts/robert.jpg)![](/)## Yeah Bitches![](/_posts/robert.jpg)
