@@ -26,7 +26,7 @@ production_url : http://username.github.io
 # prose config
 prose:
   rooturl: '_posts'
-  media:'_posts/images'
+  media: '_posts/images'
   ignore:
     - index.md
     - _config.yml
