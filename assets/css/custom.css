@@ -81,9 +81,7 @@ text {
 
 /* Custom container */
 .container-narrow {
-  margin: 0 auto;
-  width:83.3%;
-  max-width: 960px; 
+  margin: 0 auto; 
 }
 
 .container-narrow > hr {
@@ -106,6 +104,7 @@ text {
 .navbar { margin:0px; }
 
 .navbar-inner {
+  padding:0px 300px 0px 300px;
 	box-shadow: none;
 	border:none;
 	background:none;

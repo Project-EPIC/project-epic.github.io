@@ -87,24 +87,18 @@
         </ul>
       </div>
       <script type="text/javascript">
-      $(".navbar-scroller").css({ "display" : "none" });
+        $(".navbar-scroller").css({ "display" : "none" });
       </script>
-  
     {% endif %}
     
-    <div class="container-narrow">
-      <div class="content">              
-        {{ content }}
-      </div>
-      <hr>
-      <footer>
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
-        </p>
-      </footer>
-    </div>
-
+    <div class="container-narrow"> {{ content }} </div>
+    <hr/>
+    <footer>
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+        with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+        and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+      </p>
+    </footer>
     {% include JB/analytics %}
   </body>
 </html>
