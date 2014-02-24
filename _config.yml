@@ -13,6 +13,9 @@ tagline: Empowering the Public with Information in Crisis
 author :
   twitter : epiccolorado
 
+# media directory
+
+media:_posts/images
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
