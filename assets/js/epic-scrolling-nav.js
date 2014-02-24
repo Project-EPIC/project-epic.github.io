@@ -3,7 +3,7 @@
 */
 $(function() {
   scrollerLinks = []
-  $('.navbar-scroller').find('li').each(function() {
+  $('.scrolling-nav-list').find('li').each(function() {
     scrollerLinks.push($(this));
   });
   anchor_names = []
@@ -19,6 +19,7 @@ $(function() {
   fullHeight = Math.max($(document).height(), $(window).height(), document.documentElement.clientHeight);
 
   anchor_pos.push(fullHeight);
+
 });
 
 /*
@@ -34,15 +35,11 @@ $(window).scroll(function() {
     }
   }
   //Determine if navbar-scoller will be shown
-  if (pos > 25) { //
-    $(".navbar-scroller").css({"position": "fixed", "top": 0 });
-    if ($(".navbar-scroller").css("display") == "none"){
-      $(".navbar-scroller").hide().fadeIn(300);
-    }
-
-  }else {
-    $(".navbar-scroller").css({ "display" : "none" });
-  }         
+  if (pos > 100) { //
+    $("#scrolling-nav-div").fadeIn(300);
+  }else{
+    $("#scrolling-nav-div").hide()
+  }
 });
 
 $('a').click(function(){

@@ -2,13 +2,22 @@
 #publications_chooser ul{list-style-type: none; margin: 0, auto;}
 #publications_chooser li{
 	display: inline-block;
-	margin: 0px 5px 0px 5px;
+	padding: 5px;
 }
 #publications_chooser a{
 	font-size: 1.5em;
 
 }
 
+#publications_chooser li.active{
+	background-color: #BBB;
+	color: white;
+}
+
+.active-publication{
+	background-color: #DDD;
+	color: #00C;
+}
 
 
 .publication-item{
@@ -22,7 +31,8 @@
 
 .publication-expand{
 	padding: 20px 20px 100px 10px;
-	border: 2px solid #999;
+	border-bottom: 2px groove #999;
+	border-top: 2px groove #999;
 }
 
 .pub_section{
@@ -67,4 +77,25 @@ h5.etc{
 p.abstract{
 	border: 1px solid #EEE;
 	padding: 10px;
+}
+
+/*  Scrolling Nav List */
+#scrolling-nav-div{
+	background-color: #FFF;
+	opacity: .8;
+	position: fixed;
+	top: 0;
+}
+
+.scrolling-nav-list{
+	list-style-type: none
+}
+
+.scrolling-nav-list li{
+	display: inline-block;
+}
+
+.scrolling-nav-list li.active a{
+	background-color: #555;
+	color: #FFF;
 }

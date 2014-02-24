@@ -79,16 +79,13 @@
     </div>
     
     {% if page.scroller %}
-      <div class="navbar container-narrow navbar-scroller navbar-inner">
-        <ul class="nav">
+      <div id="scrolling-nav-div">
+        <ul class="scrolling-nav-list">
         {% for link in page.scroller %}
           <li><a href=#{{link[1]}}>{{ link[0] }}</a></li>
         {% endfor %}
         </ul>
       </div>
-      <script type="text/javascript">
-      $(".navbar-scroller").css({ "display" : "none" });
-      </script>
   
     {% endif %}
     

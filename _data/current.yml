@@ -47,6 +47,15 @@
     vitae rhoncus augue aliquet at.
 - name: Robert Soden
   status: Current
+  gscholar_link: http://scholar.google.com/citations?user=1vePPCkAAAAJ&hl=en
+  profile_pic: /assets/auto_generated/profile_pics/Robert_Soden.jpg
+  affiliation: PhD Student University of Colorado Boulder
+  interests:
+  - HCI
+  - Computer Science
+  - Critical Technology Studies
+  - Mapping
+  - Disasters
   role: Student
   bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non odio
     a lacus molestie volutpat. Quisque laoreet neque non elementum dignissim. Suspendisse
