@@ -1,7 +1,7 @@
 ---
 layout: page
 front: true
-title: Project Epic
+title: Project EPIC
 tagline: Empowering the Public with Information in Crisis
 js: homepage.js
 css: homepage.css
@@ -43,12 +43,14 @@ css: homepage.css
 	<div id="frontnews">
 		<h3>Latest News</h3>
     	<div class="post">
-				<div class="heading"><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></div>
-				<p>{{ post.excerpt }}</p>
-				{% if post.author %}
-					<p>By {{ post.author }}</p>
-				{% endif %}
+			<div class="heading">
+				<span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
 			</div>
+			<p>{{ post.excerpt }}</p>
+			{% if post.author %}
+				<p>By {{ post.author }}</p>
+			{% endif %}
+		</div>
 	</div>
 </div>
 <div id="front_right">
