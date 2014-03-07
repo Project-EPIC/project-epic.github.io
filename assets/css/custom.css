@@ -1,25 +1,72 @@
+/* Header */
+.page-header {
+	margin:0px;
+	display:block;
+  background: url("/assets/images/flatirons_second.png");
+  height:200px;
+	width:100%; }
+.page-header h1 { padding:15px;}
+.navbar { margin:0px; }
+.navbar-inner {
+  padding:0px 30px 0px 30px;
+	box-shadow: none;
+	border:none;
+	background:none;
+}
+.navbar .nav {
+  float: right;
+}
+.navbar .brand {
+	font-size:18px;
+}
 
+/* Custom container */
+.container-narrow {
+  margin: 0 auto;
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
 
+/* Lists */
+ul.nav-list {
+	margin:0 auto;
+  width:400px;
+	padding:0px;
+}
+ul.nav-list li a {
+  float:left;
+  margin:0px 20px 0px 0px;
+  padding:5px 0px;
+}
+
+/* Headers */
+h3 {
+	font-weight:normal;
+}
+
+/*Fancy Box Over-rides */
+.fancybox-nav {
+  width: 20%;
+}
+
+/* Our Work - Move? */
 #work_sections {
   margin:10px auto 10px auto;
   width:100%;
 }
-
 #work_sections section {
   margin:0 auto;
   padding:15px;
   position:relative;
   min-height:300px;
 }
-
 #work_sections section img{
   margin:10px auto 10px auto;
   display:inline-block;
   vertical-align: top;
 }
-
 #work_sections h3 { color:white; }
-
 #work_sections article {
   color:white;
   display:inline-block;
@@ -37,59 +84,3 @@
 /*** Natural Language Processing Parallax Sections **/
 .nlp-1 { background: url("/assets/images/section-parallax/disaster-orange.jpg") fixed;}
 .nlp-2 { background: url("/assets/images/section-parallax/students-orange.jpg") fixed;}
-
-/* Custom container */
-.container-narrow {
-  margin: 0 auto;
-}
-
-.container-narrow > hr {
-  margin: 30px 0;
-}
-
-.navbar .nav {
-  float: right;
-}
-
-.navbar .brand {
-	font-size:18px;
-}
-
-.page-header {
-	margin:0px;
-	display:block;
-  background: url("/assets/images/flatirons_second.png");
-  height:200px;
-	width:100%; }
-
-.page-header h1 { padding:15px;}
-
-.navbar { margin:0px; }
-
-.navbar-inner {
-  padding:0px 30px 0px 30px;
-	box-shadow: none;
-	border:none;
-	background:none;
-}
-
-ul.nav-list {
-	margin:0 auto;
-  width:400px;
-	padding:0px;
-}
-
-ul.nav-list li a {
-  float:left;
-  margin:0px 20px 0px 0px;
-  padding:5px 0px;
-}
-
-h3 {
-	font-weight:normal;
-}
-
-/*Fancy Box Over-rides */
-.fancybox-nav {
-  width: 20%;
-}
