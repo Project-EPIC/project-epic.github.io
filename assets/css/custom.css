@@ -20,12 +20,15 @@
 	font-size:18px;
 }
 
-/* Custom container */
+/* Page Setup */
 .container-narrow {
   margin: 0 auto;
 }
 .container-narrow > hr {
   margin: 30px 0;
+}
+.wrapper {
+	margin:0px 20px;
 }
 
 /* Lists */
@@ -43,6 +46,12 @@ ul.nav-list li a {
 /* Headers */
 h3 {
 	font-weight:normal;
+}
+
+/* Footer */
+.footer {
+	clear:both;
+	padding:30px;
 }
 
 /*Fancy Box Over-rides */

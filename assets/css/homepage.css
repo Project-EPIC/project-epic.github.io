@@ -38,8 +38,8 @@
 	width:960px;
 	height:45px;
 	position:absolute;
-	bottom:0px; left:0px;
-	padding:30px;
+	bottom:0px; left:10px;
+	padding:30px 40px;
 	color:#fff;
 }
 
@@ -56,10 +56,9 @@
 	font-size:20px;
 }
 
-
 #front_left {
 	padding:10px 10px 10px 50px;
-	width:1000px;
+	width:50%;
 	margin: 0 auto;
 	vertical-align: top;
 	display:inline-block;
@@ -68,7 +67,7 @@
 
 #front_right {
 	padding:10px 50px 10px 10px;
-	width:500px;
+	width:35%;
 	float:right;
 	margin:0 auto;
 	text-align: center;
