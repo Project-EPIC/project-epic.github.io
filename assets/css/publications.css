@@ -46,7 +46,7 @@
 
 
 .year{
-	
+
 }
 
 .category{
@@ -82,7 +82,7 @@ p.abstract{
 /*  Scrolling Nav List */
 #scrolling-nav-div{
 	background-color: #FFF;
-	opacity: .8;
+	opacity: .9;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -90,20 +90,26 @@ p.abstract{
 	margin-left: auto;
 	margin-right: auto;
 	z-index: 99;
+	border-bottom: 1px solid #999;
 }
 
-.scrolling-nav-list{list-style-type: none} .scrolling-nav-list li{ display: inline-block;} 
+.scrolling-nav-list{list-style-type: none; padding: 0; margin: 0; text-align: center;} .scrolling-nav-list li{ display: inline-block;
+	padding: 5px 10px 5px 10px;}
+
+.scrolling-nav-list li.active {
+	background-color: #0088cc;
+	color: #FFF;
+	margin: 0;
+}
+.scrolling-nav-list li.active a{
+	color: #FFF;;
 }
 
 .scrolling-nav-list li a{
-	padding: 2px 5px 2px 5px;
-	margin: 1px;
+	font-size: 1em;
+	margin: 0;
 }
 
-.scrolling-nav-list li.active a{
-	background-color: #555;
-	color: #FFF;
+.scrolling-nav-list a:hover{
+	text-decoration: none;
 }
-
-
-
