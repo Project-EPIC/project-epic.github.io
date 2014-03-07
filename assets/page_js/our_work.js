@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	
+
 	$('section[data-type="background"]').each(function(){
 		var $bgobj = $(this); // assigning the object
 
@@ -8,18 +8,18 @@ $(document).ready(function(){
 
 			// Put together our final background position
 			var coords = '50% '+ yPos + 'px';
-			 
+
 			// Move the background
-			$bgobj.css({ backgroundPosition: coords });			
-		});       
+			$bgobj.css({ backgroundPosition: coords });
+		});
     });
 
 	function scrollToAnchor(aid){
 	    var aTag = $("a[name='"+ aid +"']");
 	    $('html,body').animate({scrollTop: aTag.offset().top}, 'slow');
-	}   
+	}
 
-}); 
+});
 
 // 	//We will use this later.
 // 	var formatTime = d3.time.format("%e %B");
@@ -48,8 +48,8 @@ $(document).ready(function(){
 // 			.data(graph.links)
 // 			.enter().append("line")
 // 			.attr("class", "link")
-// 			.style("stroke-width", function(d) { 
-// 				return Math.sqrt(d.value); 
+// 			.style("stroke-width", function(d) {
+// 				return Math.sqrt(d.value);
 // 			});
 
 // 		var node = svg.selectAll(".node")
@@ -64,7 +64,7 @@ $(document).ready(function(){
 // 					case 2: return "Blue";
 // 					case 3: return "Orange";
 // 				}
-// 			})				
+// 			})
 // 			.on ("click", function(d){
 // 				scrollToAnchor(d.section);
 // 			})
@@ -82,7 +82,7 @@ $(document).ready(function(){
 // 					.duration(500)
 // 					.style("opacity", 0);
 // 			});
-			
+
 // 		node.append("title").text(function(d) { return d.name; });
 
 // 		force.on("tick", function(){
@@ -97,9 +97,3 @@ $(document).ready(function(){
 // 		});
 // 	});
 // });
-
-
-
-
-
-
