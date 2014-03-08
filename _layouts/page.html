@@ -3,41 +3,6 @@ layout: default
 ---
 {% include JB/setup %}
 
-{% if page.url == '/index.html' %}
-
-<ul id="front_slider">
-	<li id="our_work">
-		<a href="our_work">
-			<span class="title">Our Work</span><br />
-			<span class="subtext">Learn more about Project EPIC</span>
-		</a>
-	</li>
-	<li id="people">
-		<a href="team">
-			<span class="title">People</span><br />
-			<span class="subtext">The Team</span>
-		</a>
-	</li>
-	<li id="partnership">
-		<a href="partnership">
-			<span class="title">Partnership</span><br />
-			<span class="subtext">Partner with Project EPIC</span>
-		</a>
-	</li>
-	<li id="news">
-		<a href="news">
-			<span class="title">News</span><br />
-			<span class="subtext">Latest News and Activities</span>
-		</a>
-	</li>
-</ul>
-
-{% else' %}
-	<div class="page-header page-header-{{ page.title | downcase | remove: ' ' }} page-group-{{ page.group | downcase | remove: ' ' | remove: '_' }}">
- 		<h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
-	</div>
-{% endif %}
-
 <div class="wrapper">
   {{ content }}
 </div>

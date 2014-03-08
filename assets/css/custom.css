@@ -2,11 +2,21 @@
 .page-header {
 	margin:0px;
 	display:block;
-  background: url("/assets/images/flatirons_second.png");
-  height:200px;
-	width:100%; }
-.page-header h1 { padding:15px;}
-.navbar { margin:0px; }
+  height:260px;
+	width:100%; 
+	}
+	.page-header-ourwork, .page-group-ourwork { background: url("/assets/images/work.jpg") no-repeat; }
+	.page-header-people { background: url("/assets/images/people.jpg") no-repeat; }
+	.page-header-partnership { background: url("/assets/images/crowd.jpg") no-repeat; }
+	.page-header-news { background: url("/assets/images/news.png") no-repeat; }
+	
+.page-header h1 { 
+	padding:15px 15px 15px 25px;
+	color:#fff;
+	}
+.navbar { 
+	margin:0px; 
+	}
 .navbar-inner {
   padding:0px 30px 0px 30px;
 	box-shadow: none;

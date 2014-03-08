@@ -6,8 +6,6 @@ tagline: Empowering the Public with Information in Crisis
 js: homepage.js
 css: homepage.css
 ---
-{% assign post = site.posts.first %}
-
 <div id="front_left">
 	<div class="frontabout">
 		<h3>About</h3>
@@ -15,15 +13,14 @@ css: homepage.css
 	</div>
 	<div id="frontnews">
 		<h3>Latest News</h3>
-    	<div class="post">
+		{% for post in site.posts offset: 0 limit: 2 %}
+    <div class="post">
 			<div class="heading">
 				<span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
 			</div>
 			<p>{{ post.excerpt }}</p>
-			{% if post.author %}
-				<p>By {{ post.author }}</p>
-			{% endif %}
 		</div>
+		{% endfor %}
 	</div>
 </div>
 <div id="front_right">
