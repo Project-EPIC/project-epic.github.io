@@ -43,14 +43,21 @@
 
 /* Lists */
 ul.nav-list {
-	margin:0 auto;
-  width:400px;
-	padding:0px;
+	margin:10px auto;
+	width:700px;
+	padding:0px 0px 30px 0px;
 }
-ul.nav-list li a {
+
+ul.nav-list li {
   float:left;
-  margin:0px 20px 0px 0px;
+  margin:0px 50px;
   padding:5px 0px;
+}
+
+ul.nav-list > .active > a,
+ul.nav-list > .active > a:hover {
+	color:#000;
+	background:none;
 }
 
 /* Headers */
