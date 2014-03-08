@@ -1,18 +1,5 @@
 <div id="publications_chooser">
-<h4>View Publications by</h4>
-<ul>
-
-<li {% if page.url contains 'year' %} class="active"{% endif %}>
-<a href="publications-year.html">
-Year
-</a>
-</li>
-
-<li {% if page.url contains 'tag' %} class="active"{% endif %}>
-<a href="publications-tag.html">
-Category
-</a>
-</li>
-
-</ul>
+	View  by: 
+	<a {% if page.url contains 'year' %} class="active"{% endif %} href="publications-year.html">Year</a> | 
+	<a {% if page.url contains 'tag' %} class="active"{% endif %} href="publications-tag.html">Category</a>
 </div>
