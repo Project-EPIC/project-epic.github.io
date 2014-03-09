@@ -1,0 +1,12 @@
+h3.post-title {
+	text-align:center;
+	font-size:24px;
+	margin-top:80px;
+	line-height:20px;
+}
+
+.postinfo {
+	text-align:center;
+	font-size:small;
+	color:#000;
+}
