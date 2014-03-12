@@ -1,0 +1,5 @@
+<div id="news_chooser">
+	View News by: 
+	<a {% if page.url contains 'year' %} class="active"{% endif %} href="news-year.html">Year</a> | 
+	<a {% if page.url contains 'tag' %} class="active"{% endif %} href="news-tag.html">Category</a>
+</div>

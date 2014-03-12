@@ -2,8 +2,9 @@
 .page-header {
 	margin:0px;
 	display:block;
-  height:260px;
+    height:260px;
 	width:100%; 
+	background: url("/assets/images/cubanner.jpg") no-repeat; 
 	}
 	.page-header-ourwork, .page-group-ourwork, .page-header-publications { background: url("/assets/images/flatirons_sm.jpg") no-repeat; }
 	.page-header-people { background: url("/assets/images/people_sm.jpg") no-repeat; }
@@ -40,6 +41,7 @@
 .wrapper {
 	margin:0px 20px;
 }
+
 
 /* Lists */
 ul.nav-list {
@@ -98,6 +100,30 @@ h3 {
   display:inline-block;
 }
 
+
+/* partners_sections */
+#partners_sections {
+  margin:10px auto 10px auto;
+  width:100%;
+}
+#partners_sections section {
+  margin:0 auto;
+  padding:15px;
+  position:relative;
+  min-height:300px;
+}
+#partners_sections section img{
+  margin:10px auto 10px auto;
+  display:inline-block;
+  vertical-align: top;
+}
+#partners_sections h3 { color:black; }
+#partners_sections article {
+  color:black;
+  display:inline-block;
+}
+
+
 /*** Socio-behavioral Parallax Sections **/
 .sb-1 { background: url("/assets/images/section-parallax/coflood-green.jpg") fixed;}
 .sb-2 { background: url("/assets/images/section-parallax/pet-rescue-green.jpg") fixed;}
@@ -110,3 +136,12 @@ h3 {
 /*** Natural Language Processing Parallax Sections **/
 .nlp-1 { background: url("/assets/images/section-parallax/disaster-orange.jpg") fixed;}
 .nlp-2 { background: url("/assets/images/section-parallax/students-orange.jpg") fixed;}
+
+/*** Scolars Partner Parallax Sections **/
+.sp-1 { background: url("/assets/images/section-parallax/research-program-fallbackbanner.jpg") fixed;}
+
+/*** Practitioners Partner Parallax Sections **/
+.pp-1 { background: url("/assets/images/section-parallax/cu.jpg") fixed;}
+
+/*** Potential Students Partner Parallax Sections **/
+.psp-1 { background: url("/assets/images/section-parallax/feature_winter_grad_2011.jpg") fixed;}

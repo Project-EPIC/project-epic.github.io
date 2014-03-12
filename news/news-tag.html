@@ -1,11 +1,14 @@
 ---
 layout: page
-title: Categories
+title: News
 header: Posts By Category
-group: 
+parent: news
+group: news
 weight: 5
+js: news.js
+css: news.css
 ---
-{% include JB/setup %}
+{% include custom/news_chooser.html %}
 
 <ul class="tag_box inline">
   {% assign categories_list = site.categories %}
@@ -16,7 +19,7 @@ weight: 5
 {% for category in site.categories %} 
   <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
   <ul>
-    {% assign pages_list = category[1] %}  
-    {% include JB/pages_list %}
+    {% assign posts_list = category[1] %}  
+    {% include JB/posts_list %}
   </ul>
 {% endfor %}
