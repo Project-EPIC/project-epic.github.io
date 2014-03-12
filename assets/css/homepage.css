@@ -19,15 +19,14 @@
 }
 
 #front_slider li#our_work {
-	/* Source: http://ireneimmink.com/2012/05/24/why-we-design-natural-disasters-instead-of-sustainable-solutions/ */
-	background: url("/assets/images/work.jpg") no-repeat;
+	background: url("/assets/images/flatirons.jpg") no-repeat;
 }
 
 #front_slider li#people {
 	background: url("/assets/images/people.jpg") no-repeat;
 }
 #front_slider li#partnership {
-	background: url("/assets/images/crowd.jpg") no-repeat;
+	background: url("/assets/images/collaboration.jpg") no-repeat;
 }
 #front_slider li#news {
 	background: url("/assets/images/news.png") no-repeat;
@@ -38,8 +37,8 @@
 	width:960px;
 	height:45px;
 	position:absolute;
-	bottom:0px; left:0px;
-	padding:30px;
+	bottom:0px; left:10px;
+	padding:30px 40px;
 	color:#fff;
 }
 
@@ -56,10 +55,9 @@
 	font-size:20px;
 }
 
-
 #front_left {
 	padding:10px 10px 10px 50px;
-	width:1000px;
+	width:50%;
 	margin: 0 auto;
 	vertical-align: top;
 	display:inline-block;
@@ -68,7 +66,7 @@
 
 #front_right {
 	padding:10px 50px 10px 10px;
-	width:500px;
+	width:35%;
 	float:right;
 	margin:0 auto;
 	text-align: center;

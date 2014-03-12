@@ -1,75 +1,74 @@
-
-
-#work_sections {
-  margin:10px auto 10px auto;
-  width:100%;
-}
-
-#work_sections article {
-  display:block;
-  margin:5px 10px 5px 10px;
-}
-
-/*** Work Sections **/
-
-.sections { padding-top: 10px;}
-.section_titles { text-align:center; margin-bottom:50px;}
-.section_images { margin: 0 auto; text-align: center;}
-.section_image { width: 500px; padding:10px; vertical-align: top;}
-.section_content{ padding:15px; font-size:16pt;}
-.section_footer { float:right; font-style:italic; font-size:10pt;}
-
-#parallax_1 { height:800px; background: url("/assets/images/section-parallax/sandy.jpg") 100% 100%;}
-#parallax_2 { height:1600px; background: url("/assets/images/section-parallax/oklahoma.jpg") 100% 100%;}
-#parallax_3 { height:800px; background: url("/assets/images/section-parallax/haiti_earthquake_usgs.jpg") 100% 100%;}
-
-/* Custom container */
-.container-narrow {
-  margin: 0 auto;
-}
-
-.container-narrow > hr {
-  margin: 30px 0;
-}
-
-.navbar .nav {
-  float: right;
-}
-
+/* Header */
 .page-header {
 	margin:0px;
 	display:block;
-  background: url("/assets/images/flatirons_second.png");
-  height:200px;
-	width:100%; }
-
-.page-header h1 { padding:15px;}
-
-.navbar { margin:0px; }
-
+  height:260px;
+	width:100%; 
+	}
+	.page-header-ourwork, .page-group-ourwork, .page-header-publications { background: url("/assets/images/flatirons_sm.jpg") no-repeat; }
+	.page-header-people { background: url("/assets/images/people_sm.jpg") no-repeat; }
+	.page-header-partnership { background: url("/assets/images/collaboration_sm.jpg") no-repeat; }
+	.page-header-news { background: url("/assets/images/news.png") no-repeat; }
+	
+.page-header h1 { 
+	padding:15px 15px 15px 25px;
+	color:#fff;
+	}
+.navbar { 
+	margin:0px; 
+	}
 .navbar-inner {
-  padding:0px 300px 0px 300px;
+  padding:0px 30px 0px 30px;
 	box-shadow: none;
 	border:none;
 	background:none;
 }
-
-ul.nav-list {
-	margin:0 auto;
-  height:30px;
-  width:540px;
-	padding:0px;
-  font-size:16pt;
+.navbar .nav {
+  float: right;
+}
+.navbar .brand {
+	font-size:18px;
 }
 
-ul.nav-list li a {
+/* Page Setup */
+.container-narrow {
+  margin: 0 auto;
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+.wrapper {
+	margin:0px 20px;
+}
+
+/* Lists */
+ul.nav-list {
+	margin:0 auto;
+	width:950px;
+	padding:0px 0px 30px 0px;
+}
+
+ul.nav-list li {
   float:left;
-  margin:0px 20px 0px 0px;
+  margin:0px 80px;
   padding:5px 0px;
 }
 
+ul.nav-list > .active > a,
+ul.nav-list > .active > a:hover {
+	color:#000;
+	background:none;
+}
+
+/* Headers */
 h3 {
 	font-weight:normal;
+}
+
+/* Footer */
+.footer {
+	clear:both;
+	padding:30px;
 }
 
 /*Fancy Box Over-rides */

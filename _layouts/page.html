@@ -3,14 +3,6 @@ layout: default
 ---
 {% include JB/setup %}
 
-{% if page.url != '/index.html' %}
-	<div class="page-header page-header-{{ page.title | downcase | remove: ' ' }} page-group-{{ page.group | downcase | remove: ' ' | remove: '_' }}">
- 		<h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
-	</div>
-{% endif %}
-
-<div class="row-fluid">
-  <div class="span12">
-    {{ content }}
-  </div>
+<div class="wrapper">
+  {{ content }}
 </div>

@@ -1,40 +1,44 @@
-.person-list{
+.person-list {
 	list-display-type: none;
 }
 
-.person-list-item{
+.person-list-item { 
 	display: inline-block;
-	width: 300px;
-	height: 200px;
+	width: 200px;
+	height: 100px;
 }
 
-.person-info-expand{
+.person-list-item h3 {
+	font-size:16px;
+}
+
+.person-info-expand {
 	display: none;
 	padding: 20px 30px 20px 30px;
 	text-align: center;
 }
 
-.person-info{
+.person-info {
 	text-align: left;
 }
 
-.profile-image{
+.profile-image {
 	float: right;
 	margin: 10px;
 }
 
-.person-name-box{
-	width: 300px;
+.person-name-box {
+	width: 325px;
 	float: left;
 }
 
-.person-bio{
+.person-bio {
 	clear: both;
 	margin-top: 15px;
 	padding: 5px;
 }
 
-.person-info-expand ul.interests{
+.person-info-expand ul.interests {
 	list-style-type: none;
 	margin: 0px;
 	padding: 0px;

@@ -1,40 +1,11 @@
 ---
 layout: page
 front: true
-title: Project EPIC (Empowering the Public with Information in Crisis)
+title: Project EPIC - Empowering the Public with Information in Crisis
 tagline: Empowering the Public with Information in Crisis
 js: homepage.js
 css: homepage.css
 ---
-{% assign post = site.posts.first %}
-
-<ul id="front_slider">
-	<li id="our_work">
-		<a href="our_work">
-			<span class="title">Our Work</span><br />
-			<span class="subtext">Learn more about Project EPIC</span>
-		</a>
-	</li>
-	<li id="people">
-		<a href="team">
-			<span class="title">People</span><br />
-			<span class="subtext">The Team</span>
-		</a>
-	</li>
-	<li id="partnership">
-		<a href="partnership">
-			<span class="title">Partnership</span><br />
-			<span class="subtext">Partner with Project EPIC</span>
-		</a>
-	</li>
-	<li id="news">
-		<a href="news">
-			<span class="title">News</span><br />
-			<span class="subtext">Latest News and Activities</span>
-		</a>
-	</li>
-</ul>
-
 <div id="front_left">
 	<div class="frontabout">
 		<h3>About</h3>
@@ -42,15 +13,14 @@ css: homepage.css
 	</div>
 	<div id="frontnews">
 		<h3>Latest News</h3>
-    	<div class="post">
+		{% for post in site.posts offset: 0 limit: 2 %}
+    <div class="post">
 			<div class="heading">
 				<span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
 			</div>
 			<p>{{ post.excerpt }}</p>
-			{% if post.author %}
-				<p>By {{ post.author }}</p>
-			{% endif %}
 		</div>
+		{% endfor %}
 	</div>
 </div>
 <div id="front_right">
