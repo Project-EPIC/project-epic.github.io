@@ -5,38 +5,23 @@
   width:100%;
 }
 
-#work_sections section {
-  margin:0 auto;
-  padding:15px;
-  position:relative;
-  min-height:300px;
-}
-
-#work_sections section img{
-  margin:10px auto 10px auto;
-  display:inline-block;
-  vertical-align: top;
-}
-
-#work_sections h3 { color:white; }
-
 #work_sections article {
-  color:white;
-  display:inline-block;
+  display:block;
+  margin:5px 10px 5px 10px;
 }
 
-/*** Socio-behavioral Parallax Sections **/
-.sb-1 { background: url("/assets/images/section-parallax/coflood-green.jpg") fixed;}
-.sb-2 { background: url("/assets/images/section-parallax/pet-rescue-green.jpg") fixed;}
-.sb-3 { background: url("/assets/images/section-parallax/volunteers-green.jpg") fixed;}
+/*** Work Sections **/
 
-/*** Software Engineering Parallax Sections **/
-.se-1 { background: url("/assets/images/section-parallax/hurricane-blue.jpg") fixed;}
-.se-2 { background: url("/assets/images/section-parallax/hurricane-sandy-blue.jpg") bottom;}
+.sections { padding-top: 10px;}
+.section_titles { text-align:center; margin-bottom:50px;}
+.section_images { margin: 0 auto; text-align: center;}
+.section_image { width: 500px; padding:10px; vertical-align: top;}
+.section_content{ padding:15px; font-size:16pt;}
+.section_footer { float:right; font-style:italic; font-size:10pt;}
 
-/*** Natural Language Processing Parallax Sections **/
-.nlp-1 { background: url("/assets/images/section-parallax/disaster-orange.jpg") fixed;}
-.nlp-2 { background: url("/assets/images/section-parallax/students-orange.jpg") fixed;}
+#parallax_1 { height:800px; background: url("/assets/images/section-parallax/sandy.jpg") 100% 100%;}
+#parallax_2 { height:1600px; background: url("/assets/images/section-parallax/oklahoma.jpg") 100% 100%;}
+#parallax_3 { height:800px; background: url("/assets/images/section-parallax/haiti_earthquake_usgs.jpg") 100% 100%;}
 
 /* Custom container */
 .container-narrow {
@@ -71,8 +56,10 @@
 
 ul.nav-list {
 	margin:0 auto;
-  width:400px;
+  height:30px;
+  width:540px;
 	padding:0px;
+  font-size:16pt;
 }
 
 ul.nav-list li a {
