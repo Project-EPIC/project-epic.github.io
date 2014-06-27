@@ -3,7 +3,7 @@
 permalink: /:categories/:year/:month/:day/:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-pygments: true
+highlighter: pygments
 
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
@@ -55,10 +55,8 @@ google_info :
     types  : ['Publications']
 
 write_directory : './_data'
-build_tasks_directory : './_buildtasks'
 
-production_repo: '~/epic'
-production_www: '/www/epic'
+credentials: _secret_config.yml
 
 
 
