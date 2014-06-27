@@ -1,0 +1,1 @@
+gem 'Static-Bliss', :git => 'git://github.com/jenningsanderson/Static-Bliss.git'
