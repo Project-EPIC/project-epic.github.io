@@ -112,17 +112,18 @@
 				</a>
 			</li>
 		</ul>
-		{% else' %}
+		{% else %}
 			<div class="page-header page-header-{{ page.title | downcase | remove: ' ' }} page-group-{{ page.group | downcase | remove: ' ' | remove: '_' }}">
 		 		<h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
 			</div>
 		{% endif %}
+		{% if page.url == '/our_work/index.html' or page.url == '/partnership.html' %}
+	  {{ content }} 
+	  {% else %}
     <div class="wrapper"> {{ content }} </div>
+    {% endif %}
     <div class= "footer">
-      <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-        with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-        and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
-      </p>
+      <p>&copy; 2013-2014 Leysia Palen/Project EPIC</p>
     </div>
     {% include JB/analytics %}
   </body>
