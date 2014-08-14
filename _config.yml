@@ -33,7 +33,6 @@ prose:
     - /_layouts
     - /_includes
 
-
 google_info :
   press :
     key    : 0Aiwzrc8lx93KdEpoYlZPa2tRU25FT1Fzb2s4Yi16UlE
@@ -54,7 +53,7 @@ google_info :
     object : Publication
     types  : ['Publications']
 
-write_directory : './_data'
+data_directory : './_data'
 
 credentials: _secret_config.yml
 

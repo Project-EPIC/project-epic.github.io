@@ -1,16 +1,20 @@
 ---
 - name: Kate Starbird
   status: Alumni
-  Role: Alumni
   gscholar_link: http://scholar.google.com/citations?user=C6KSF5gAAAAJ&hl=en
+  picture: /assets/auto_generated/profile_pics/Kate_Starbird.jpg
   url: http://faculty.washington.edu/kstarbi/
-  profile_pic: /assets/auto_generated/profile_pics/Kate_Starbird.jpg
+  interests: Crisis Informatics, Crowdsourcing, Crowdwork, CSCW, Human Computer Interaction
   affiliation: Professor, Human Centered Design &amp; Engineering, University of Washington
-  interests:
-  - Crisis Informatics
-  - Crowdsourcing
-  - Crowdwork
-  - CSCW
-  - Human Computer Interaction
 - name: Will Corvey
   status: Alumni
+- name: Sophia B. Liu
+  status: Alumni
+- name: Amanda Lee Hughes
+  status: Alumni
+  gscholar_link: http://scholar.google.com/citations?user=Sjbz8ngAAAAJ&hl=en
+  picture: /assets/auto_generated/profile_pics/Amanda_Lee_Hughes.jpg
+  url: http://amandaleehughes.com/
+  interests: Human-Computer Interaction, Crisis Informatics
+  affiliation: Utah State University
+  '': 

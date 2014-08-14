@@ -1,16 +1,8 @@
 ---
 - name: Leysia Palen
   status: Current
-  gscholar_link: http://scholar.google.com/citations?user=x0OsogEAAAAJ&hl=en
-  url: https://www.cs.colorado.edu/~palen/
-  profile_pic: /assets/auto_generated/profile_pics/Leysia_Palen.jpg
-  affiliation: Associate Professor of Computer Science, University of Colorado Boulder
-  interests:
-  - Human computer interaction
-  - computer supported cooperative work
-  - social computing
-  - crisis informatics
   role: PI
+  gscholar_link: http://scholar.google.com/citations?user=x0OsogEAAAAJ&hl=en
   bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non odio
     a lacus molestie volutpat. Quisque laoreet neque non elementum dignissim. Suspendisse
     commodo vitae nisl quis blandit. Morbi turpis massa, facilisis condimentum porta
@@ -18,6 +10,11 @@
     in risus eu gravida. Nam iaculis nulla posuere velit cursus euismod ut sit amet
     purus. Integer lobortis sagittis odio sed eleifend. Fusce luctus quam tortor,
     vitae rhoncus augue aliquet at.
+  picture: /assets/auto_generated/profile_pics/Leysia_Palen.jpg
+  url: https://www.cs.colorado.edu/~palen/
+  interests: Human computer interaction, computer supported cooperative work, social
+    computing, crisis informatics
+  affiliation: Associate Professor of Computer Science, University of Colorado Boulder
 - name: Ken Anderson
   status: Current
   bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non odio
@@ -47,16 +44,8 @@
     vitae rhoncus augue aliquet at.
 - name: Robert Soden
   status: Current
-  gscholar_link: http://scholar.google.com/citations?user=1vePPCkAAAAJ&hl=en
-  profile_pic: /assets/auto_generated/profile_pics/Robert_Soden.jpg
-  affiliation: PhD Student University of Colorado Boulder
-  interests:
-  - HCI
-  - Computer Science
-  - Critical Technology Studies
-  - Mapping
-  - Disasters
   role: Student
+  gscholar_link: http://scholar.google.com/citations?user=1vePPCkAAAAJ&hl=en
   bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non odio
     a lacus molestie volutpat. Quisque laoreet neque non elementum dignissim. Suspendisse
     commodo vitae nisl quis blandit. Morbi turpis massa, facilisis condimentum porta
@@ -64,31 +53,30 @@
     in risus eu gravida. Nam iaculis nulla posuere velit cursus euismod ut sit amet
     purus. Integer lobortis sagittis odio sed eleifend. Fusce luctus quam tortor,
     vitae rhoncus augue aliquet at.
+  picture: /assets/auto_generated/profile_pics/Robert_Soden.jpg
+  url: ''
+  interests: HCI, CSCW, Science and Technology Studies, Critical Cartography, Disaster
+    Risk Management
+  affiliation: PhD Student University of Colorado Boulder
 - name: Jennings Anderson
   status: Current
-  gscholar_link: http://scholar.google.com/citations?user=Jxe5M_oAAAAJ
-  url: http://www.townsendjennings.com/
-  profile_pic: /assets/auto_generated/profile_pics/Jennings_Anderson.jpg
-  affiliation: University of Colorado at Boulder
-  interests:
-  - Human Centered Computing
-  - Big Data
-  - Data Mining
-  - Crisis Informatics
   role: Student
+  gscholar_link: http://scholar.google.com/citations?user=Jxe5M_oAAAAJ
   bio: This is a blurb about Jennings
+  picture: /assets/auto_generated/profile_pics/Jennings_Anderson.jpg
+  url: http://www.townsendjennings.com/
+  interests: Human Centered Computing, Big Data, Data Mining, Crisis Informatics
+  affiliation: University of Colorado at Boulder
 - name: Mario
   status: Current
-  gscholar_link: http://scholar.google.com/citations?user=m463-VoAAAAJ
-  url: http://www.mbarrenecheajr.com/
-  profile_pic: /assets/auto_generated/profile_pics/Mario.jpg
-  affiliation: Student in Computer Science, University of Colorado at Boulder
-  interests:
-  - human-centered software engineering
-  - human-centered computing
-  - crisis informatics
   role: Student
+  gscholar_link: http://scholar.google.com/citations?user=m463-VoAAAAJ
   bio: This is a blurb about how cool Mario is
+  picture: /assets/auto_generated/profile_pics/Mario.jpg
+  url: http://www.mbarrenecheajr.com/
+  interests: human-centered software engineering, human-centered computing, crisis
+    informatics
+  affiliation: Student in Computer Science, University of Colorado at Boulder
 - name: Sahar Jambi
   status: Current
   role: Student
@@ -122,7 +110,7 @@
 - name: Marina Kogan
   status: Current
   role: Student
-  bio: ! 'Marina is a student '
+  bio: 'Marina is a student '
 - name: Lise St. Denis
   status: Current
   role: Student
@@ -135,15 +123,8 @@
     vitae rhoncus augue aliquet at.
 - name: Jo White
   status: Current
-  gscholar_link: http://scholar.google.com/citations?user=cU2HRV8AAAAJ&hl=en
-  profile_pic: /assets/auto_generated/profile_pics/Jo_White.jpg
-  affiliation: PhD Student, University of Colorado Boulder
-  interests:
-  - HCI
-  - media
-  - crisis informatics
-  - social media
   role: Student
+  gscholar_link: http://scholar.google.com/citations?user=cU2HRV8AAAAJ&hl=en
   bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non odio
     a lacus molestie volutpat. Quisque laoreet neque non elementum dignissim. Suspendisse
     commodo vitae nisl quis blandit. Morbi turpis massa, facilisis condimentum porta
@@ -151,6 +132,10 @@
     in risus eu gravida. Nam iaculis nulla posuere velit cursus euismod ut sit amet
     purus. Integer lobortis sagittis odio sed eleifend. Fusce luctus quam tortor,
     vitae rhoncus augue aliquet at.
+  picture: /assets/auto_generated/profile_pics/Jo_White.jpg
+  url: ''
+  interests: HCI, media, crisis informatics, social media
+  affiliation: PhD Student, University of Colorado Boulder
 - name: Ahmet
   status: Current
   role: Student
