@@ -16,7 +16,7 @@ css: team.css
 		<a rel="person-fancy-box-link" href="#person-current-{{this_person}}">
 		<div class="person-box">
 			{% if person.profile_pic %}
-				<img src={{person.profile_pic}} />
+				<img src={{person.picture}} />
 			{% endif %}
 			<h3>{{ person.name }}</h3>
 		</div>
@@ -26,7 +26,7 @@ css: team.css
 		<div id="person-current-{{this_person}}" class="person-info-expand">
 			<div class="person-info">
 				<div class="profile-image">
-					<img src={{person.profile_pic}} />
+					<img src={{person.picture}} />
 				</div>
 				<div class="person-name-box">
 					<h3>{{person.name}}</h3>
@@ -63,7 +63,7 @@ css: team.css
 		<a rel="person-fancy-box-link" href="#person-alumni-{{this_person}}">
 		<div class="person-box">
 			{% if person.profile_pic %}
-				<img src={{person.profile_pic}} />
+				<img src={{person.picture}} />
 			{% endif %}
 			<h3>{{ person.name }}</h3>
 		</div>
@@ -73,7 +73,7 @@ css: team.css
 		<div id="person-alumni-{{this_person}}" class="person-info-expand">
 			<div class="person-info">
 				<div class="profile-image">
-					<img src={{person.profile_pic}} />
+					<img src={{person.picture}} />
 				</div>
 				<div class="person-name-box">
 					<h3>{{person.name}}</h3>
