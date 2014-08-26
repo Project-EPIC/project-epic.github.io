@@ -11,7 +11,7 @@
     purus. Integer lobortis sagittis odio sed eleifend. Fusce luctus quam tortor,
     vitae rhoncus augue aliquet at.
   picture: /assets/auto_generated/profile_pics/Leysia_Palen.jpg
-  url: ''
+  url: https://www.cs.colorado.edu/~palen/
   interests: Human computer interaction, computer supported cooperative work, social
     computing, crisis informatics
   affiliation: Associate Professor of Computer Science, University of Colorado Boulder
@@ -35,7 +35,7 @@
     purus. Integer lobortis sagittis odio sed eleifend. Fusce luctus quam tortor,
     vitae rhoncus augue aliquet at.
   picture: /assets/auto_generated/profile_pics/Gloria_Mark.jpg
-  url: ''
+  url: http://www.ics.uci.edu/~gmark
   interests: Human-computer Interaction, Computer-supported cooperative work
   affiliation: Professor of informatics, University of California, Irvine
 - name: James Martin
@@ -49,7 +49,7 @@
     purus. Integer lobortis sagittis odio sed eleifend. Fusce luctus quam tortor,
     vitae rhoncus augue aliquet at.
   picture: /assets/auto_generated/profile_pics/James_Martin.jpg
-  url: ''
+  url: http://www.cs.colorado.edu/~martin
   interests: Computational Linguistics, Natural Language Processing, Machine Learning
   affiliation: Professor of  Computer Science, University of Colorado Boulder
 - name: Martha Palmer
@@ -89,7 +89,7 @@
   gscholar_link: http://scholar.google.com/citations?user=Jxe5M_oAAAAJ
   bio: Blurb
   picture: /assets/auto_generated/profile_pics/Jennings_Anderson.jpg
-  url: ''
+  url: http://www.townsendjennings.com/
   interests: Human Centered Computing, Big Data, Data Mining, Crisis Informatics
   affiliation: University of Colorado at Boulder
 - name: Mario
@@ -98,7 +98,7 @@
   gscholar_link: http://scholar.google.com/citations?user=m463-VoAAAAJ
   bio: This is a blurb about how cool Mario is
   picture: /assets/auto_generated/profile_pics/Mario.jpg
-  url: ''
+  url: http://www.mbarrenecheajr.com/
   interests: human-centered software engineering, human-centered computing, crisis
     informatics
   affiliation: Student in Computer Science, University of Colorado at Boulder
