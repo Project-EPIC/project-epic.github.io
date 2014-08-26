@@ -15,7 +15,7 @@ css: team.css
 	<li class="person-list-item">
 		<a rel="person-fancy-box-link" href="#person-current-{{this_person}}">
 		<div class="person-box">
-			{% if person.profile_pic %}
+			{% if person.picture %}
 				<img src={{person.picture}} />
 			{% endif %}
 			<h3>{{ person.name }}</h3>
@@ -62,7 +62,7 @@ css: team.css
 	<li class="person-list-item">
 		<a rel="person-fancy-box-link" href="#person-alumni-{{this_person}}">
 		<div class="person-box">
-			{% if person.profile_pic %}
+			{% if person.picture %}
 				<img src={{person.picture}} />
 			{% endif %}
 			<h3>{{ person.name }}</h3>
