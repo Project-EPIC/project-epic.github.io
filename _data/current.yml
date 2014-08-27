@@ -26,6 +26,7 @@
     vitae rhoncus augue aliquet at.
 - name: Gloria Mark
   status: Current
+  gscholar_link: http://scholar.google.com/citations?user=aoZCW38AAAAJ&hl=en
   bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non odio
     a lacus molestie volutpat. Quisque laoreet neque non elementum dignissim. Suspendisse
     commodo vitae nisl quis blandit. Morbi turpis massa, facilisis condimentum porta
@@ -33,8 +34,13 @@
     in risus eu gravida. Nam iaculis nulla posuere velit cursus euismod ut sit amet
     purus. Integer lobortis sagittis odio sed eleifend. Fusce luctus quam tortor,
     vitae rhoncus augue aliquet at.
+  picture: /assets/auto_generated/profile_pics/Gloria_Mark.jpg
+  url: http://www.ics.uci.edu/~gmark
+  interests: Human-computer Interaction, Computer-supported cooperative work
+  affiliation: Professor of informatics, University of California, Irvine
 - name: James Martin
   status: Current
+  gscholar_link: http://scholar.google.com/citations?user=ZVxO6IIAAAAJ&hl=en
   bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non odio
     a lacus molestie volutpat. Quisque laoreet neque non elementum dignissim. Suspendisse
     commodo vitae nisl quis blandit. Morbi turpis massa, facilisis condimentum porta
@@ -42,6 +48,25 @@
     in risus eu gravida. Nam iaculis nulla posuere velit cursus euismod ut sit amet
     purus. Integer lobortis sagittis odio sed eleifend. Fusce luctus quam tortor,
     vitae rhoncus augue aliquet at.
+  picture: /assets/auto_generated/profile_pics/James_Martin.jpg
+  url: http://www.cs.colorado.edu/~martin
+  interests: Computational Linguistics, Natural Language Processing, Machine Learning
+  affiliation: Professor of  Computer Science, University of Colorado Boulder
+- name: Martha Palmer
+  status: Current
+  gscholar_link: http://scholar.google.com/citations?user=pxc_-XYAAAAJ&hl=en
+  bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non odio
+    a lacus molestie volutpat. Quisque laoreet neque non elementum dignissim. Suspendisse
+    commodo vitae nisl quis blandit. Morbi turpis massa, facilisis condimentum porta
+    in, imperdiet ac felis. Fusce facilisis vehicula nisl vel commodo. Nunc pellentesque
+    in risus eu gravida. Nam iaculis nulla posuere velit cursus euismod ut sit amet
+    purus. Integer lobortis sagittis odio sed eleifend. Fusce luctus quam tortor,
+    vitae rhoncus augue aliquet at.
+  picture: /assets/auto_generated/profile_pics/Martha_Palmer.jpg
+  url: ''
+  interests: Computational Linguistics, Artificial Intelligence, Medical Informatics,
+    Intelligent Tutoring, Human-centered Computing
+  affiliation: Professor of Linguistics, Computer Science, University of Colorado
 - name: Robert Soden
   status: Current
   role: Student
@@ -62,7 +87,7 @@
   status: Current
   role: Student
   gscholar_link: http://scholar.google.com/citations?user=Jxe5M_oAAAAJ
-  bio: This is a blurb about Jennings
+  bio: Blurb
   picture: /assets/auto_generated/profile_pics/Jennings_Anderson.jpg
   url: http://www.townsendjennings.com/
   interests: Human Centered Computing, Big Data, Data Mining, Crisis Informatics
