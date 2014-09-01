@@ -115,11 +115,20 @@ h3 {
   margin:10px auto 10px auto;
   width:100%;
 }
+
+#partners_sections h3 {
+	font-size:31.5px;
+	line-height:40px;
+	font-weight:bold;
+}
+
 #partners_sections section {
   margin:0 auto;
   padding:15px;
   position:relative;
   min-height:300px;
+	font-size:16pt;
+	line-height:1.4em;
 }
 #partners_sections section img{
   margin:10px auto 10px auto;
