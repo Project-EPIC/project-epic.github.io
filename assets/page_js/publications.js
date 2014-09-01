@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  $(".scrolling-nav-list").hide();
   $(".publication-expand").hide();
   //toggle the componenet with class msg_body
   
