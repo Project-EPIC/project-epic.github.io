@@ -1,11 +1,12 @@
 #publications_chooser {
 	text-align: center;
-	font-size: .9em;
+	font-size: 1.1em;
 	margin:0px 0px -30px 0px;
 	}
 	
 #publications_chooser a.active {
 	color: #000;
+	font-size: 1.2em;
 }
 
 .active-publication {
@@ -17,6 +18,8 @@
 .publication-item{
 	cursor: pointer;
 	margin: 10px;
+	margin-right: 150px;
+	margin-left: 25px;
 }
 
 .publication-item:hover{
@@ -44,6 +47,10 @@
 }
 
 .category{
+}
+
+h3.pub_category{
+	border-bottom: 1px solid #333;
 }
 
 a.download{
