@@ -503,6 +503,18 @@
   year: '2010'
   download_link: http://portal.acm.org/citation.cfm?id=1753326.1753485
   title: 'Blogging in a region of conflict: Supporting transition to recovery.'
+  abstract: The blogosphere is changing how people experience war and conflict. We
+    conducted an analysis of 125 blogs written by Iraqi citizens experiencing extreme
+    disruption in their country. We used Hoffman’s [8] stages of recovery model to
+    understand how blogs support people in a region where conflict is occurring. We
+    found that blogs create a safe virtual environment where people could interact,
+    free of the violence in the physical environment and of the strict social norms
+    of their changing society in wartime. Second, blogs enable a large network of
+    global support through their interactive and personal nature. Third, blogs enable
+    people experiencing a conflict to engage in dialogue with people outside their
+    borders to discuss their situation. We discuss how blogs enable people to collaboratively
+    interpret conflict through communities of interest and discussion with those who
+    comment. We discuss how technology can better support blog use in a global environment.
   category:
   - Sociobehavioral Research
   etc: In Proceedings of the 28th International Conference on Human Factors in Computing
@@ -514,6 +526,18 @@
   year: '2010'
   download_link: http://portal.acm.org/citation.cfm?id=1841853.1841859
   title: 'Blogging through Conflict: Sojourners in the Age of Social Media.'
+  abstract: Social media enables the creation of online communities across physical
+    boundaries. Blogs,or weblogs, enablebloggers to interact with a range of followers.
+    We sought to conduct a qualitative study of the nature of the interactions that
+    emerge in a blog community whose members are experiencing the impacts of ongoing
+    conflict. We chose the Iraqi blogging community as a case study and focused on
+    investigating the role of intercultural interactions in shaping people’s experiences
+    during conflict. We found that intercultural interactions aided people by providing
+    support, finding commonality, building a knowledge base, and in giving advice
+    on restoring infrastructure. The intercultural interactions provided alternative
+    views of an event constructed from diverse cultural perspectives. We found that
+    the intercultural interactions we observed suggest a degree of intercultural competency
+    within the blogosphere.
   category:
   - Sociobehavioral Research
   etc: InProceedings of the 3rd international Conference on intercultural Collaboration
@@ -526,6 +550,19 @@
   download_link: http://www.cs.colorado.edu/~palen/chatter_on_the_red.pdf
   title: 'Chatter on the Red: What hazards threat reveals about the social life of
     microblogged information.'
+  abstract: This paper considers a subset of the computer-mediated communication (CMC)
+    that took place during the flooding of the Red River Valley in the US and Canada
+    in March and April 2009. Focusing on the use of Twitter, a microblogging service,
+    we identified mechanisms of information production, distribution, and organization.
+    The Red River event resulted in a rapid generation of Twitter communications by
+    numerous sources using a variety of communications forms, including autobiographical
+    and mainstream media reporting, among other types. We examine the social life
+    of microblogged information, identifying generative, synthetic, derivative and
+    innovative properties that sustain the broader system of interaction. The landscape
+    of Twitter is such that the production of new information is supported through
+    derivative activities of directing, relaying, synthesizing, and redistributing,
+    and is additionally complemented by socio-technical innovation. These activities
+    comprise self-organization of information.
   category:
   - Sociobehavioral Research
   etc: In Proceedings of the 2010 ACM Conference on Computer Supported Cooperative
@@ -554,6 +591,19 @@
   authors: 'Liu, S. B. '
   year: '2010'
   title: The Rise of Curated Crisis Content.
+  abstract: In a networked world, we are increasingly inundated with information from
+    online data streams especially from the social web. Curation has increasingly
+    become the buzzword for managing this problem of information overload in the digital
+    age. However, the applications and interpretations of curation by social web users
+    are varied and often stray away from traditional curator roles. I present seven
+    curatorial activities (i.e. collecting, organizing, preserving, filtering, crafting
+    a story, displaying, and facilitating discussions) based on the analysis of 100
+    web artifacts. I introduce the concept, socially-distributed curation, to emphasize
+    the distributed nature of this curatorial process emerging from the social web.
+    Lastly, I present seven case studies to illustrate preliminary examples of curated
+    crisis content for four crises. These findings are to inform future designs and
+    developments of crisis management tools that could benefit from curated crisis
+    content.
   category:
   - Sociobehavioral Research
   - Perspectives and Vision
@@ -566,6 +616,13 @@
   download_link: http://www.cs.colorado.edu/~palen/vieweg_1700_chi2010.pdf
   title: 'Microblogging During Two Natural Hazards Events: What Twitter May Contribute
     to Situational Awareness.'
+  abstract: We analyze microblog posts generated during two recent, concurrent emergency
+    events in North America via Twitter, a popular microblogging service. We focus
+    on communications broadcast by people who were “on the ground” during the Oklahoma
+    Grassfires of April 2009 and the Red River Floods that occurred in March and April
+    2009, and identify information that may contribute to enhancing situational awareness
+    (SA). This work aims to inform next steps for extracting useful, relevant information
+    during emergencies using information extraction (IE) techniques.
   category:
   - Sociobehavioral Research
   etc: In Proceedings of the 28th International Conference on Human Factors in Computing
@@ -587,6 +644,22 @@
   authors: 'Starbird, K. and Palen, L. '
   year: '2010'
   title: 'Pass It On?: Retweeting in Mass Emergencies.'
+  abstract: We examine microblogged information generated during two different co-occurring
+    natural hazards events in Spring 2009. Due to its rapid and widespread adoption,
+    microblogging in emergency response is a place for serious consideration and experimentation
+    for future application. Because microblogging is comprised of a set of practices
+    shaped by a number of forces, it is important to measure and describe the diffuse,
+    multi-party information exchange behaviors to anticipate how emergency governance
+    might best play a role. Here we direct consideration toward information propagation
+    properties in the Twitterverse, describing features of information redistribution
+    related to the retweet (RT @) convention. Our analysis shows that during an emergency,
+    for tweets authored by local users and tweets that contain emergency-related search
+    terms, retweets are more likely than non-retweets to be about the event. We note
+    that users are more likely to retweet information originally distributed through
+    Twitter accounts run by media, especially the local media, and traditional service
+    organizations. Comparing local users to the broader audience, we also find that
+    tweet-based information redistribution is different for those who are local to
+    an emergency event.
   category:
   - Sociobehavioral Research
   etc: Presented at the 7th International Information Systems for Crisis Response
@@ -621,7 +694,7 @@
     and why. Data mining and information extraction techniques have a critical place
     here, as does the creation of trust models and security techniques to offer privacy
     or possibly anonymity. <br>However, if mechanisms are provided to enhance the
-    users&#8217; privacy and even offer the capability for anonymous information contributions,
+    users' privacy and even offer the capability for anonymous information contributions,
     it is possible that malicious entities may exploit this anonymity and inject false
     and misleading information into information streams. It is worth noting that false
     information could be introduced into the system without these features; it is
@@ -673,6 +746,10 @@
   download_link: http://onlinelibrary.wiley.com/doi/10.1002/bult.2010.1720360505/abstract
   title: Twitter-based information distribution during the 2009 Red River Valley flood
     threat.
+  abstract: This article reports on a set of studies of the use of Twitter, a popular
+    microblogging service, during the 2009 seasonal flood threat period to the Red
+    RiverValley whose river separates North Dakota and Minnesota in a region that
+    extends across the U.S.-Canadian border into the province of Manitoba.
   category:
   - Sociobehavioral Research
   etc: Bulletin of the American Society for Information Science and Technology, American
@@ -685,6 +762,15 @@
   download_link: http://epic.cs.colorado.edu/wp-content/uploads/bsemaan-ISCRAM10.pdf
   title: 'Developing Information Technologies and Government Policies for Citizens
     Experiencing Disruption: The Role of Trust and Context.'
+  abstract: This paper considers a subset of the technology-enabled communication
+    that took place among citizen populations experiencing various disruptions, e.g.
+    disaster and war. In the context of a disrupted environment, trust can erode where
+    people no longer rely on institutions for support (i.e. the government), or where
+    citizens do not trust other people. We argue that depending on what is taking
+    place in the physical world, trust in people, information, and institutions can
+    change – in this sense, trust is contextual. We then offer recommendations for
+    designing new technologies for people who experience disruption, taking into account
+    trust and context.
   category:
   - Sociobehavioral Research
   etc: Presented at the 7th International Information Systems for Crisis Response
@@ -697,6 +783,22 @@
   download_link: http://www.cs.colorado.edu/~palen/computingvisionspaper.pdf
   title: A vision for technology-mediated support for public participation and assistance
     in mass emergencies and disasters.
+  abstract: We present a vision of the future of emergency management that better
+    supports inclusion of activities and information from members of the public during
+    disasters and mass emergency events. Such a vision relies on integration of multiple
+    subfields of computer science, and a commitment to an understanding of the domain
+    of application. It supports the hopes of a grid/cyberinfrastructure-enabled future
+    that makes use of social software. However, in contrast to how emergency management
+    is often understood, it aims to push beyond the idea of monitoring on-line activity,
+    and instead focuses on an understudied but critical aspect of mass emergency response—the
+    needs and roles of members of the public. By viewing the citizenry as a powerful,
+    self-organizing, and collectively intelligent force, information and communication
+    technology can play a transformational role in crisis. Critical topics for research
+    and development include an understanding of the quantity and quality of information
+    (and its continuous change) produced through computer-mediated communication during
+    emergencies; mechanisms for ensuring trustworthiness and security of information;
+    mechanisms for aligning informal and formal sources of information; and new applications
+    of information extraction techniques.
   category:
   - Perspectives and Vision
   - Data Collection and Analytics Infrastructure

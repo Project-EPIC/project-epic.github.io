@@ -31,10 +31,14 @@ scroller:
 			<div class="publication-expand">
 				<h3 class="title">{{pub.title}}</h4>
 				<h4 class="authors">{{pub.authors}}</h3>
-				{% if pub.abstract %}
-					<h6 class=>Abstract</h6>
-					<p class="abstract">{{pub.abstract}}</p>
-				{% endif %}
+					{% if pub.abstract %}
+						<h6>Abstract</h6>
+						<p class="abstract">{{pub.abstract}}</p>
+					{% endif %}
+						<h6>Category:</h6><p>{{pub.category}}</p>
+					{% if pub.download_link %}
+						<a class="download" href="{{pub.download_link}}" target="_blank">Download Full PDF</a>
+					{% endif %}
 			</div>
 		{% endif %}
 	{% endfor %}
