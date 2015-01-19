@@ -43,8 +43,8 @@
 }
 
 #front_slider li a:hover {
-	text-decoration:none;
-	color:#fff;
+	text-decoration: none;
+	color: #DDD;
 }
 
 #front_slider li .title {
