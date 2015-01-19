@@ -18,11 +18,13 @@ scroller:
 ---
 {% include navigation/ourwork_nav.html %}
 
+<!-- Add sticky subnavigation for the different years -->
+{% include navigation/sticky_sub_nav.html %}
+
 {% include navigation/publications_chooser.html %}
 
 {% for year in page.scroller %}
-	<a name={{year[1]}}>&nbsp;</a>
-	<h3 class="pub_category {{this_year}}">{{year[0]}}</h3>
+	<h3 id="{{ year[1] }}" class="pub_category">{{year[0]}}</h3>
 	<ul class="papers-in year {{this_year}}">
 	{% for pub in site.data.publications %}
 		{% if pub.year == year[0] %}

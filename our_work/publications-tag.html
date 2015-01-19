@@ -13,13 +13,14 @@ scroller:
 
 {% include navigation/ourwork_nav.html %}
 
+<!-- Add sticky subnavigation for the different tags -->
 {% include navigation/sticky_sub_nav.html %}
 
 <!--Add the Year / Category Chooser -->
 {% include navigation/publications_chooser.html %}
 
 {% for category in page.scroller %}
-<h3 id="{{category[1]}}" class="pub_section {{category[0]}}">{{category[0]}}</h3>
+<h3 id="{{ category[1] }}" class="pub_section">{{category[0]}}</h3>
 <ul class="papers-in category {{category[0]}}">
 	{% for pub in site.data.publications %}
 		{% if pub.category contains category[0] %}

@@ -1,0 +1,41 @@
+<!-- 
+	
+	A sticky sub navigation for long pages based on the "scroller" attribute on a page.
+
+ -->
+
+<div id="scrolling-nav-div">
+	<ul class="scrolling-nav-list">
+	{% for item in page.scroller %}
+		<li class="sub-nav-list-item"><a href="#{{item[1]}}">{{ item[0] }}</a></li>
+	{% endfor %}
+	</ul>
+</div>
+
+<script type="text/javascript">
+	//Hide the scrolling sub navigation
+	$("#scrolling-nav-div").hide()
+
+	//Assign a waypoint to the wrapper to show/hide the subnavigation
+	$(".wrapper").waypoint(function() {
+		$("#scrolling-nav-div").toggle(1000);
+	}, { offset: 200});
+
+	//Now add the logic to each element in the subnavigation list:
+	$(".sub-nav-list-item").each(function( index ) {
+		
+		var link = $('a',this).attr('href');
+		var element = $(this)
+
+		//Add a waypoint to the actual object
+		$(link).waypoint(function(index){
+			$(".sub-nav-list-item").removeClass("active")
+			element.toggleClass("active")
+		},{offset: 0})
+
+		element.click(function(){
+			console.log(link)
+			$('html,body').animate({scrollTop: $(link).offset().top-50 }, 'medium');
+		})			
+	});	
+</script>
