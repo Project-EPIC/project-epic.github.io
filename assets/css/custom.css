@@ -126,11 +126,21 @@ h3.section-head{
 }
 
 
-/* Our Work - Move? */
+/* Our Work - Sections */
+
 #work_sections {
   margin:10px auto 10px auto;
   width:100%;
 }
+
+#work_sections p{
+  padding-right: 120px;
+  padding-left: 120px;
+  text-align: justify;
+  line-height: 1.4em;
+  color:#000;
+}
+
 #work_sections section {
   margin:0 auto;
   padding:15px;
@@ -142,11 +152,17 @@ h3.section-head{
   display:inline-block;
   vertical-align: top;
 }
-#work_sections h3 { color:white; }
+
 #work_sections article {
-  color:white;
   display:inline-block;
 }
+
+sections { padding-top: 10px;}
+.section_titles { text-align:center; margin-bottom:50px;}
+.section_images { margin: 0 auto; text-align: center;}
+.section_image { width: 500px; padding:10px; vertical-align: top;}
+.section_content{ padding:15px; font-size:16pt;}
+.section_footer { float:right; font-style:italic; font-size:10pt;}
 
 /* partners_sections */
 #partners_sections {
@@ -178,28 +194,6 @@ h3.section-head{
   color:black;
   display:inline-block;
 }
-
-/*** Socio-behavioral Parallax Sections **/
-.sb-1 { background: url("/assets/images/section-parallax/coflood-green.jpg") fixed;}
-.sb-2 { background: url("/assets/images/section-parallax/pet-rescue-green.jpg") fixed;}
-.sb-3 { background: url("/assets/images/section-parallax/volunteers-green.jpg") fixed;}
-
-/*** Software Engineering Parallax Sections **/
-.se-1 { background: url("/assets/images/section-parallax/hurricane-blue.jpg") fixed;}
-.se-2 { background: url("/assets/images/section-parallax/hurricane-sandy-blue.jpg") bottom;}
-
-/*** Natural Language Processing Parallax Sections **/
-.nlp-1 { background: url("/assets/images/section-parallax/disaster-orange.jpg") fixed;}
-.nlp-2 { background: url("/assets/images/section-parallax/students-orange.jpg") fixed;}
-
-/*** Scolars Partner Parallax Sections **/
-.sp-1 { background: url("/assets/images/section-parallax/research-program-fallbackbanner.jpg") fixed;}
-
-/*** Practitioners Partner Parallax Sections **/
-.pp-1 { background: url("/assets/images/section-parallax/cu.jpg") fixed;}
-
-/*** Potential Students Partner Parallax Sections **/
-.psp-1 { background: url("/assets/images/section-parallax/feature_winter_grad_2011.jpg") fixed;}
 
 /*** Page Setup **/
 #work_sections article,
