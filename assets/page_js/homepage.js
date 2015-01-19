@@ -1,11 +1,10 @@
 $(document).ready(function(){
   $('#front_slider').bxSlider({
-    auto: true,
+    auto: false,
   	captions: true,
-    controls: false,
+    controls: true,
     pager: true,
   	adaptiveHeight: true,
   	responsive: true,
-  	speed: 2000
   });
 });
