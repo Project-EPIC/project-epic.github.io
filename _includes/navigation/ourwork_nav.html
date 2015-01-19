@@ -1,5 +1,11 @@
 <ul class="nav-list">
-   <li><a href="index.html">Our Work</a></li>
+   
+   {% if page.title == 'Our Work' %}
+    <li class="active">
+   {% else %}
+    <li> 
+   {% endif %}
+   <a href="index.html">Our Work</a></li>
    {% assign pages_list = site.weighted_pages %}
    {% assign group = 'our_work' %}
    {% include custom/pages_list %}
