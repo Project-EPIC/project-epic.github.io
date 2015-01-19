@@ -27,13 +27,12 @@
 		var link = $('a',this).attr('href');
 		var element = $(this)
 
-		console.log($(link));
-
 		//Add a waypoint to the actual object
 		$(link).waypoint(function(index){
+			console.log(element)
 			$(".sub-nav-list-item").removeClass("active")
 			element.toggleClass("active")
-		},{offset: 0})
+		},{offset: 10});
 
 		element.click(function(){
 			console.log(link)
