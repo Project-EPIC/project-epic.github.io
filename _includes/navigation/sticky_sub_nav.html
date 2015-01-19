@@ -27,6 +27,8 @@
 		var link = $('a',this).attr('href');
 		var element = $(this)
 
+		console.log($(link));
+
 		//Add a waypoint to the actual object
 		$(link).waypoint(function(index){
 			$(".sub-nav-list-item").removeClass("active")

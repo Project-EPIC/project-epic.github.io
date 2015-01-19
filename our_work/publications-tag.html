@@ -20,7 +20,7 @@ scroller:
 {% include navigation/publications_chooser.html %}
 
 {% for category in page.scroller %}
-<h3 id="{{ category[1] }}" class="pub_section">{{category[0]}}</h3>
+<h3 id="{{ category[1] }}" class="section-head">{{category[0]}}</h3>
 <ul class="papers-in category {{category[0]}}">
 	{% for pub in site.data.publications %}
 		{% if pub.category contains category[0] %}

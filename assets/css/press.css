@@ -3,11 +3,11 @@
 	background:#eee;
 }
 
-#press_list {
+.press_list {
 	margin:0px; 
 }
 
-#press_list li {
+.press_list li {
 	list-style-type:none;
 	text-indent:0px;
 	margin:15px 0px;

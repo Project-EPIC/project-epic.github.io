@@ -5,15 +5,30 @@ group: our_work
 weight: 5
 parent: Our Work
 css: press.css
+scroller:
+#  '2014' : '2014'
+  '2013' : '2013'
+#  '2012' : '2012'
+#  '2011' : '2011'
+  '2010' : '2010'
+  '2009' : '2009'
 ---
+
 {% include navigation/ourwork_nav.html %}
+
+{% include navigation/sticky_sub_nav.html %}
 
 <div id="press_notes">
 Media enquiries are welcome. While we are unable to speak to events and collections in progress, we are happy to comment on our research work, publications and areas of expertise.
 </div>
 
-<ul id ='press_list'>
-{% for press in site.data.press %}
-	<li><a href="{{ press.Link }}">{{ press.name }}</a></li>
+{% for year in page.scroller %}
+	<h3 id="{{ year[1] }}" class="section-head">{{year[0]}}</h3>
+	<ul class="press_list {{this_year}}">
+	{% for press in site.data.press %}
+		{% if press.year == year[0] %}
+			<li><a href="{{ press.Link }}">{{ press.name }}</a></li>
+		{% endif %}
+	{% endfor %}
+	</ul>
 {% endfor %}
-</ul>	

@@ -7,7 +7,7 @@ parent: Our Work
 js: publications.js
 css: publications.css
 scroller:
-  '2014' : '2014'
+# '2014' : '2014'
   '2013' : '2013'
   '2012' : '2012'
   '2011' : '2011'
@@ -24,7 +24,7 @@ scroller:
 {% include navigation/publications_chooser.html %}
 
 {% for year in page.scroller %}
-	<h3 id="{{ year[1] }}" class="pub_category">{{year[0]}}</h3>
+	<h3 id="{{ year[1] }}" class="section-head">{{year[0]}}</h3>
 	<ul class="papers-in year {{this_year}}">
 	{% for pub in site.data.publications %}
 		{% if pub.year == year[0] %}
