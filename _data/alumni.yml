@@ -2,7 +2,7 @@
 - name: Kate Starbird
   status: Alumni
   gscholar_link: http://scholar.google.com/citations?user=C6KSF5gAAAAJ&hl=en
-  picture: /assets/auto_generated/profile_pics/Kate_Starbird.jpg
+  picture: "/assets/auto_generated/profile_pics/Kate_Starbird.jpg"
   url: http://faculty.washington.edu/kstarbi/
   interests: Crisis Informatics, Crowdsourcing, Crowdwork, CSCW, Human Computer Interaction
   affiliation: Professor, Human Centered Design & Engineering, University of Washington
@@ -13,7 +13,7 @@
 - name: Amanda Lee Hughes
   status: Alumni
   gscholar_link: http://scholar.google.com/citations?user=Sjbz8ngAAAAJ&hl=en
-  picture: /assets/auto_generated/profile_pics/Amanda_Lee_Hughes.jpg
+  picture: "/assets/auto_generated/profile_pics/Amanda_Lee_Hughes.jpg"
   url: http://amandaleehughes.com/
   interests: Human-Computer Interaction, Crisis Informatics
   affiliation: Utah State University

@@ -5,20 +5,21 @@ parent: [Our Work, Publications]
 js: publications.js
 css: publications.css
 scroller:
-  Perspectives and Vision : perspectives_and_vision
-  Computational Linguistics : computational_linguistics
+  Perspectives and Vision 					   : perspectives_and_vision
+  Computational Linguistics 				   : computational_linguistics
   Data Collection and Analytics Infrastructure : data_collection_and_analytics
-  Sociobehavioral Research : sociobehavioral_research
+  Sociobehavioral Research 					   : sociobehavioral_research
 ---
 
 {% include navigation/ourwork_nav.html %}
+
+{% include navigation/sticky_sub_nav.html %}
 
 <!--Add the Year / Category Chooser -->
 {% include navigation/publications_chooser.html %}
 
 {% for category in page.scroller %}
-<a name={{category[1]}}>&nbsp;</a>
-<h3 class="pub_section {{category[0]}}">{{category[0]}}</h3>
+<h3 id="{{category[1]}}" class="pub_section {{category[0]}}">{{category[0]}}</h3>
 <ul class="papers-in category {{category[0]}}">
 	{% for pub in site.data.publications %}
 		{% if pub.category contains category[0] %}

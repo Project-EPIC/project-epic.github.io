@@ -10,13 +10,14 @@
     in risus eu gravida. Nam iaculis nulla posuere velit cursus euismod ut sit amet
     purus. Integer lobortis sagittis odio sed eleifend. Fusce luctus quam tortor,
     vitae rhoncus augue aliquet at.
-  picture: /assets/auto_generated/profile_pics/Leysia_Palen.jpg
+  picture: "/assets/auto_generated/profile_pics/Leysia_Palen.jpg"
   url: https://www.cs.colorado.edu/~palen/
   interests: Human computer interaction, computer supported cooperative work, social
     computing, crisis informatics
   affiliation: Associate Professor of Computer Science, University of Colorado Boulder
 - name: Ken Anderson
   status: Current
+  gscholar_link: http://scholar.google.com/citations?user=wOO8rEMAAAAJ&hl=en
   bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non odio
     a lacus molestie volutpat. Quisque laoreet neque non elementum dignissim. Suspendisse
     commodo vitae nisl quis blandit. Morbi turpis massa, facilisis condimentum porta
@@ -24,6 +25,11 @@
     in risus eu gravida. Nam iaculis nulla posuere velit cursus euismod ut sit amet
     purus. Integer lobortis sagittis odio sed eleifend. Fusce luctus quam tortor,
     vitae rhoncus augue aliquet at.
+  picture: "/assets/auto_generated/profile_pics/Ken_Anderson.jpg"
+  url: http://www.cs.colorado.edu/~kena/
+  interests: hypertext, hypermedia, software engineering, software architecture, crisis
+    informatics
+  affiliation: University of Colorado
 - name: Gloria Mark
   status: Current
   gscholar_link: http://scholar.google.com/citations?user=aoZCW38AAAAJ&hl=en
@@ -34,7 +40,7 @@
     in risus eu gravida. Nam iaculis nulla posuere velit cursus euismod ut sit amet
     purus. Integer lobortis sagittis odio sed eleifend. Fusce luctus quam tortor,
     vitae rhoncus augue aliquet at.
-  picture: /assets/auto_generated/profile_pics/Gloria_Mark.jpg
+  picture: "/assets/auto_generated/profile_pics/Gloria_Mark.jpg"
   url: http://www.ics.uci.edu/~gmark
   interests: Human-computer Interaction, Computer-supported cooperative work
   affiliation: Professor of informatics, University of California, Irvine
@@ -48,7 +54,7 @@
     in risus eu gravida. Nam iaculis nulla posuere velit cursus euismod ut sit amet
     purus. Integer lobortis sagittis odio sed eleifend. Fusce luctus quam tortor,
     vitae rhoncus augue aliquet at.
-  picture: /assets/auto_generated/profile_pics/James_Martin.jpg
+  picture: "/assets/auto_generated/profile_pics/James_Martin.jpg"
   url: http://www.cs.colorado.edu/~martin
   interests: Computational Linguistics, Natural Language Processing, Machine Learning
   affiliation: Professor of  Computer Science, University of Colorado Boulder
@@ -62,8 +68,7 @@
     in risus eu gravida. Nam iaculis nulla posuere velit cursus euismod ut sit amet
     purus. Integer lobortis sagittis odio sed eleifend. Fusce luctus quam tortor,
     vitae rhoncus augue aliquet at.
-  picture: /assets/auto_generated/profile_pics/Martha_Palmer.jpg
-  url: ''
+  picture: "/assets/auto_generated/profile_pics/Martha_Palmer.jpg"
   interests: Computational Linguistics, Artificial Intelligence, Medical Informatics,
     Intelligent Tutoring, Human-centered Computing
   affiliation: Professor of Linguistics, Computer Science, University of Colorado
@@ -78,26 +83,25 @@
     in risus eu gravida. Nam iaculis nulla posuere velit cursus euismod ut sit amet
     purus. Integer lobortis sagittis odio sed eleifend. Fusce luctus quam tortor,
     vitae rhoncus augue aliquet at.
-  picture: /assets/auto_generated/profile_pics/Robert_Soden.jpg
-  url: ''
+  picture: "/assets/auto_generated/profile_pics/Robert_Soden.jpg"
   interests: HCI, CSCW, Science and Technology Studies, Critical Cartography, Disaster
-    Risk Management
+    Studies & Resilience
   affiliation: PhD Student University of Colorado Boulder
 - name: Jennings Anderson
   status: Current
   role: Student
   gscholar_link: http://scholar.google.com/citations?user=Jxe5M_oAAAAJ
   bio: Blurb
-  picture: /assets/auto_generated/profile_pics/Jennings_Anderson.jpg
+  picture: "/assets/auto_generated/profile_pics/Jennings_Anderson.jpg"
   url: http://www.townsendjennings.com/
-  interests: Human Centered Computing, Big Data, Data Mining, Crisis Informatics
+  interests: Human Centered Computing, Crisis Informatics, GeoHCI
   affiliation: University of Colorado at Boulder
 - name: Mario
   status: Current
   role: Student
   gscholar_link: http://scholar.google.com/citations?user=m463-VoAAAAJ
   bio: This is a blurb about how cool Mario is
-  picture: /assets/auto_generated/profile_pics/Mario.jpg
+  picture: "/assets/auto_generated/profile_pics/Mario.jpg"
   url: http://www.mbarrenecheajr.com/
   interests: human-centered software engineering, human-centered computing, crisis
     informatics
@@ -135,10 +139,16 @@
 - name: Marina Kogan
   status: Current
   role: Student
+  gscholar_link: http://scholar.google.com/citations?user=ST-2CicAAAAJ
   bio: 'Marina is a student '
+  picture: "/assets/auto_generated/profile_pics/Marina_Kogan.jpg"
+  interests: Computer supported cooperative work, network science, computational social
+    science, social computing, crisis informatics
+  affiliation: Graduate student in Computer Science, University of Colorado, Boulder
 - name: Lise St. Denis
   status: Current
   role: Student
+  gscholar_link: http://scholar.google.com/citations?user=3d2Tgx0AAAAJ&hl=en
   bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non odio
     a lacus molestie volutpat. Quisque laoreet neque non elementum dignissim. Suspendisse
     commodo vitae nisl quis blandit. Morbi turpis massa, facilisis condimentum porta
@@ -146,6 +156,8 @@
     in risus eu gravida. Nam iaculis nulla posuere velit cursus euismod ut sit amet
     purus. Integer lobortis sagittis odio sed eleifend. Fusce luctus quam tortor,
     vitae rhoncus augue aliquet at.
+  picture: "/assets/auto_generated/profile_pics/Lise_St._Denis.jpg"
+  affiliation: University of Colorado at Boulder
 - name: Jo White
   status: Current
   role: Student
@@ -157,13 +169,13 @@
     in risus eu gravida. Nam iaculis nulla posuere velit cursus euismod ut sit amet
     purus. Integer lobortis sagittis odio sed eleifend. Fusce luctus quam tortor,
     vitae rhoncus augue aliquet at.
-  picture: /assets/auto_generated/profile_pics/Jo_White.jpg
-  url: ''
+  picture: "/assets/auto_generated/profile_pics/Jo_White.jpg"
   interests: HCI, media, crisis informatics, social media
   affiliation: PhD Student, University of Colorado Boulder
-- name: Ahmet
+- name: Ahmet Aydin
   status: Current
   role: Student
+  gscholar_link: https://scholar.google.com/citations?user=G9Fi3gUAAAAJ&hl=en
   bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non odio
     a lacus molestie volutpat. Quisque laoreet neque non elementum dignissim. Suspendisse
     commodo vitae nisl quis blandit. Morbi turpis massa, facilisis condimentum porta
@@ -171,6 +183,26 @@
     in risus eu gravida. Nam iaculis nulla posuere velit cursus euismod ut sit amet
     purus. Integer lobortis sagittis odio sed eleifend. Fusce luctus quam tortor,
     vitae rhoncus augue aliquet at.
+  picture: "/assets/auto_generated/profile_pics/Ahmet_Aydin.jpg"
+  url: http://aaaydin.github.io/
+  interests: Software Engineering, Software Architecture, Real Time Analytics & Infrastructure
+    Design, Algorithm Design, Crisis Informatics
+  affiliation: PhD Student , University of Colorado Boulder
+- name: Melissa Bica
+  status: Current
+  role: Student
+  gscholar_link: http://scholar.google.com/citations?user=T4PCkQUAAAAJ&hl=en&oi=ao
+  bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non odio
+    a lacus molestie volutpat. Quisque laoreet neque non elementum dignissim. Suspendisse
+    commodo vitae nisl quis blandit. Morbi turpis massa, facilisis condimentum porta
+    in, imperdiet ac felis. Fusce facilisis vehicula nisl vel commodo. Nunc pellentesque
+    in risus eu gravida. Nam iaculis nulla posuere velit cursus euismod ut sit amet
+    purus. Integer lobortis sagittis odio sed eleifend. Fusce luctus quam tortor,
+    vitae rhoncus augue aliquet at.
+  picture: "/assets/auto_generated/profile_pics/Melissa_Bica.jpg"
+  url: https://www.linkedin.com/in/melissabica
+  interests: Human-Centered Computing
+  affiliation: Graduate student in Computer Science, University of Colorado, Boulder
 - name: Kevin Stowe
   status: Current
   role: Student

@@ -47,7 +47,8 @@
     {% endif %}
 
     {% if page.scroller %}
-    <script src="{{ BASE_PATH }}/assets/js/epic-scrolling-nav.js" type="text/javascript"></script>
+    <script src="{{ BASE_PATH }}/assets/js/jquery-waypoints.min.js" type="text/javascript"></script>
+     <script src="{{ BASE_PATH }}/assets/js/waypoints-sticky.min.js" type="text/javascript"></script>
     {% endif %}
 
 
@@ -75,17 +76,8 @@
          </ul>
       </div>
     </div>
-    
-    {% if page.scroller %}
-      <div id="scrolling-nav-div">
-        <ul class="scrolling-nav-list">
-        {% for link in page.scroller %}
-          <li><a href=#{{link[1]}}>{{ link[0] }}</a></li>
-        {% endfor %}
-        </ul>
-      </div>
-    {% endif %}
 
+    <!-- If it's the front page, then show the main slider -->
 		{% if page.front %}
 		<ul id="front_slider">
 			<li id="our_work">
