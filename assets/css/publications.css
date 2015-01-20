@@ -1,16 +1,6 @@
 /*
 	ONLY SPECIFIC UGLY CSS WHICH APPLIES TO THE PUBLICATIONS PAGE SHOULD GO HERE.
 */
-#publications_chooser {
-	text-align: center;
-	font-size: 1.1em;
-	margin:0px 0px -30px 0px;
-	}
-	
-#publications_chooser a.active {
-	color: #000;
-	font-size: 1.2em;
-}
 
 .active-publication {
 	color: #000;
