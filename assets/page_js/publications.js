@@ -1,5 +1,9 @@
 $(document).ready(function() {
 
+  $("ul.scrolling-nav-list").click(function(){
+    $(".publication-expand").hide(400);
+  });
+
   //Be sure to hide all the descriptions
   $(".publication-expand").hide();
 
