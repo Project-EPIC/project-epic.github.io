@@ -1,1 +1,12 @@
-Sorry this page does not exist =(
+---
+layout: page
+title: Page Not Found
+---
+
+<h3>Sorry, the page you are looking for either does not exist or has been moved.</h3>
+
+<h2>Perhaps these links will help:</h2>
+<ul>
+{% assign pages_list = site.pages %}
+{% include JB/pages_list %}
+</ul>
