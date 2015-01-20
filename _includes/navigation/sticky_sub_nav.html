@@ -13,6 +13,7 @@
 </div>
 
 <script type="text/javascript">
+$(document).ready(function(){
 	//Hide the scrolling sub navigation
 	$("#scrolling-nav-div").hide()
 
@@ -22,21 +23,23 @@
 	}, { offset: 200});
 
 	//Now add the logic to each element in the subnavigation list:
-	$(".sub-nav-list-item").each(function( index ) {
+	$(".sub-nav-list-item").each(function( ) {
 		
 		var link = $('a',this).attr('href');
 		var element = $(this)
 
 		//Add a waypoint to the actual object
-		$(link).waypoint(function(index){
-			console.log(element)
+		$(link).waypoint(function(){
+			console.log(link)
 			$(".sub-nav-list-item").removeClass("active")
 			element.toggleClass("active")
-		},{offset: 10});
+		},{offset: 50});
 
 		element.click(function(){
-			console.log(link)
 			$('html,body').animate({scrollTop: $(link).offset().top-50 }, 'medium');
+			$(".sub-nav-list-item").removeClass("active")
+			element.addClass("active");
 		})			
-	});	
+	});
+});
 </script>
