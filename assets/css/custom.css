@@ -128,76 +128,55 @@ h3.section-head{
 
 /* Our Work & Partners */
 
-#work_sections {
+.sections {
   margin:10px auto 10px auto;
-  width:100%;
-}
-
-#work_sections p{
   padding-right: 120px;
   padding-left: 120px;
   text-align: justify;
-  line-height: 1.4em;
+  line-height: 24px;
+  font-size:18px;
   color:#000;
 }
 
-#work_sections section {
-  margin:0 auto;
-  padding:15px;
-  position:relative;
-  min-height:300px;
+.section {
+	margin:35px 0px;
+	clear:both;
+	display:inline-block;
 }
-#work_sections section img{
-  margin:10px auto 10px auto;
+
+.sections h2 {
+	text-align:center;
+}
+
+.sections img{
   display:inline-block;
   vertical-align: top;
 }
 
-#work_sections article {
-  display:inline-block;
+/* Individual Image Styling */
+
+img#perspectives {
+	float:right;
+	padding:0px 0px 10px 20px;
 }
 
-sections { padding-top: 10px;}
-.section_titles { text-align:center; margin-bottom:50px;}
-.section_images { margin: 0 auto; text-align: center;}
-.section_image { width: 500px; padding:10px; vertical-align: top;}
-.section_content{ padding:15px; font-size:16pt;}
-.section_footer { float:right; font-style:italic; font-size:10pt;}
-
-/* partners_sections */
-#partners_sections {
-  margin:10px auto 10px auto;
-  width:100%;
+img#socio-1 {
+	width:550px;
+	float:right;
 }
 
-#partners_sections h3 {
-	font-size:31.5px;
-	line-height:40px;
-	font-weight:bold;
+img#linguistics {
+	float:left;
+	width:400px;
 }
 
-#partners_sections section {
-  margin:0 auto;
-  padding:15px;
-  position:relative;
-  min-height:300px;
-	font-size:16pt;
-	line-height:1.4em;
-}
-#partners_sections section img{
-  margin:10px auto 10px auto;
-  display:inline-block;
-  vertical-align: top;
-}
-#partners_sections h3 { color:black; }
-#partners_sections article {
-  color:black;
-  display:inline-block;
+img#infrastructure-1,
+img#infrastructure-2 {
+	float:left;
+	width:500px;
 }
 
-/*** Page Setup **/
-#work_sections article,
-#partners_sections article,
-#partners_sections h3 {
-	margin:0px 20px;
+img#infrastructure-2 {
+	padding:0px 0px 50px;
 }
+
