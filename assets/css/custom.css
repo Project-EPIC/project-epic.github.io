@@ -126,7 +126,6 @@ h3.section-head{
 }
 
 /* Choosers like Year | Category */
-
 .chooser {
 	text-align: center;
 	font-size: 1.1em;
@@ -140,7 +139,6 @@ h3.section-head{
 
 
 /* Our Work & Partners */
-
 .sections {
   margin:10px auto 10px auto;
   padding-right: 120px;
@@ -167,7 +165,6 @@ h3.section-head{
 }
 
 /* Individual Image Styling */
-
 img#perspectives {
 	float:right;
 	padding:0px 0px 10px 20px;
@@ -193,3 +190,8 @@ img#infrastructure-2 {
 	padding:0px 0px 50px;
 }
 
+img#scholars,
+img#students {
+	float:left;
+	margin:0px 20px 0px 0px;
+}
