@@ -125,6 +125,19 @@ h3.section-head{
 	text-decoration: none;
 }
 
+/* Choosers like Year | Category */
+
+.chooser {
+	text-align: center;
+	font-size: 1.1em;
+	margin:0px 0px -30px 0px;
+	}
+	
+.chooser a.active {
+	color: #000;
+	font-size: 1.2em;
+}
+
 
 /* Our Work & Partners */
 

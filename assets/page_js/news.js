@@ -1,5 +1,4 @@
 $(document).ready(function() {
-  $("#scrolling-nav-div").hide()
   $(".news-expand").hide();
   //toggle the componenet with class msg_body
   $(".news-item").click(function(){
