@@ -57,8 +57,9 @@ ul.nav-list {
 
 ul.nav-list li {
   float:left;
-  margin:0px 80px;
+  margin:0px 65px;
   padding:5px 0px;
+  font-size: 18px;
 }
 
 ul.nav-list > .active > a,
