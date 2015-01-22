@@ -8,7 +8,7 @@ js: publications.js
 css: publications.css
 permalink: /publications_by_year/
 scroller:
-# '2014' : '2014'
+  '2014' : '2014'
   '2013' : '2013'
   '2012' : '2012'
   '2011' : '2011'
@@ -43,7 +43,7 @@ scroller:
 						<h6>Abstract</h6>
 						<p class="abstract">{{pub.abstract}}</p>
 					{% endif %}
-						<h6>Category:</h6><p>{{pub.category}}</p>
+						<h6>Category:</h6><p>{{pub.category | join: ", "}}</p>
 					{% if pub.download_link %}
 						<a class="download" href="{{pub.download_link}}" target="_blank">Download Full PDF</a>
 					{% endif %}

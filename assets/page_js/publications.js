@@ -9,6 +9,7 @@ $(document).ready(function() {
 
   //Handle the hiding / showing of abstracts
   $(".publication-item").click(function(){
+
     if ($(this).next(".publication-expand").is(":visible")){
       //If it is visible, then remove the class & hide it
       $(this).removeClass('active-publication')
@@ -23,6 +24,9 @@ $(document).ready(function() {
       $(this).addClass('active-publication')
       $(this).next(".publication-expand").slideToggle(400);
     }
+    $('html,body').animate({scrollTop: $(this).offset().top-100 }, 'slow');
+
+    $(".wrapper").css("opacity: .7;")
 
   });
 

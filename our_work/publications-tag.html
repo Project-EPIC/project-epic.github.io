@@ -38,7 +38,7 @@ scroller:
 						<h6>Abstract</h6>
 						<p class="abstract">{{pub.abstract}}</p>
 					{% endif %}
-						<h6>Category:</h6><p>{{pub.category}}</p>
+						<h6>Category:</h6><p>{{pub.category | join: ", "}}</p>
 					{% if pub.download_link %}
 						<a class="download" href="{{pub.download_link}}" target="_blank">Download Full PDF</a>
 					{% endif %}
