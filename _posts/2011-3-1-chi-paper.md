@@ -8,7 +8,6 @@ published: true
 excerpt: A paper by Starbird and Palen has been selected at the CHI'11.
 
 ---
-{% include JB/setup %}
 
 
 <center>

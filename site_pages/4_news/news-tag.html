@@ -21,6 +21,6 @@ permalink: /news_by_category/
   <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
   <ul>
     {% assign posts_list = category[1] %}  
-    {% include JB/posts_list %}
+    {% include JB/posts_collate %}
   </ul>
 {% endfor %}
