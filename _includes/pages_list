@@ -1,4 +1,5 @@
-{% for node in pages_list %}
+{% assign pages = site.pages | sort: "weight"  %}
+{% for node in pages %}
   {% if node.title != null %}
     {% if group == null or group == node.group %}
     	{% if page.url == node.url or page.parent contains node.title%}
@@ -9,6 +10,4 @@
     {% endif %}
   {% endif %}
 {% endfor %}
-
-{% assign pages_list = nil %}
 {% assign group = nil %}
