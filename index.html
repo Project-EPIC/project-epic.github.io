@@ -6,11 +6,18 @@ tagline: Empowering the Public with Information in Crisis
 js: homepage.js
 css: homepage.css
 ---
-<div id="front_left">
+
+<div id="twitter">
+	<h3>Project EPIC on Twitter</h3>
+	{% include twitter_feed.html %}
+</div>
+
+<section id="homepage-content">
 	<div class="frontabout">
 		<h3>About</h3>
 		<p>Project EPIC launched in September 2009 and is supported by a $2.8M grant from the US National Science Foundation. It is a multi-disciplinary, multi-university, multi-lingual research effort to support the information needs by members of the public during times of mass emergency. In this age of social media, we bring our behavioral and technical knowledge of computer mediated communication to the world of crisis studies and emergency response. As researchers, we are committed to careful study of socio-technical transformation and building human-centered computation. In addition to empirical observational study that requires new ways of studying massive wide-scale coordination across the internet, we conduct action research and employ participatory design oriented approaches. We aim to look beyond today’s state of the art and anticipate future socio-technical change.</p>
 	</div>
+	<hr/>
 	<div id="frontnews">
 		<h3>Latest News</h3>
 		{% for post in site.posts offset: 0 limit: 2 %}
@@ -22,10 +29,4 @@ css: homepage.css
 		</div>
 		{% endfor %}
 	</div>
-</div>
-<div id="front_right">
-	<div class="fronttwitter">
-		<h3>Project EPIC on Twitter</h3>
-		{% include twitter_feed.html %}
-	</div>
-</div>
+</section>

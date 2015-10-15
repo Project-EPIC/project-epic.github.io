@@ -18,6 +18,12 @@
 	margin:0px;
 }
 
+#twitter {
+	width:350px;
+	margin: 20px;
+	display:inline-block;
+}
+
 #front_slider li#our_work {
 	background: url("/assets/images/flatirons.jpg") no-repeat;
 }
@@ -55,23 +61,10 @@
 	font-size:20px;
 }
 
-#front_left {
-	padding:10px 10px 10px 50px;
-	width:50%;
-	margin: 0 auto;
-	vertical-align: top;
+#homepage-content {
+	margin: 20px;
+	width:800px;
 	display:inline-block;
-	overflow:hidden;
-}
-
-#front_right {
-	padding:10px 50px 10px 10px;
-	width:35%;
-	float:right;
-	margin:0 auto;
-	text-align: center;
 	vertical-align: top;
-	display:inline-block;
-	overflow:hidden;
 }
 

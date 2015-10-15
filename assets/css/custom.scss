@@ -1,3 +1,44 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+@font-face {
+  font-family:header_font;
+  src: url(/assets/css/fonts/Slabo.ttf);
+}
+
+@font-face {
+  font-family:content_font;
+  src: url(/assets/css/fonts/Lato-Regular.ttf);
+}
+
+body {
+	background: url("/assets/images/background.png");
+	font-family:content_font;
+}
+
+h1,h2,h3,h4 {
+	font-family:header_font;
+	font-size:2.5em;
+}
+
+span {
+	font-family:header_font;
+}
+
+p {
+	font-size:1.5em;
+	line-height:1.5em;
+}
+
+#content {
+	width:1300px;
+	margin:30px auto;
+	background:white;
+	box-shadow:0px 5px 20px #686868;
+}
+
 /* Header */
 .page-header {
 	margin:0px;
@@ -23,7 +64,9 @@
 
 .navbar { 
 	margin:0px; 
-	}
+  padding:10px;
+}
+
 .navbar-inner {
   padding:0px 30px 0px 30px;
 	box-shadow: none;
@@ -32,9 +75,10 @@
 }
 .navbar .nav {
   float: right;
+  font-size:18px;
 }
 .navbar .brand {
-	font-size:18px;
+	font-size:24px;
 }
 
 /* Page Setup */
@@ -45,7 +89,7 @@
   margin: 30px 0;
 }
 .wrapper {
-	margin:0px 20px;
+	margin:20px;
 }
 
 .fullscreen {
@@ -89,6 +133,7 @@ h3.section-head{
 
 .footer p {
 	text-align:center;
+  font-size:1em;
 }
 
 /*Fancy Box Over-rides */
