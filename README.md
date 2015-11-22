@@ -20,9 +20,9 @@ Then run ```bundle exec bliss``` to list the available functions:
 		bliss update people
 		bliss update people Current
 		bliss update people Alumni
-		bliss update projects
 		bliss update publications
 		bliss update presentations
+
 
 #### Acknowledgements
 Original theme from Jekyll-Bootstrap, which is released under the [MIT](http://opensource.org/licenses/MIT) license.  For more:  <http://jekyllbootstrap.com>
