@@ -18,7 +18,12 @@ body {
 	font-family:content_font;
 }
 
-h1,h2,h3,h4 {
+h1{
+	font-family:header_font;
+	font-size: 2.5em;
+}
+
+h2,h3,h4 {
 	font-family:header_font;
 	font-size:2.0em;
 }
