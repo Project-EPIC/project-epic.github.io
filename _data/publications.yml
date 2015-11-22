@@ -1,12 +1,12 @@
 ---
 - name: crowdwourced_mapping_haiti_coop
-  type: Publications
   authors: Soden, R. and Palen, L. COOP 2014.
   year: '2014'
-  download_link: https://www.cs.colorado.edu/~palen/palen_papers/HaitiCOOP_Final.pdf
+  downloadlink: https://www.cs.colorado.edu/~palen/palen_papers/HaitiCOOP_Final.pdf
   title: 'From Crowdsourced Mapping to Community Mapping: The Post-Earthquake Work
     of OpenStreetMap Haiti.'
   etc: COOP 2014
+  category: Sociobehavioral Research
   abstract: 'The earthquake that struck Haiti on January 12, 2010 catalyzed a nascent
     set of efforts in then-emergent “volunteer technology communities.” Among these
     was the response from OpenStreetMap, a volunteer-driven project that makes geospatial
@@ -21,18 +21,16 @@
     Humanitarian OpenStreetMap Team—formalized their practices in relation to many
     different stakeholder needs with the aim for setting a model for how the potential
     of participatory, community mapping could be realized in Haiti and beyond. '
-  category:
-  - Sociobehavioral Research
 - name: supporting_disaster_recon_cofloods
-  type: Publications
   authors: Dashti, S., Palen, L., Heris, M., Anderson, K., Anderson, S., Anderson,
     J.
   year: '2014'
-  download_link: https://www.cs.colorado.edu/~palen/palen_papers/DashtiPalenetalgeoreconnaissance.pdf
+  downloadlink: https://www.cs.colorado.edu/~palen/palen_papers/DashtiPalenetalgeoreconnaissance.pdf
   title: 'Supporting Disaster Reconnaissance with Social Media Data: A Design-Oriented
     Case Study of the 2013 Colorado Floods.'
   etc: Proceedings of the Conference on Information Systems for Crisis Response and
     Management (ISCRAM 2014). (Best Paper Nomination)
+  category: Data Collection and Analytics Infrastructure, Perspectives and Vision
   abstract: Engineering reconnaissance following an extreme event is critical in identifying
     the causes of infrastructure failure and minimizing such consequences in similar
     future events. Typically, however, much of the data about infrastructure performance
@@ -46,18 +44,15 @@
     postings of visual data and references to location, may be used to directly support
     geotechnical experts by helping to digitally survey the affected region and to
     navigate optimal paths through the physical space in preparation for direct observation.
-  category:
-  - Data Collection and Analytics Infrastructure
-  - Perspectives and Vision
 - name: resilience_and_crisis_informatics
-  type: Publications
   authors: Soden, R., Budhathoki, N., Palen, L.
   year: '2014'
-  download_link: https://www.cs.colorado.edu/~palen/palen_papers/SodenBudhathokiPalen-ISCRAMKathmandu.pdf
+  downloadlink: https://www.cs.colorado.edu/~palen/palen_papers/SodenBudhathokiPalen-ISCRAMKathmandu.pdf
   title: 'Resilience and the Crisis Informatics Agenda: Lessons Learned from Open
     Cities Kathmandu.'
   etc: Proceedings of the Conference on Information Systems for Crisis Response and
     Management (ISCRAM 2014). (Best Student Paper Award)
+  category: Sociobehavioral Research
   abstract: 'Information systems that support crisis responders and disaster risk
     management efforts are complex sociotechnical phenomena comprised of human capacities
     and relationships, data and software tools. Research in crisis informatics has
@@ -69,27 +64,25 @@
     in the world. In exploring this case, we argue that projects that attempt to create
     local open data ecosystems can be valuable but require investment in their design,
     execution and on-going maintenance. '
-  category:
-  - Sociobehavioral Research
 - name: mastering_social_media_jeffco
-  type: Publications
   authors: St. Denis, L., Palen, L and Anderson, K.
   year: '2014'
-  download_link: https://www.cs.colorado.edu/~palen/palen_papers/StDenisPalenAnderson-jeffco-iscram2014.pdf
+  downloadlink: https://www.cs.colorado.edu/~palen/palen_papers/StDenisPalenAnderson-jeffco-iscram2014.pdf
   title: 'Mastering Social Media: An Analysis of Jefferson County''s Communications
     during the 2013 Colorado Floods. '
   etc: Proceedings of the Conference on Information Systems for Crisis Response and
     Management (ISCRAM 2014). (Best Student Paper Nomination)
-  category:
-  - Sociobehavioral Research
+  category: Sociobehavioral Research
+  abstract: ''
 - name: online_public_communications_sandy
-  type: Publications
+  authors: ''
   year: '2014'
-  download_link: https://www.cs.colorado.edu/~palen/palen_papers/HughesStDenisPalenAndersonPoliceFireSandy.pdf
+  downloadlink: https://www.cs.colorado.edu/~palen/palen_papers/HughesStDenisPalenAndersonPoliceFireSandy.pdf
   title: Online Public Communications by Police & Fire Services during the 2012 Hurricane
     Sandy.
   etc: Proceedings of the ACM 2014 Conference on Human Factors in Computing Systems
     (CHI 2014), Toronto, 10 pages.
+  category: Sociobehavioral Research
   abstract: Social media and other online communication tools are a subject of great
     interest in mass emergency response. Members of the public are turning to these
     solutions to seek and offer emergency information. Emergency responders are working
@@ -106,17 +99,15 @@
     communication policy. We conclude with design recommendations for making online
     communication media more “listenable” for both emergency managers and members
     of the public.
-  category:
-  - Sociobehavioral Research
 - name: sandy_pets
-  type: Publications
   authors: White, Joanne, Leysia Palen and Kenneth Anderson
   year: '2014'
-  download_link: https://www.cs.colorado.edu/~palen/palen_papers/WhitePalenAndersonSandypets
+  downloadlink: https://www.cs.colorado.edu/~palen/palen_papers/WhitePalenAndersonSandypets
   title: 'Digital Mobilization in Disaster Response: The Work & Self-Organization
     of On-Line Pet Advocates in Response to Hurricane Sandy'
   etc: Proceedings of the ACM 2014 Conference on Computer Supported Cooperative Work,
     Baltimore, MD.
+  category: Sociobehavioral Research
   abstract: This ethnographic study of a Facebook Page founded on 28 October 2012
     in anticipation of Hurricane Sandy’s US landfall reveals how on-line pet advocates—a
     large but loosely organized social movement—mobilized their ad hoc discretionary
@@ -127,23 +118,22 @@
     of the petadvocacy crowd could collectively work to help displaced pets. The paper
     connects to the CSCW and organizational science literature to consider how this
     emergent community articulated work and structured the mission of the Page
-  category:
-  - Sociobehavioral Research
 - name: architectural_implications_of_social_media_analytics
-  type: Publications
   authors: Anderson, K., Schram, A., Alzabarah, A., and Palen, L.
   year: '2013'
+  downloadlink: ''
   title: Architectural Implications of Social Media Analytics in Support of Crisis
     Informatics Research
   etc: In IEEE Bulletin of the Technical Committee on Data Engineering, 36(3), 13-20.
-  category:
-  - Data Collection and Analytics Infrastructure
+  category: Data Collection and Analytics Infrastructure
+  abstract: ''
 - name: virtual_desk
-  type: Publications
   authors: Starbird, K., & Palen, L.
   year: '2013'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2013/61_2013_WorkingSustainingVirtualDisasterDesk_Starbird_Palen.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2013/61_2013_WorkingSustainingVirtualDisasterDesk_Starbird_Palen.pdf
   title: Working & Sustaining the Virtual “Disaster Desk”
+  etc: ''
+  category: Sociobehavioral Research
   abstract: Humanity Road is a volunteer organization working within the domain of
     disaster response. The organization is entirely virtual, relying on ICT to both
     organize and execute its work of helping to inform the public on how to survive
@@ -156,17 +146,15 @@
     by episodic influxes of volunteers. This case enlightens discussion about technology-supported
     civic participation, and the means by which dedicated long-term commitment to
     the civic sphere is mobilized.
-  category:
-  - Sociobehavioral Research
 - name: beacons_of_hope
-  type: Publications
   authors: 'Sarcevic, Aleskandra, Leysia Palen, Joanne White, Mossaab Bagdouri, Kate
     Starbird, Kenneth M. Anderson, '
   year: '2012'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2012/60_2012_BeaconsOfHopeHaitiMedicalTwitterers_Sarcevic_All.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2012/60_2012_BeaconsOfHopeHaitiMedicalTwitterers_Sarcevic_All.pdf
   title: '“Beacons of Hope” in Decentralized Coordination: Learning from On-the-Ground
     Medical Twitterers During the 2010 Haiti Earthquake'
   etc: 2012 ACM Conference on Computer Supported Cooperative Work, Bellevue, WA.
+  category: Sociobehavioral Research
   abstract: We examine the  public, social media communications of 110 emergency medical
     response teams and organizations in the immediate aftermath of the January 12,
     2010 Haiti earthquake. We  found  the teams through an inductive analysis of Twitter
@@ -180,16 +168,14 @@
     We extrapolate from these findings to theorize about how “beaconing” behavior
     is a sign of latent potential for coordination upon which mechanisms of coordination
     can capitalize.
-  category:
-  - Sociobehavioral Research
 - name: blogs_cscw12
-  type: Publications
   authors: 'Gloria Mark, Mossaab Bagdouri, Leysia Palen, James Martin, Ban Al-Ani,
     Kenneth Anderson '
   year: '2012'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2012/59_2012_BlogsAsCollectiveWarDiary_Mark_All.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2012/59_2012_BlogsAsCollectiveWarDiary_Mark_All.pdf
   title: Blogs as a Collective War Diary.
   etc: Proceedings of CSCW’12, Seattle, WA.
+  category: Sociobehavioral Research
   abstract: Disaster-related research in human-centered computing has typically focused
     on the shorter-term, emergency period of a disaster event, whereas effects of
     some crises are longterm, lasting years. Social media archived on the Internet
@@ -206,26 +192,24 @@
     about daily life decreased as violence in the society increased; when violence
     waned, there was a resurgence of daily life topics, potentially illustrating how
     a society returns to normalcy.
-  category:
-  - Sociobehavioral Research
 - name: continuous_disruption
-  type: Publications
   authors: 'Semaan, B., Mark, G., Al-Ani, B. '
   year: '2012'
+  downloadlink: ''
   title: 'The Effects of Continual Disruption: Technological Resources Supporting
     Resilience in Regions of Conflict.'
   etc: 'In Christine Hagar (Ed.), Crisis Information Management: Communication and
     Technologies, pp 9 -24, Chandos Publishing.'
-  category:
-  - Sociobehavioral Research
+  category: Sociobehavioral Research
+  abstract: ''
 - name: egypt_blogosphere
-  type: Publications
   authors: Ban Al-Ani, Gloria Mark, Justin Chung, and Jennifer Jones.
   year: '2012'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2012/57_2012_EgyptionBlogosphereCounterNarrativeofRevolution_Al-Ani_All.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2012/57_2012_EgyptionBlogosphereCounterNarrativeofRevolution_Al-Ani_All.pdf
   title: 'The Egyptian blogosphere: a counter-narrative of the revolution.'
   etc: In Proceedings of the ACM 2012 conference on Computer Supported Cooperative
     Work (CSCW &#8217;12). ACM, New York, NY, USA, 17-26.
+  category: Sociobehavioral Research
   abstract: In this paper we investigate the role blogs played within the context
     of the Egyptian revolution of early 2011 using blog data authored between 2004-2011.  We
     conducted topic modeling analysis to gain a longitudinal view of the interaction
@@ -238,16 +222,14 @@
     the  18-day uprising. These narratives offer rich documentation of how blogs,
     and perhaps social media more generally, can be utilized by individuals operating
     under repressive conditions.
-  category:
-  - Sociobehavioral Research
 - name: evolovingrole
-  type: Publications
   authors: 'Hughes, Amanda L. and Leysia Palen. '
   year: '2012'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2012/56_2012_EvolvingRoleofPIOExamOfSMinEmergencyManagement_Hughes_Palen.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2012/56_2012_EvolvingRoleofPIOExamOfSMinEmergencyManagement_Hughes_Palen.pdf
   title: 'The Evolving Role of the Public Information Officer: An Examination of Social
     Media in Emergency Management'
   etc: Journal of Homeland Security and Emergency Management. (2012)
+  category: Sociobehavioral Research,Perspectives and Vision
   abstract: This work examines how the introduction of social media has affected the
     role of the Public Information Officer (PIO)—the public relations component of
     the National Incident Management System (NIMS). Through analysis of 25 PIO interviews,
@@ -257,16 +239,13 @@
     and examine how the presence of social media challenges previous conceptualizations
     of PIO work. Lastly, we present a view of how PIO work could be better imagined
     for the future of emergency management organizations.
-  category:
-  - Sociobehavioral Research
-  - Perspectives and Vision
 - name: facebook_cscw12
-  type: Publications
   authors: 'Semaan, B. and Mark, G. '
   year: '2012'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2012/55_2012_FacebookingTowardsCrisisRevovery_Semaan_Mark.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2012/55_2012_FacebookingTowardsCrisisRevovery_Semaan_Mark.pdf
   title: '‘Facebooking’ Towards Crisis Recovery and Beyond: Disruption as an Opportunity'
   etc: Proceedings of CSCW 2012, Seattle, WA.
+  category: Sociobehavioral Research
   abstract: This paper reports on an ethnographic study of Facebook use amongst a
     population living through ongoing disruption. We interviewed 45 Iraqi citizens,
     as well as received survey responses from 218 individuals, who have been experiencing
@@ -279,17 +258,15 @@
     maintain and develop new social norms, and to re-direct their country. We discuss
     how disruption can serve as an opportunity by which people can re-invent their
     societies and how our understandings of Facebook should evolve.
-  category:
-  - Sociobehavioral Research
 - name: heritage_matters
-  type: Publications
   authors: Liu, Sophia, Leysia Palen and Elisa Giaccardi.
   year: '2012'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2012/58_2012_HeritageMatters_CrisisInformatics_HowInformationAndCommTechSupportLegacies_Liu_Palen_Giaccardi.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2012/58_2012_HeritageMatters_CrisisInformatics_HowInformationAndCommTechSupportLegacies_Liu_Palen_Giaccardi.pdf
   title: 'Heritage Matters in Crisis Informatics: How Information and Communication
     Technology Can Support Legacies of Crisis Events.'
   etc: ' In Christine Hagar (Ed) Crisis Information Management: Communication and
     Technologies, pp. 65 &#8211; 86, Chandos Publishing.'
+  category: Sociobehavioral Research,Perspectives and Vision
   abstract: Information and communication technologies increasingly enable the capture
     of experiences that result from disaster and mass emergency events. The social
     and cultural value of such traces, when collectively generated and shared across
@@ -298,17 +275,14 @@
     using investigations from three historically significant disasters, we offer an
     agenda for how information science and human‑centered computing communities might
     conceptualize digital heritage as an emergent research effort in the crisis domain.
-  category:
-  - Sociobehavioral Research
-  - Perspectives and Vision
 - name: how_will
-  type: Publications
   authors: Starbird, Kate and Leysia Palen.
   year: '2012'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2012/53_2012_HowWillRevolutionBeRetweeted_Starbird_Palen.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2012/53_2012_HowWillRevolutionBeRetweeted_Starbird_Palen.pdf
   title: '(How) Will the Revolution be Retweeted?: Information Propagation in the
     2011 Egyptian Uprising.'
   etc: 2012 ACM Conference on Computer Supported Cooperative Work, Bellevue, WA.
+  category: Sociobehavioral Research
   abstract: This paper examines microblogging information diffusion activity during
     the 2011 Egyptian political uprisings. Specifically, we examine the use of the
     retweet mechanism on Twitter, using empirical evidence of information propagation
@@ -323,17 +297,15 @@
     In addition, we show how features of this retweet recommendation behavior could
     be used in combination with other indicators to identify information that is new
     and likely coming from the ground.
-  category:
-  - Sociobehavioral Research
 - name: learning_from_crowd
-  type: Publications
   authors: 'Starbird, Kate, Grace Muzny and Leysia Palen. '
   year: '2012'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2012/52_2012_LearningfromCrowdCollabFilteringTechniquesIdentifyTwitterers_Starbird_Muzny_Palen.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2012/52_2012_LearningfromCrowdCollabFilteringTechniquesIdentifyTwitterers_Starbird_Muzny_Palen.pdf
   title: 'Learning from the Crowd: Collaborative Filtering Techniques for Identifying
     On-the-Ground Twitters during Mass Disruptions.'
   etc: To appear in the Proceedings of the Conference on Information Systems for Crisis
     Response and Management (ISCRAM 2012), Vancouver, BC.
+  category: Computational Linguistics
   abstract: Social media tools, including the microblogging platform Twitter, have
     been appropriated during mass disruption events by those affected as well as the
     digitally-convergent crowd. Though tweets sent by those local to an event could
@@ -346,18 +318,16 @@
     for classifying on-the-ground Twitterers, finding that machine learning techniques
     using a Support Vector Machine with asymmetric soft margins can be effective in
     identifying those likely to be on the ground during a mass disruption event.
-  category:
-  - Computational Linguistics
 - name: multilayer_annotation
-  type: Publications
   authors: Corvey, William J., Sarah Vieweg, Sudha Verma, Martha Palmer and James
     H. Martin.
   year: '2012'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2012/51_2012_FoundationsMultilayerAnnotationFrameworkCommDuringCrisis_Corvey_All.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2012/51_2012_FoundationsMultilayerAnnotationFrameworkCommDuringCrisis_Corvey_All.pdf
   title: Foundations of a Multilayer Annotation Framework for Twitter Communications
     During Crisis Events.
   etc: Proceedings of the Eighth International Conference on Language Resources and
     Evaluation (LREC 2012), May 21-27, 2012, Istanbul, Turkey.
+  category: Computational Linguistics
   abstract: In times of mass emergency, vast amounts of data are generated via computer-mediated
     communication (CMC) that are difficult to manually collect and organize into a
     coherent picture. Yet valuable information is broadcast, and can provide useful
@@ -370,16 +340,14 @@
     tweets contributing to situational awareness and analyze the information type
     of the tweet content. We show classification results and describe future integration
     of these classifiers in the larger EPIC infrastructure.
-  category:
-  - Computational Linguistics
 - name: mysql_nosql
-  type: Publications
   authors: 'Schram, Aaron and Kenneth Anderson '
   year: '2012'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2012/50_2012_MySQLtoNoSQLDataModelingChallengesInSupportingScalability_Schram_Anderson.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2012/50_2012_MySQLtoNoSQLDataModelingChallengesInSupportingScalability_Schram_Anderson.pdf
   title: 'MySQL to NoSQL: Data Modeling Challenges in Supporting Scalability'
   etc: 'In 2012 ACM Conference on Systems, Programming, Languages and Applications:
     Software for Humanity, pp. 191-202. Tucson, Arizona, USA.'
+  category: Data Collection and Analytics Infrastructure
   abstract: Software systems today seldom reside as isolated systems confined to generating
     and consuming their own data. Col- lecting, integrating and storing large amounts
     of data from disparate sources has become a need for many software engineers,
@@ -392,16 +360,14 @@
     research in the area of crisis informatics. We present both the software architecture
     and data modeling challenges that we encountered dur- ing the transition as well
     as the benefits we gained having migrated to the hybrid persistence architecture.
-  category:
-  - Data Collection and Analytics Infrastructure
 - name: petmatcher
-  type: Publications
   authors: 'Barrenechea, M., Barron, J., White, J. '
   year: '2012'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2012/49_2012_NoPlaceLikeHomePetToFamilyReunificationAfterDisaster_Barrenechea_Barron_White.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2012/49_2012_NoPlaceLikeHomePetToFamilyReunificationAfterDisaster_Barrenechea_Barron_White.pdf
   title: 'No Place Like Home: Pet-to-Family Reunification after Disaster'
   etc: Proceedings of the 2012 ACM annual conference extended abstracts on Human Factors
     in Computing Systems.
+  category: Sociobehavioral Research
   abstract: Pets are important household members, and their welfare and safety are
     imperative to the emotional welfare of the family. Displacement of pets after
     disaster events is a serious matter to families and for public safety at large.
@@ -418,16 +384,14 @@
     employs a reputation and reward system to encourage use; and uses match-based
     machine learning techniques to accelerate the manual matching tasks performed
     by digital volunteers.
-  category:
-  - Sociobehavioral Research
 - name: situational_aware
-  type: Publications
   authors: Vieweg, Sarah.
   year: '2012'
-  download_link: http://works.bepress.com/vieweg/15/
+  downloadlink: http://works.bepress.com/vieweg/15/
   title: 'Situational Awareness in Mass Emergency: A Behavioral and Linguistic Analysis
     of Microblogged Communications.'
   etc: University of Colorado at Boulder PhD Dissertation.
+  category: Sociobehavioral Research
   abstract: "In times of mass emergency, users of Twitter (a popular microblogging
     service) often communicate information about the event, some of which contributes
     to situational awareness. Situational awareness refers to a state of understanding
@@ -455,16 +419,14 @@
     that contributes to situational awareness, and (3) a computational linguistic
     resource for the development of natural language processing tools that automatically
     extract tweets containing information relevant to situational awareness."
-  category:
-  - Sociobehavioral Research
 - name: software_tools
-  type: Publications
   authors: McTaggart, Casey.
   year: '2012'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2012/47_2012_AnalysisAndImpofSoftwareToolsToSupportResearchInCrisisInformatics_McTaggart_MSThesis.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2012/47_2012_AnalysisAndImpofSoftwareToolsToSupportResearchInCrisisInformatics_McTaggart_MSThesis.pdf
   title: Analysis and Implementation of Software Tools to Support Research in Crisis
     Informatics.
   etc: University of Colorado at Boulder MS Thesis.
+  category: Data Collection and Analytics Infrastructure
   abstract: 'The field of crisis informatics is expanding, in large part because emergency
     response has become increasingly focused on and affected by social media. Correspondingly,
     social media datasets collected from disaster events continue to become larger
@@ -475,16 +437,14 @@
     This thesis presents an analysis of what software is best for crisis informatics
     analysts, beginning with the initial process of determining the necessary tools
     and services, the subsequent implementation, and finally a usability study. '
-  category:
-  - Data Collection and Analytics Infrastructure
 - name: supporting_pet
-  type: Publications
   authors: 'Barron, Joshua. '
   year: '2012'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2012/46_2012_SupportingPettoFamilyReunificationbyHumanAndMachineComputation_Barron_MSThesis.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2012/46_2012_SupportingPettoFamilyReunificationbyHumanAndMachineComputation_Barron_MSThesis.pdf
   title: Supporting Pet-to-Family Reunification in Disaster by Leveraging Human and
     Machine Computation.
   etc: University of Colorado at Boulder MS Thesis.
+  category: Computational Linguistics
   abstract: "Displacement of pets in and after disaster events is a serious matter
     to families and creates public safety and health issues at large. During and after
     Hurricane Katrina, an estimated 200,000 pets were displaced from their guardians,
@@ -507,17 +467,15 @@
     the positioning of machine computation as supporting the larger activities of
     digital volunteers is promising. With this validation, the system is poised for
     future public deployment in a disaster scenario and further study."
-  category:
-  - Computational Linguistics
 - name: trial_by_fire
-  type: Publications
   authors: 'St. Denis, Amanda Hughes and Leysia Palen. '
   year: '2012'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2012/45_2012_TrialByFireDeploymentOfDigitalVolunteersinShadowLakeFire_Denis_Hughes_Palen.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2012/45_2012_TrialByFireDeploymentOfDigitalVolunteersinShadowLakeFire_Denis_Hughes_Palen.pdf
   title: 'Trial By Fire: The Deployment of Trusted Digital Volunteers in the 2011
     Shadow Lake Fire.'
   etc: The Proceedings of the Conference on Information Systems for Crisis Response
     and Management (ISCRAM 2012), Vancouver, BC.
+  category: Sociobehavioral Research,Perspectives and Vision
   abstract: We report on the use of a team of trusted digital volunteers during the
     2011 Shadow Lake Fire that occurred in the US Pacific Northwest to extend the
     social media capacity of a Type I incident management team. In this case study,
@@ -526,20 +484,17 @@
     with the public around the event. Finally, we discuss the potential merits and
     limitations of implementing a team of trusted volunteers and explore how this
     idea could be incorporated into emergency management organizations.
-  category:
-  - Sociobehavioral Research
-  - Perspectives and Vision
 - name: twt
-  type: Publications
   authors: Starbird, Kate, Leysia Palen, Sophia B. Liu, Sarah Vieweg, Amanda Hughes,
     Aaron Schram, Kenneth Mark Anderson, Mossaab Bagdouri, Joanne White, Casey McTaggart,
     and Chris Schenk.
   year: '2012'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2012/44_2012_PromotingStructuredDataInCitizenCommTtT_Starbird_All.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2012/44_2012_PromotingStructuredDataInCitizenCommTtT_Starbird_All.pdf
   title: ' Promoting Structured Data in Citizen Communications during Disaster Response:
     An Account of Strategies for Diffusion of the “Tweak the Tweet” Syntax.'
   etc: 'In Christine Hagar (Ed.), Crisis Information Management: Communication and
     Technologies, pp 43 &#8211; 63. Chandos Publishing.'
+  category: Sociobehavioral Research
   abstract: ‘Tweak the Tweet’ is an idea for enabling citizen reporting via microblogs
     during crisis events. It instructs users of Twitter to tag and structure their
     messages to make them machine‑readable using what is known as a microsyntax. This
@@ -547,17 +502,15 @@
     crisis events in 2010. We describe how syntax, instructions, and the nature of
     such a campaign evolved within and across events, and share the insights gained
     about the use of structured data reporting during mass emergencies and disasters.
-  category:
-  - Sociobehavioral Research
 - name: data_analytics
-  type: Publications
   authors: 'Anderson, Kenneth, and Aaron Schram. '
   year: '2011'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2011/43_2011_DesignAndImplofDataAnalyticsinSupportofCrisisInfoResearch_Anderson_Schram.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2011/43_2011_DesignAndImplofDataAnalyticsinSupportofCrisisInfoResearch_Anderson_Schram.pdf
   title: Design and Implementation of a Data Analytics Infrastructure In Support of
     Crisis Informatics Research.
   etc: In the 33rd International Conference on Software Engineering, 21-28 May 2011,
     Honolulu, Hawaii.
+  category: Data Collection and Analytics Infrastructure
   abstract: Crisis informatics is an emerging research area that studies how information
     and communication technology (ICT) is used in emergency response. An important
     branch of this area includes investigations of how members of the public make
@@ -568,15 +521,13 @@
     infrastructure that we are developing in support of a broader, interdisciplinary
     research program. We also comment on the role that software engineering research
     plays in these increasingly common, highly-interdisciplinary research efforts.
-  category:
-  - Data Collection and Analytics Infrastructure
 - name: everyday_analysts
-  type: Publications
   authors: 'Palen, L., Vieweg, S., and Anderson, K. '
   year: '2011'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2011/42_2011_EverydayAnalystInSafetyandTimeCriticalSituations_Palen_Vieweg_Anderson.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2011/42_2011_EverydayAnalystInSafetyandTimeCriticalSituations_Palen_Vieweg_Anderson.pdf
   title: Supporting “Everyday Analysts” in Time- and Safety- Critical Situations.
   etc: The Information Society Journal, 27(1), pp. 52-62.
+  category: Sociobehavioral Research,Perspectives and Vision
   abstract: 'The need for quick, timely and accurate information is critical in emergency
     events. People assemble information from both official and unofficial sources.
     As digital access expands, people will increasingly incorporate digital sources
@@ -590,17 +541,14 @@
     as a function of the “everyday analytic” skills that people use to take action
     during mass emergencies. We discuss steps in a research agenda for the development
     of analytical support tools.'
-  category:
-  - Sociobehavioral Research
-  - Perspectives and Vision
 - name: grassroots_heritage
-  type: Publications
   authors: Liu, Sophia.
   year: '2011'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2011/41_2011_GrassrootsHeritageInvestigationofSMSustainLivingHeritage_Liu_PhDThesis.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2011/41_2011_GrassrootsHeritageInvestigationofSMSustainLivingHeritage_Liu_PhDThesis.pdf
   title: 'Grassroots Heritage: A Multi-Method Investigation of How Social Media Sustain
     the Living Heritage of Historic Crises. '
   etc: University of Colorado at Boulder PhD Dissertation.
+  category: Sociobehavioral Research
   abstract: "Unprecedented uses of information and communication technology (ICT)
     and particularly social media (e.g., Wikipedia, Facebook, and Twitter) are occurring
     in times of crisis. This dissertation investigates the socio-technical practices
@@ -628,18 +576,16 @@
     the curatorial activities that produced the crisis narratives found in the first
     study. From this assessment, I articulate a theoretical model called socially-distributed
     curation to inform the design of future social technology."
-  category:
-  - Sociobehavioral Research
 - name: nlp_to_rescue
-  type: Publications
   authors: 'Verma, Sudha, Sarah Vieweg, Will Corvey, Leysia Palen, Jim Martin, Martha
     Palmer, Aaron Schram and Ken Anderson. '
   year: '2011'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2011/40_2011_NLPToTheRescue_Verma_All.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2011/40_2011_NLPToTheRescue_Verma_All.pdf
   title: NLP to the Rescue? Extracting &#8220;Situational Awareness&#8221; Tweets
     During Mass Emergency.
   etc: In the Fifth International AAAI Conference on Weblogs and Social Media, 17-21
     July 2011, Barcelona, Spain.
+  category: Computational Linguistics
   abstract: In times of mass emergency, vast amounts of data are generated via computer-mediated
     communication (CMC) that are difficult to manually cull and organize into a coherent
     picture. Yet valuable information is broadcast, and can provide useful insight
@@ -655,15 +601,13 @@
     classifier developed for a specific emergency event performs well on similar events.
     The results are promising, and have the potential to aid the general public in
     culling and analyzing information communicated during times of mass emergency.
-  category:
-  - Computational Linguistics
 - name: recovery_resilience
-  type: Publications
   authors: 'Semaan, Bryan. '
   year: '2011'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2011/39_2011_RecoveryResilienceBeyondICTDuringDisruption_Semaan_PhDThesis.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2011/39_2011_RecoveryResilienceBeyondICTDuringDisruption_Semaan_PhDThesis.pdf
   title: 'Recovery, Resilience and Beyond: ICT Use During Ongoing Disruption.'
   etc: University of California, Irvine PhD Dissertation.
+  category: Sociobehavioral Research
   abstract: 'The role Information and Communication Technologies (ICTs) play in enabling
     people to coordinate efforts in providing aid and assistance during disasters,
     like hurricanes and earthquakes, has emerged as an active research topic, as people
@@ -702,16 +646,15 @@
     and to engage in new activities to improve their country. We then discuss how
     Iraqi citizens were using ICTs to regain security, to rebuild their society, and
     to engage in activities that are beyond what are considered routine.'
-  category:
-  - Sociobehavioral Research
 - name: repairing_infra
-  type: Publications
   authors: 'Semaan, B. and Mark, G. '
   year: '2011'
+  downloadlink: ''
   title: 'Repairing infrastructure during ongoing crisis: Technology-mediated social
     arrangements to support recovery.'
   etc: ACM Transactions on Computer-Human Interaction (TOCHI), vol 18, issue 4, December
     2011.
+  category: Sociobehavioral Research
   abstract: When societies experience disruption as caused by natural disasters, various
     official government agencies, relief organizations, and emergent citizen groups
     engage in activities that aid in the recovery effort—the process that leads to
@@ -726,16 +669,14 @@
     social arrangements that enabled people to maintain daily routines for travel,
     education and obtaining information. We then discuss new ways to think about infrastructure
     and implications for the disaster relief effort.
-  category:
-  - Sociobehavioral Research
 - name: topic_modeling
-  type: Publications
   authors: Bagdouri, Mossaab.
   year: '2011'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2011/37_2011_TopicModelingAsAnalysisToolIraqiBlogosphere_Bagdouri_MSThesis.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2011/37_2011_TopicModelingAsAnalysisToolIraqiBlogosphere_Bagdouri_MSThesis.pdf
   title: Topic modeling as an analysis tool to understand the impact of the Iraq war
     on the Iraqi blogosphere.
   etc: University of Colorado at Boulder MS Thesis.
+  category: Computational Linguistics
   abstract: 'Social media provide a democratized platform for expressing one’s opinion
     or viewpoint. The everyday discussions that people have with their families, friends
     and colleagues became available through blogging services. The emergence of the
@@ -748,17 +689,15 @@
     were separated in different datasets, the limits of using classification and clustering
     techniques, the benefits of employing topic modeling, and the evaluation of this
     technique. '
-  category:
-  - Computational Linguistics
 - name: trust_with_icts
-  type: Publications
   authors: 'Semaan, Bryan and Gloria Mark. '
   year: '2011'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2011/36_2011_CreatingContextofTrustwithICT_Semaan_Mark.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2011/36_2011_CreatingContextofTrustwithICT_Semaan_Mark.pdf
   title: 'Creating a Context of Trust with ICTs: Restoring a Sense of Normalcy in
     the Environment.'
   etc: In the ACM 2011 Conference on Computer Supported Cooperative Work (CSCW 2011),
     Hangzhou, China, long paper, pp. TBA.
+  category: Sociobehavioral Research
   abstract: This paper reports on an ethnographic study of the technology-enabled
     behavior that took place amongst a citizen population living in a conflict zone.
     We interviewed 65 Iraqi citizens who experienced the current Gulf War beginning
@@ -773,16 +712,14 @@
     safely, and to find trustworthy jobs. In developing these new practices we argue
     that technology enabled people to restore a sense of normalcy in an environment
     that had radically changed.
-  category:
-  - Sociobehavioral Research
 - name: voluntweeters
-  type: Publications
   authors: Starbird, Kate and Leysia Palen .
   year: '2011'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2011/35_2011_Voluntweeters_Starbird_Palen.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2011/35_2011_Voluntweeters_Starbird_Palen.pdf
   title: “Voluntweeters:” Self-Organizing by Digital Volunteers in Times of Crisis.
   etc: In the ACM 2011 Conference on Computer Human Interaction (CHI 2011), Vancouver,
     BC, Canada, long paper, pp. TBA.
+  category: Sociobehavioral Research
   abstract: This empirical study of “digital volunteers” in the aftermath of the January
     12, 2010 Haiti earthquake describes their behaviors and mechanisms of self-organizing
     in the information space of a microblogging environment, where collaborators were
@@ -792,17 +729,15 @@
     while considering how the social-technical milieu enabled individual capacities
     and collective action. Using social theory about self organizing, the research
     offers insight about features of coordination within a setting of massive interaction.
-  category:
-  - Sociobehavioral Research
 - name: blogging_in_conflict
-  type: Publications
   authors: Al-Ani, B., Mark, G., and Semaan, B.
   year: '2010'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2010/34_2010_BloggingInConflictRegionSupportingTransitionToRecovery_Al-Ani_Mark_Semaan.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2010/34_2010_BloggingInConflictRegionSupportingTransitionToRecovery_Al-Ani_Mark_Semaan.pdf
   title: 'Blogging in a region of conflict: Supporting transition to recovery.'
   etc: In Proceedings of the 28th International Conference on Human Factors in Computing
     Systems (Atlanta, Georgia, USA, April 10 &#8211; 15, 2010). CHI 2010. ACM, New
     York, NY, 1069-1078. Honorable Mention for Best Paper.
+  category: Sociobehavioral Research
   abstract: The blogosphere is changing how people experience war and conflict. We
     conducted an analysis of 125 blogs written by Iraqi citizens experiencing extreme
     disruption in their country. We used Hoffman’s [8] stages of recovery model to
@@ -815,17 +750,15 @@
     borders to discuss their situation. We discuss how blogs enable people to collaboratively
     interpret conflict through communities of interest and discussion with those who
     comment. We discuss how technology can better support blog use in a global environment.
-  category:
-  - Sociobehavioral Research
 - name: blogging_through_conflict
-  type: Publications
   authors: 'Al-Ani, B., Mark, G., Semaan, B. '
   year: '2010'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2010/33_2010_BloggingThroughConflictSojournersInAgeOfSM_Al-Ani_Mark_Semaan.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2010/33_2010_BloggingThroughConflictSojournersInAgeOfSM_Al-Ani_Mark_Semaan.pdf
   title: 'Blogging through Conflict: Sojourners in the Age of Social Media.'
   etc: InProceedings of the 3rd international Conference on intercultural Collaboration
     (Copenhagen, Denmark, August 19 &#8211; 20, 2010). ICIC &#8217;10. ACM, New York,
     NY, 29-38.
+  category: Sociobehavioral Research
   abstract: Social media enables the creation of online communities across physical
     boundaries. Blogs,or weblogs, enablebloggers to interact with a range of followers.
     We sought to conduct a qualitative study of the nature of the interactions that
@@ -838,18 +771,16 @@
     views of an event constructed from diverse cultural perspectives. We found that
     the intercultural interactions we observed suggest a degree of intercultural competency
     within the blogosphere.
-  category:
-  - Sociobehavioral Research
 - name: chatter_on_thered
-  type: Publications
   authors: 'Starbird, K., Palen, L., Hughes, A. L., and Vieweg, S. '
   year: '2010'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2010/32_2010_ChatterOnTheRedThreatsRevealSocialLifeOfMIcroBloggedInfo_Starbird_All.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2010/32_2010_ChatterOnTheRedThreatsRevealSocialLifeOfMIcroBloggedInfo_Starbird_All.pdf
   title: 'Chatter on the Red: What hazards threat reveals about the social life of
     microblogged information.'
   etc: In Proceedings of the 2010 ACM Conference on Computer Supported Cooperative
     Work (Savannah, Georgia, USA, February 06 &#8211; 10, 2010). CSCW 2010. ACM, New
     York, NY, 241-250. Nominated for “Best of CSCW.”
+  category: Sociobehavioral Research
   abstract: This paper considers a subset of the computer-mediated communication (CMC)
     that took place during the flooding of the Red River Valley in the US and Canada
     in March and April 2009. Focusing on the use of Twitter, a microblogging service,
@@ -863,15 +794,13 @@
     derivative activities of directing, relaying, synthesizing, and redistributing,
     and is additionally complemented by socio-technical innovation. These activities
     comprise self-organization of information.
-  category:
-  - Sociobehavioral Research
 - name: cose
-  type: Publications
   authors: 'Novinger, Matthew. '
   year: '2010'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2010/31_2010_CrisisOrientedSearchEngine_Novinger_MSThesis.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2010/31_2010_CrisisOrientedSearchEngine_Novinger_MSThesis.pdf
   title: 'COSE: Crisis Oriented Search Engine.'
   etc: University of Colorado at Boulder MS Thesis.
+  category: Data Collection and Analytics Infrastructure
   abstract: "Crisis informatics is a new area of research that studies the use of
     technology in and around disaster events by members of the public. In particular,
     crisis informatics studies the digital behaviors of people accessing social media
@@ -902,16 +831,14 @@
     in January of 2010. The data gathered by our service provided data sets with known
     collection-related parameters, allowing them to be useful for later empirical
     and ethnographic research activities by crisis informatics researchers."
-  category:
-  - Data Collection and Analytics Infrastructure
 - name: crisis_map
-  type: Publications
   authors: 'Liu, S. B. and Ayala Iacucci, A. '
   year: '2010'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2010/30_2010_CrisisMapMashupsParticipatoryAge_Liu_Iacucci.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2010/30_2010_CrisisMapMashupsParticipatoryAge_Liu_Iacucci.pdf
   title: Crisis Map Mashups in a Participatory Age.
   etc: American Congress on Surveying and Mapping (ACSM) Bulletin, June 2010, pp.
     10-14.
+  category: Sociobehavioral Research
   abstract: Long before the geospatial community got around to creating “mashups,”
     the concept of “composing” a new product by mashing different components was successfully
     used in such other domains as music. Map mashups entered the mainstream of cartography
@@ -922,16 +849,14 @@
     often designed.1 As an example of how ubiquitous web mashups have evolved, we
     present a crisis mashup created in response to the 2010 Chile earthquake using
     the Ushahidi open source platform.
-  category:
-  - Sociobehavioral Research
 - name: curated_crisis
-  type: Publications
   authors: 'Liu, S. B. '
   year: '2010'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2010/29_2010_RiseOfCuratedCrisisContent_Liu.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2010/29_2010_RiseOfCuratedCrisisContent_Liu.pdf
   title: The Rise of Curated Crisis Content.
   etc: Short paper presented at the 7th Information Systems for Crisis Response and
     Management (ISCRAM) Conference (Seattle, Washington, USA, May 2010). ISCRAM 2010.
+  category: Sociobehavioral Research,Perspectives and Vision
   abstract: In a networked world, we are increasingly inundated with information from
     online data streams especially from the social web. Curation has increasingly
     become the buzzword for managing this problem of information overload in the digital
@@ -945,19 +870,16 @@
     crisis content for four crises. These findings are to inform future designs and
     developments of crisis management tools that could benefit from curated crisis
     content.
-  category:
-  - Sociobehavioral Research
-  - Perspectives and Vision
 - name: microblogging
-  type: Publications
   authors: 'Vieweg, Sarah, Amanda Hughes, Kate Starbird, Leysia Palen '
   year: '2010'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2010/28_2010_MicroBloggingTwoHazardsTwitterSA_Vieweg_All.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2010/28_2010_MicroBloggingTwoHazardsTwitterSA_Vieweg_All.pdf
   title: 'Microblogging During Two Natural Hazards Events: What Twitter May Contribute
     to Situational Awareness.'
   etc: In Proceedings of the 28th International Conference on Human Factors in Computing
     Systems (Atlanta, Georgia, USA, April 10 &#8211; 15, 2010). CHI 2010. ACM, New
     York, NY, 1079-1088.
+  category: Sociobehavioral Research
   abstract: We analyze microblog posts generated during two recent, concurrent emergency
     events in North America via Twitter, a popular microblogging service. We focus
     on communications broadcast by people who were “on the ground” during the Oklahoma
@@ -965,17 +887,15 @@
     2009, and identify information that may contribute to enhancing situational awareness
     (SA). This work aims to inform next steps for extracting useful, relevant information
     during emergencies using information extraction (IE) techniques.
-  category:
-  - Sociobehavioral Research
 - name: new_cartographers
-  type: Publications
   authors: 'Liu, S. B. and Palen, L. '
   year: '2010'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2010/27_2010_TheNewCartographers_Liu_Palen.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2010/27_2010_TheNewCartographers_Liu_Palen.pdf
   title: 'The New Cartographers: Crisis Map Mashups and the Emergence of Neogeographic
     Practice.'
   etc: Cartography and Geographic Information Science (CaGIS) Journal Special Issue
     on Mapping Hazards and Disasters, Volume 37, Number 1, pp. 69-90.
+  category: Sociobehavioral Research
   abstract: Crisis situations are ripe for expansion of the neogeographer population
     and skill set. We qualitatively examine the design and creation of crisis map
     mashups to describe emergent neogeographic practices in this particular domain.
@@ -985,16 +905,14 @@
     which illustrate the merging of professional and participatory geotechnologies,
     and the opportunity a blending of the two provides for widespread cartographic
     literacy.
-  category:
-  - Sociobehavioral Research
 - name: pass_it_on
-  type: Publications
   authors: 'Starbird, K. and Palen, L. '
   year: '2010'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2010/26_2010_PassItOnRetweetinginMassEmergency_Starbird_Palen.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2010/26_2010_PassItOnRetweetinginMassEmergency_Starbird_Palen.pdf
   title: 'Pass It On?: Retweeting in Mass Emergencies.'
   etc: Presented at the 7th International Information Systems for Crisis Response
     and Management Conference (Seattle, WA, USA, May 2010). ISCRAM 2010.
+  category: Sociobehavioral Research
   abstract: We examine microblogged information generated during two different co-occurring
     natural hazards events in Spring 2009. Due to its rapid and widespread adoption,
     microblogging in emergency response is a place for serious consideration and experimentation
@@ -1011,18 +929,16 @@
     organizations. Comparing local users to the broader audience, we also find that
     tweet-based information redistribution is different for those who are local to
     an emergency event.
-  category:
-  - Sociobehavioral Research
 - name: policy_social
-  type: Publications
   authors: 'Sicker, Douglas C., Blumensaadt, L.,  Grunwald, D., Palen, L. and Anderson,
     K. '
   year: '2010'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2010/25_2010_PolicyIssuesFacingSNInfoDuringCrisis_Sicker_All.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2010/25_2010_PolicyIssuesFacingSNInfoDuringCrisis_Sicker_All.pdf
   title: Policy Issues Facing the Use of Social Network Information During Times of
     Crisis.
   etc: The 38th Annual Telecommunications Policy Research Conference (TPRC) for Public
     Safety and Emergency session (October 1-3, 2010, Arlington, Virginia).
+  category: Perspectives and Vision
   abstract: The exchange of information during times of crisis/disaster has traditionally
     been the purview of public safety, the National Guard and other local, state or
     federal authorities.  However, this model is undergoing a change with the availability
@@ -1086,33 +1002,29 @@
     information is wrong?  What if the system suppresses the dissemination of vital
     information?  Does this constitute some type of negligence or a failure to adhere
     to required duty?
-  category:
-  - Perspectives and Vision
 - name: river_valley
-  type: Publications
   authors: 'Palen, L., Starbird, K., Vieweg, S. and Hughes, A. '
   year: '2010'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2010/24_2010_InfoDistributionRedRiverFlood_Palen_All.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2010/24_2010_InfoDistributionRedRiverFlood_Palen_All.pdf
   title: Twitter-based information distribution during the 2009 Red River Valley flood
     threat.
   etc: Bulletin of the American Society for Information Science and Technology, American
     Society for Information Science and Technology, Volume 36, Issue 5, (June/July
     2010), pp. 13-17.
+  category: Sociobehavioral Research
   abstract: This article reports on a set of studies of the use of Twitter, a popular
     microblogging service, during the 2009 seasonal flood threat period to the Red
     RiverValley whose river separates North Dakota and Minnesota in a region that
     extends across the U.S.-Canadian border into the province of Manitoba.
-  category:
-  - Sociobehavioral Research
 - name: role_of_trust
-  type: Publications
   authors: 'Semaan, B., Mark, G., Al-Ani, B. '
   year: '2010'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2010/23_2010_TechForCitizensExperiencingDisruption_Semaan_Mark_Al-Ani.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2010/23_2010_TechForCitizensExperiencingDisruption_Semaan_Mark_Al-Ani.pdf
   title: 'Developing Information Technologies and Government Policies for Citizens
     Experiencing Disruption: The Role of Trust and Context.'
   etc: Presented at the 7th International Information Systems for Crisis Response
     and Management Conference (Seattle, WA, USA, May 2-5, 2010). ISCRAM 2010.
+  category: Sociobehavioral Research
   abstract: This paper considers a subset of the technology-enabled communication
     that took place among citizen populations experiencing various disruptions, e.g.
     disaster and war. In the context of a disrupted environment, trust can erode where
@@ -1122,19 +1034,18 @@
     change – in this sense, trust is contextual. We then offer recommendations for
     designing new technologies for people who experience disruption, taking into account
     trust and context.
-  category:
-  - Sociobehavioral Research
 - name: technology-mediated
-  type: Publications
   authors: 'Palen, L., Anderson, K. M., Mark, G., Martin, J., Sicker, D., Palmer,
     M., and Grunwald, D. '
   year: '2010'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2010/22_2010_VisionPaper_Palen_All.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2010/22_2010_VisionPaper_Palen_All.pdf
   title: A vision for technology-mediated support for public participation and assistance
     in mass emergencies and disasters.
   etc: In Proceedings of the 2010 ACM-BCS Visions of Computer Science Conference (Edinburgh,
     United Kingdom, April 14 &#8211; 16, 2010). ACM-BCS Visions of Computer Science.
     British Computer Society, Swinton, UK, 1-12.
+  category: Perspectives and Vision,Data Collection and Analytics Infrastructure,Computational
+    Linguistics
   abstract: We present a vision of the future of emergency management that better
     supports inclusion of activities and information from members of the public during
     disasters and mass emergency events. Such a vision relies on integration of multiple
@@ -1151,32 +1062,26 @@
     emergencies; mechanisms for ensuring trustworthiness and security of information;
     mechanisms for aligning informal and formal sources of information; and new applications
     of information extraction techniques.
-  category:
-  - Perspectives and Vision
-  - Data Collection and Analytics Infrastructure
-  - Computational Linguistics
 - name: trends_curatorial
-  type: Publications
   authors: Liu, Sophia B.
   year: '2010'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2010/21_2010_TrendsInDistributedCuratorialTechnology_Liu.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2010/21_2010_TrendsInDistributedCuratorialTechnology_Liu.pdf
   title: Trends in Distributed Curatorial Technology to Manage Data in a Networked
     World.
   etc: 'UPGRADE Journal: 2010 &#8211; Emerging Information Technologies (II), Volume
     XI, Number 3, August 2010 Issue, 18-24.'
-  category:
-  - Sociobehavioral Research
-  - Perspectives and Vision
+  category: Sociobehavioral Research,Perspectives and Vision
+  abstract: ''
 - name: tweak_the_tweet
-  type: Publications
   authors: 'Starbird, K. and Stamberger, J. '
   year: '2010'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2010/20_2010_TweakTheTweetLeveragingMicrobloggingProliferation_Starbird_Stamberger.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2010/20_2010_TweakTheTweetLeveragingMicrobloggingProliferation_Starbird_Stamberger.pdf
   title: 'Tweak the Tweet: Leveraging Microblogging Proliferation with a Prescriptive
     Grammar to Support Citizen Reporting.'
   etc: Short paper presented at the 7th International Information Systems for Crisis
     Response and Management Conference (Seattle, Washington, USA, May 2010). ISCRAM
     2010.
+  category: Sociobehavioral Research
   abstract: 'In this paper, we propose a low-tech solution for use by microbloggers
     that could enhance their ability to rapidly produce parsable, crisis-relevant
     information in mass emergencies. We build upon existing research on the use of
@@ -1188,184 +1093,164 @@
     practice. This offering is grounded in an understanding of current trends in norm
     evolution of Twitter use, an evolution that has progressed quickly but appears
     to be stabilizing around specific textual conventions. '
-  category:
-  - Sociobehavioral Research
 - name: twitter_mass
-  type: Publications
   authors: 'Corvey, W. J., Vieweg, S., Rood, T. and Palmer, M. '
   year: '2010'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2010/19_2010_WhatNLPTechniquesContribute_Corvey_Vieweg_Rood_Palmer.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2010/19_2010_WhatNLPTechniquesContribute_Corvey_Vieweg_Rood_Palmer.pdf
   title: 'Twitter in Mass Emergency: What NLP Techniques can Contribute.'
   etc: In Proceedings of the NAACL HLT 2010 Workshop on Computational Linguistics
     in a World of Social Media (Los Angeles, California, June 2010), 23–24.
+  category: Computational Linguistics
   abstract: We detail methods for entity span identification and entity class annotation
     of Twitter communications that take place during times of mass emergency. We present
     our motivation, method and preliminary results
-  category:
-  - Computational Linguistics
 - name: ushahidi_haiti
-  type: Publications
   authors: 'Liu, S. B., Anahi Ayala Iacucci and Patrick Meier. '
   year: '2010'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2010/18_2010_UshahidiHaitiChile_Liu_Iaccuci_Meier.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2010/18_2010_UshahidiHaitiChile_Liu_Iaccuci_Meier.pdf
   title: 'Ushahidi Haiti and Chile: Next Generation Crisis Mapping.'
   etc: American Congress on Surveying and Mapping (ACSM) Bulletin, August Issue, pp.
     10-13.
-  category:
-  - Sociobehavioral Research
+  category: Sociobehavioral Research
+  abstract: ''
 - name: internet_war
-  type: Publications
   authors: Mark, G., Semaan, B.
   year: '2009'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2009/17_2009_ExpandingCountryBorderDuringWar_Mark_Semaan.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2009/17_2009_ExpandingCountryBorderDuringWar_Mark_Semaan.pdf
   title: 'Expanding a Country''s Borders During War: The Internet War Diary.'
   etc: In Proceedings of the ACM International Workshop on Intercultural Collaboration
     IWIC 2009 (Palo Alto, February 20-21, 2009).
-  category:
-  - Sociobehavioral Research
+  category: Sociobehavioral Research
+  abstract: ''
 - name: mashups
-  type: Publications
   authors: 'Liu, S. and Palen, L. '
   year: '2009'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2009/16_2009_SpatiotemporalMashups_Liu_Palen.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2009/16_2009_SpatiotemporalMashups_Liu_Palen.pdf
   title: 'Spatiotemporal Mashups: A Survey of Current Tools to Inform Next Generation
     Crisis Support.'
   etc: Proceedings of the 2009 Information Systems for Crisis Response and Management
     Conference (ISCRAM 2009), Gothenberg, Sweden (~5000 words).
-  category:
-  - Data Collection and Analytics Infrastructure
+  category: Data Collection and Analytics Infrastructure
+  abstract: ''
 - name: old_new_iraq
-  type: Publications
   authors: Mark, G., Al-Ani, B., Semaan, B.
   year: '2009'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2009/15_2009_ResilienceTechnologyAdoption_Mark_All.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2009/15_2009_ResilienceTechnologyAdoption_Mark_All.pdf
   title: 'Resilience Through Technology Adoption: Merging the Old and the New in Iraq.'
   etc: In the Proceedings of the ACM Conference on Human Factors in Computing Systems
     CHI 2009 (Boston, Apri 4-9, 2009).
-  category:
-  - Sociobehavioral Research
+  category: Sociobehavioral Research
+  abstract: ''
 - name: photojournalism
-  type: Publications
   authors: Liu, S., Palen, L., Sutton, J., Hughes, A., and Vieweg, S.
   year: '2009'
+  downloadlink: ''
   title: Citizen Photojournalism During Crisis Events.
   etc: 'In Allan, S. and Thorsen, E. (Eds.), Citizen Journalism: Global Perspectives.
     New York: Peter Lang.'
-  category:
-  - Sociobehavioral Research
-  - Perspectives and Vision
+  category: Sociobehavioral Research,Perspectives and Vision
+  abstract: ''
 - name: twitter_adoption
-  type: Publications
   authors: 'Hughes, A. and Palen, L. '
   year: '2009'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2009/13_2009_TwitterAdoptionUseConvergence_Hughes_Palen.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2009/13_2009_TwitterAdoptionUseConvergence_Hughes_Palen.pdf
   title: Twitter Adoption and Use in Mass Convergence and Emergency Events.
   etc: Proceedings of the 2009 Information Systems for Crisis Response and Management
     Conference (ISCRAM 2009), Gothenberg, Sweden, (~5000 words)
-  category:
-  - Sociobehavioral Research
+  category: Sociobehavioral Research
+  abstract: ''
 - name: virginia_tech
-  type: Publications
   authors: Palen, L., Vieweg, S., Liu, S., Hughes, A.
   year: '2009'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2009/12_2009_CrisisNetworkedWorld_Palen_All.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2009/12_2009_CrisisNetworkedWorld_Palen_All.pdf
   title: 'Crisis in a Networked World: Features of Computer-Mediated Communication
     in the April 16, 2007 Virginia Tech Event.'
   etc: 'Social Science Computing Review, Sage, (pp 467-480). '
-  category:
-  - Sociobehavioral Research
-  - Perspectives and Vision
+  category: Sociobehavioral Research,Perspectives and Vision
+  abstract: ''
 - name: war_zones
-  type: Publications
   authors: 'Mark, G., Al-Ani, B., Semaan, B. '
   year: '2009'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2009/11_2009_Infrastructure_Mark_Semaan_Al-Ani.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2009/11_2009_Infrastructure_Mark_Semaan_Al-Ani.pdf
   title: Repairing Human Infrastructure in War Zones.
   etc: In the Proceedings of the Conference on Information Systems for Crisis Response
     and Management ISCRAM 2009 (Gothenburg, May 10-13, 2009).
-  category:
-  - Sociobehavioral Research
+  category: Sociobehavioral Research
+  abstract: ''
 - name: backchannels
-  type: Publications
   authors: Sutton, J., Palen, L., and Shklovski, I.
   year: '2008'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2008/10_2008_Backchannels_Sutton_Palen_Shklovski.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2008/10_2008_Backchannels_Sutton_Palen_Shklovski.pdf
   title: 'Backchannels on the Front Lines: Emergent Use of Social Media in the 2007
     Southern California Fires.'
   etc: 'Proceedings of the Information Systems for Crisis Response and Management
     Conference (ISCRAM 2008). '
-  category:
-  - Sociobehavioral Research
+  category: Sociobehavioral Research
+  abstract: ''
 - name: bigger_picture
-  type: Publications
   authors: Liu, S., Palen, L., Sutton, J., Hughes, A, and Vieweg, S.
   year: '2008'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2008/9_2008_OnlinePhotoSharing_Liu_All.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2008/9_2008_OnlinePhotoSharing_Liu_All.pdf
   title: 'In Search of the Bigger Picture: The Emergent Role of On-Line Photo-Sharing
     in Times of Disaster.'
   etc: Proceedings of the Information Systems for Crisis Response and Management Conference
     (ISCRAM 2008).
-  category:
-  - Sociobehavioral Research
+  category: Sociobehavioral Research
+  abstract: ''
 - name: finding_community
-  type: Publications
   authors: Shklovski, I., Palen, L., and Sutton, J.
   year: '2008'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2008/8_2008_FindingCommunity_Shklovski_Palen_Sutton.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2008/8_2008_FindingCommunity_Shklovski_Palen_Sutton.pdf
   title: Finding Community Through Information and Communication Technology in Disaster
     Events (long paper).
   etc: In the 2008 ACM Proceedings of Computer Supported Cooperative Work Conference.
-  category:
-  - Sociobehavioral Research
+  category: Sociobehavioral Research
+  abstract: ''
 - name: intelligence_disaster
-  type: Publications
   authors: Vieweg, S., Palen, L., Liu, S., Hughes, A., and Sutton, J.
   year: '2008'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2008/7_2008_CollectiveIntelligence_Palen_All.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2008/7_2008_CollectiveIntelligence_Palen_All.pdf
   title: 'Collective Intelligence in Disaster: An Examination of the Phenomenon in
     the Aftermath of the 2007 Virginia Tech Shootings.'
   etc: Proceedings of the Information Systems for Crisis Response and Management Conference
     (ISCRAM 2008).
-  category:
-  - Sociobehavioral Research
+  category: Sociobehavioral Research
+  abstract: ''
 - name: online_social_media
-  type: Publications
   authors: Palen, L.
   year: '2008'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2008/6_2008_OnlineSocialMediainCrisis_Palen.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2008/6_2008_OnlineSocialMediainCrisis_Palen.pdf
   title: Online Social Media in Crisis Events (short article).
   etc: EDUCAUSE Quarterly, vol. 31, no. 3 (July–September 2008).
-  category:
-  - Perspectives and Vision
+  category: Perspectives and Vision
+  abstract: ''
 - name: online_widescale
-  type: Publications
   authors: Palen, L., and Vieweg, S.
   year: '2008'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2008/5_2008_EmergenceOnlineWidescaleInteraction_Palen_Vieweg.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2008/5_2008_EmergenceOnlineWidescaleInteraction_Palen_Vieweg.pdf
   title: 'The Emergence of Online Widescale Interaction in Unexpected Events: Assistance,
     Alliance and Retreat (long paper).'
   etc: In the 2008 ACM Proceedings of Computer Supported Cooperative Work Conference.
-  category:
-  - Sociobehavioral Research
+  category: Sociobehavioral Research
+  abstract: ''
 - name: patterns of_action
-  type: Publications
   authors: Mark, G., Semaan, B.
   year: '2008'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2008/4_2008_ResilienceInCollab_Mark_Semaan.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2008/4_2008_ResilienceInCollab_Mark_Semaan.pdf
   title: 'Resilience in Collaboration: Technology as a Resource for New Patterns of
     Action.'
   etc: In Proceedings of the ACM Conference on Computer Supported Cooperative Work
     CSCW 2008 (San Diego, November 8-12, 2008).
-  category:
-  - Sociobehavioral Research
+  category: Sociobehavioral Research
+  abstract: ''
 - name: site-seeing
-  type: Publications
   authors: Hughes, A., L. Palen, J. Sutton, S. Liu, & S. Vieweg.
   year: '2008'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2008/3_2008_SiteSeeing_Hughes_Palen_Sutton_Liu_Vieweg.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2008/3_2008_SiteSeeing_Hughes_Palen_Sutton_Liu_Vieweg.pdf
   title: '“Site-Seeing” in Disaster: An Examination of On-Line Social Convergence.'
   etc: Proc. of Information Systems for Crisis Response and Management Conference
     (ISCRAM) 2008.
+  category: Sociobehavioral Research,Perspectives and Vision
   abstract: On-line websites and applications are increasingly playing a role in disaster
     response and recovery. Yet with the wide variety of on-line grassroots activities
     that occur in such situations, it can be difficult to make sense of them. In this
@@ -1375,29 +1260,23 @@
     for each type. By seeing these activities as an essential part of the disaster
     social arena, we can begin to think about how to support socially convergent phenomena
     in new and creative ways.
-  category:
-  - Sociobehavioral Research
-  - Perspectives and Vision
 - name: citizen_comm
-  type: Publications
   authors: 'Palen, L., and Liu, S. '
   year: '2007'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2008/14_2008_Liu_Citizen
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2008/14_2008_Liu_Citizen
     Journalism Global Perspectives.pdf
   title: 'Citizen Communications in Crisis: Anticipating a Future of ICT-Supported
     Participation.'
   etc: 'Proceedings of the ACM Conference on Human Factors in Computing Systems CHI
     2007, 727-736. '
-  category:
-  - Perspectives and Vision
+  category: Perspectives and Vision
+  abstract: ''
 - name: forums_supporting
-  type: Publications
   authors: 'Palen, L., Hiltz, S. R., and Liu, S. '
   year: '2007'
-  download_link: http://s3.amazonaws.com/projectepic-static/publications/2007/1_2007_OnlineForumsSupportingGrassroots_PalenHiltzLiu.pdf
+  downloadlink: http://s3.amazonaws.com/projectepic-static/publications/2007/1_2007_OnlineForumsSupportingGrassroots_PalenHiltzLiu.pdf
   title: Online Forums Supporting Grassroots Participation in Emergency Preparedness
     and Response.
   etc: 'Communications of the ACM, 50 (3) (Mar. 2007): 54-58. '
-  category:
-  - Sociobehavioral Research
-  - Perspectives and Vision
+  category: Sociobehavioral Research,Perspectives and Vision
+  abstract: ''

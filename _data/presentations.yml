@@ -1,0 +1,31 @@
+---
+- name: 'Software Engineering Research in a Big Data World: Challenges and Opportunities'
+  person: Ken Anderson
+  url: https://vimeo.com/141952315
+  description: The design and development of data-intensive software systems-systems
+    that generate, collect, store, process, analyze, query, and visualize large sets
+    of data-is fraught with significant challenges both technical and social. Project
+    EPIC has been designing and developing these systems in support of crisis informatics
+    research since fall 2009. Anderson's experience working on Project EPIC has provided
+    insight into these challenges. In this talk, Anderson will share their experience
+    working in this design space and describe the choices they made in tackling these
+    challenges and their attendant trade-offs. He will highlight the lack of developer
+    support tools for data-intensive systems; the importance of multidisciplinary
+    teams; the use of highly-iterative life cycles; the need for deep understanding
+    of the frameworks and technologies used in data intensive systems; how simple
+    operations transform into significant challenges at scale; and the paramount significance
+    of data modeling in producing systems that are scalable, robust, and efficient.
+- name: Frontiers in Crisis Informatics
+  person: Leysia Palen
+  url: https://vimeo.com/113748628
+  description: Crisis informatics addresses socio-technical concerns in large-scale
+    emergency response. Additionally it expands consideration to include not only
+    official responders (who tend to be the focus in policy and technology-focused
+    matters), but also members of the public. It therefore views emergency response
+    as a much broader socio-technical system where information is disseminated within
+    and between official and public channels and entities. Crisis informatics wrestles
+    with methodological concerns as it strives to develop new theory and support informed
+    development of ICT and policy. Palen will describe the range of work her team
+    has engaged in at CU-Boulder since 2006, and highlight the different branches
+    of crisis informatics research through discussion of the multidisciplinary research
+    they have conducted here.

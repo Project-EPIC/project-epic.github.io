@@ -8,4 +8,13 @@ permalink: /presentations/
 ---
 {% include navigation/ourwork_nav.html %}
 
-<code>We will manage this page using Youtube or Vimeo</code>
+<h3>Recent Presentations by members of Project EPIC</h3>
+
+<ul id="presentations">
+{% for pres in site.data.presentations %}
+	<li class="big-item">
+		<h4><a target="_blank" href="{{pres.url}}">{{pres.name}}</a></h4>
+		<p>By {{pres.person}}</p>
+	</li>
+{% endfor %}
+</ul>
