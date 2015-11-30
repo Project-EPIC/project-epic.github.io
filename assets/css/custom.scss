@@ -58,7 +58,7 @@ p {
 	border:0px none;
 	}
 	.page-header-ourwork, .page-group-ourwork, .page-header-publications { background: url("/assets/images/flatirons_sm.png") no-repeat; }
-	.page-header-people { background: url("/assets/images/people_sm.jpg") no-repeat; }
+	.page-header-people { display: none; /*background: none; url("/assets/images/people_sm.jpg") no-repeat;*/ }
 	.page-header-partnership { background: url("/assets/images/collaboration_sm.jpg") no-repeat; }
 	.page-header-news { background: url("/assets/images/news.png") no-repeat; }
 	
