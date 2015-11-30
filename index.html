@@ -18,10 +18,10 @@ css: homepage.css
 		<p>Project EPIC launched in September 2009 and is supported by a $2.8M grant from the US National Science Foundation. It is a multi-disciplinary, multi-university, multi-lingual research effort to support the information needs by members of the public during times of mass emergency. In this age of social media, we bring our behavioral and technical knowledge of computer mediated communication to the world of crisis studies and emergency response. As researchers, we are committed to careful study of socio-technical transformation and building human-centered computation. In addition to empirical observational study that requires new ways of studying massive wide-scale coordination across the internet, we conduct action research and employ participatory design oriented approaches. We aim to look beyond today’s state of the art and anticipate future socio-technical change.</p>
 	</div>
 	<hr/>
-	<div id="frontnews">
+	<div id="frontnews" style="display:none;">
 		<h3>Latest News</h3>
 		{% for post in site.posts offset: 0 limit: 2 %}
-    <div class="post">
+    <div class="post" style="display:none;">
 			<div class="heading">
 				<span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
 			</div>
