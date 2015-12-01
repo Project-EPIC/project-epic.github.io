@@ -1,4 +1,153 @@
 ---
+- name: embrace_challenges
+  authors: Anderson, K. M.
+  year: '2015'
+  downloadlink: http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7166054&filter%3DAND%28p_IS_Number%3A7165982%29
+  title: 'Embrace the Challenges: Software Engineering in a Big Data World'
+  etc: 1st International Workshop on Big Data Software Engineering, part of the 2015
+    International Conference on Software Engineering, pp. 19-25
+  category: Data Collection and Analytics Infrastructure
+  abstract: The design and development of data-intensive software systems---systems
+    that generate, collect, store, process, analyze, query, and visualize large sets
+    of data---is fraught with significant challenges both technical and social. Project
+    EPIC has been designing and developing data-intensive systems in support of crisis
+    informatics research since Fall 2009. Our experience working on Project EPIC has
+    provided insight into these challenges. In this paper, we share our experience
+    working in this design space and describe the choices we made in tackling these
+    challenges and their attendant trade-offs. We highlight the lack of developer
+    support tools for data-intensive systems, the importance of multidisciplinary
+    teams, the use of highly-iterative life cycles, the need for deep understanding
+    of the frameworks and technologies used in data intensive systems, how simple
+    operations transform into significant challenges at scale, and the paramount significance
+    of data modeling in producing systems that are scalable, robust, and efficient.
+- name: epic_analyze
+  authors: Anderson, K. M., Aydin, A. A., Barrenechea, M., Cardenas, A., Hakeem, M.,
+    and Jambi, S.
+  year: '2015'
+  downloadlink: http://mbarrenecheajr.github.io/assets/papers/epic-analyze.pdf
+  title: Design Challenges/Solutions for Environments Supporting the Analysis of Social
+    Media Data in Crisis Informatics Research
+  etc: HICSS (Hawaiian International Conference on System Science) 2015, pp. 163-172
+  category: Data Collection and Analytics Infrastructure
+  abstract: Crisis informatics investigates how society’s pervasive access to technology
+    is transforming how it responds to mass emergency events. To study this transformation,
+    researchers require access to large sets of data that because of their volume
+    and heterogeneous nature are difficult to collect and analyze. To address this
+    concern, we have designed and implemented an environment—EPIC Analyze— that supports
+    researchers with the collection and analysis of social media data. Our research
+    has identified the types of components—such as NoSQL, MapReduce, caching, and
+    search—needed to ensure that these services are reliable, scalable, extensible,
+    and efficient. We describe the design challenges encountered—such as data modeling,
+    time vs. space tradeoffs, and the need for a useful and usable system—when building
+    EPIC Analyze and discuss its scalability, performance, and functionality.
+- name: retweet_global
+  authors: Kogan, M., Palen, L., and Anderson, K. M.
+  year: '2015'
+  downloadlink: http://dl.acm.org/citation.cfm?id=2675218
+  title: 'Tweet Local, Retweet Global: Retweeting by the Geographically-Vulnerable
+    during Hurricane Sandy'
+  etc: ACM Conference on Computer Supported Cooperative Work and Social Computing,
+    pp. 981-993,
+  category: Sociobehavioral Research
+  abstract: Hurricane Sandy wrought $6 billion in damage, took 162 lives, and displaced
+    776,000 people after hitting the US Eastern seaboard on October 29, 2012. Because
+    of its massive impact, the hurricane also spurred a flurry of social media activity,
+    both by the population immediately affected and by the globally convergent crowd.
+    In this paper we explore how retweeting activity by the geographically vulnerable
+    differs (if at all) from that of the general Twitter population. We investigate
+    whether they spread information differently, including what and whose content
+    they chose to propagate. We investigate whether the Twitter-based relationships
+    are preexisting or if they are newly formed because of the disaster, and if so
+    if they persist. We find that the people in the path of the disaster favor in
+    their retweeting locally-created tweets and those with locally-actionable information.
+    They also form denser networks of information propagation during disaster than
+    before or after.
+- name: osm_sociotechnical
+  authors: Palen, L., Soden, R., Jennings, T. A., and Barrenechea, M.
+  year: '2015'
+  downloadlink: http://mbarrenecheajr.github.io/assets/papers/osm.pdf
+  title: 'Success & Scale in a Data-Producing Organization: The Socio-Technical Evolution
+    of OpenStreetMap in Response to Humanitarian Events'
+  etc: CHI 2015
+  category: Sociobehavioral Research
+  abstract: OpenStreetMap (OSM) is a volunteer-driven, globally distributed organization
+    whose members work to create a common digital map of the world. OSM embraces ideals
+    of open data, and to that end innovates both socially and technically to develop
+    practices and processes for coordinated operation. This paper provides a brief
+    history of OSM and then, through quantitative and qualitative examination of the
+    OSM database and other sites of articulation work, examines organizational growth
+    through the lens of two catastrophes that spurred enormous humanitarian relief
+    responses—the 2010 Haiti Earthquake and the 2013 Typhoon Yolanda. The temporally-
+    and geographically- constrained events scope analysis for what is a rapidly maturing,
+    whole-planet operation. The first disaster identified how OSM could support other
+    organizations responding to the event. However, to achieve this, OSM has had to
+    refine mechanisms of collaboration around map creation, which were tested again
+    in Typhoon Yolanda. The transformation of work between these two events yields
+    insights into the organizational development of large, data-producing online organizations.
+- name: engineering_crowdwork
+  authors: Barrenechea, M., Anderson, K. M., Palen, L., and White, J.
+  year: '2015'
+  downloadlink: http://mbarrenecheajr.github.io/assets/papers/epm-crowdwork.pdf
+  title: 'Engineering Crowdwork for Disaster Events: The Human-Centered Development
+    of a Lost-and-Found Tasking Environment'
+  etc: HICSS (Hawaiian International Conference on System Science) 2015, pp. 182-191
+  category: Human-centered Software Engineering
+  abstract: Human computation and crowdsourcing have become hot topics across several
+    application domains. Indeed, some efforts have been directed toward emergency
+    management to find ways to involve the public in disaster response. However, many
+    tasks in disaster response can put the public in harm’s way or introduce problems
+    of liability. Furthermore, some human computation tasks are disconnected from
+    the true needs of emergency response. In this paper we discuss the case of an
+    important lost-and-found task— reuniting displaced pets with their owners after
+    a disaster. We argue why this task is a strong candidate for human computation
+    by “digital volunteers.” The goal of this paper is to articulate the design decisions
+    and software engineering problems faced in designing and developing a web-based
+    crowdwork environment that supports a lost-and-found matching task.
+- name: getting_query_right
+  authors: Barrenechea, M., Anderson, K. M., Aydin, A. A., Hakeem, M., and Jambi,
+    S.
+  year: '2015'
+  downloadlink: http://mbarrenecheajr.github.io/assets/papers/getting-query-right.pdf
+  title: 'Getting the Query Right: User Interface Design of Analysis Platforms for
+    Crisis Research'
+  etc: ICWE (International Conference on Web Engineering) 2015, pp. 547-564
+  category: Data Collection and Analytics Infrastructure
+  abstract: Web-based data analysis environments are powerful platforms for exploring
+    large data sets. To ensure that these environments meet the needs of analysts,
+    a human-centered perspective is needed. Interfaces to these platforms should provide
+    flexible search, support usergenerated content, and enable collaboration. We report
+    on our efforts to design and develop a web interface for a custom analytics platform—
+    EPIC Analyze—which provides interactive search over large Twitter data sets collected
+    during crisis events. We performed seven think-aloud sessions with researchers
+    who regularly analyze crisis data sets and compiled their feedback. They identified
+    a need for a “big picture” view of an event, flexible exporting capabilities,
+    and user-defined coding schemes. Adding these features allowed EPIC Analyze to
+    meet the needs of these analysts and enable exploratory research on crisis data.
+- name: incremental_sorting
+  authors: Aydin, A. A. and Anderson, K. M.
+  year: '2015'
+  downloadlink: http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=7184878&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D7184878
+  title: Incremental Sorting for Large Dynamic Data Sets
+  etc: First IEEE International Conference on Big Data Computing Service and Applications,
+    pp. 170-175
+  category: Data Collection and Analytics Infrastructure
+  abstract: In today's world of pervasive computing, it is straightforward for organizations
+    to generate large amounts of data in support of a variety of business needs. For
+    this reason, it is important to build tools that allow analysts to manage and
+    investigate these data sets quickly and efficiently. One feature needed by these
+    tools is the ability to sort large amounts of data along a number of dimensions
+    to facilitate the search for useful information. In this paper, we describe a
+    new method for incrementally sorting large, multi-dimensional, dynamic data sets.
+    Our particular use case involves sorting large Twitter data sets but our technique
+    can be applied more generally across a variety of data types. Our approach is
+    evaluated with respect to its scalability and by comparing it to several alternatives.
+    It is currently able to efficiently sort data sets consisting of tens of millions
+    of tweets along a variety of dimensions even when the data set is under active
+    collection and new tweets are being added each day. The approach incrementally
+    integrates the new tweets and provides sorted views of all tweets along various
+    dimensions without having to re-sort the previously sorted tweets. The paper presents
+    the benefits of the technique, discusses its limitations, and describes its software
+    engineering contributions.
 - name: crowdwourced_mapping_haiti_coop
   authors: Soden, R. and Palen, L. COOP 2014.
   year: '2014'
@@ -29,7 +178,7 @@
   title: 'Supporting Disaster Reconnaissance with Social Media Data: A Design-Oriented
     Case Study of the 2013 Colorado Floods.'
   etc: Proceedings of the Conference on Information Systems for Crisis Response and
-    Management (ISCRAM 2014). (Best Paper Nomination)
+    Management (ISCRAM 2014), pp. 632-641. (Best Paper Nomination)
   category: Data Collection and Analytics Infrastructure, Perspectives and Vision
   abstract: Engineering reconnaissance following an extreme event is critical in identifying
     the causes of infrastructure failure and minimizing such consequences in similar
@@ -121,12 +270,23 @@
 - name: architectural_implications_of_social_media_analytics
   authors: Anderson, K., Schram, A., Alzabarah, A., and Palen, L.
   year: '2013'
-  downloadlink: ''
+  downloadlink: http://sites.computer.org/debull/A13sept/p13.pdf
   title: Architectural Implications of Social Media Analytics in Support of Crisis
     Informatics Research
   etc: In IEEE Bulletin of the Technical Committee on Data Engineering, 36(3), 13-20.
   category: Data Collection and Analytics Infrastructure
-  abstract: ''
+  abstract: Crisis informatics is a ﬁeld of research that investigates the use of
+    computer-mediated communication---including social media---by members of the public
+    and other entities during times of mass emergency. Supporting this type of research
+    is challenging because large amounts of ephemeral event data can be generated
+    very quickly and so must then be just as rapidly captured. Such data sets are
+    challenging to analyze because of their heterogeneity and size. We have been designing,
+    developing, and deploying software infrastructure to enable the large-scale collection
+    and analysis of social media data during crisis events. We report on the challenges
+    encountered when working in this space, the desired characteristics of such infrastructure,
+    and the techniques, technology, and architectures that have been most useful in
+    providing both scalability and ﬂexibility. We also discuss the types of analytics
+    this infrastructure supports and implications for future crisis informatics research.
 - name: virtual_desk
   authors: Starbird, K., & Palen, L.
   year: '2013'
