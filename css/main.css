@@ -2,8 +2,6 @@ body{
 
 }
 
-
-
 .header{
 	margin-top: 15px;
 	border-bottom: 5px solid #444;
@@ -19,6 +17,10 @@ section{
 	text-align:center
 }
 
+a{
+	color: orange;
+}
+
 ul.no-dot li{
 	list-style-type: none;
 	line-height: 1.1;
@@ -26,14 +28,13 @@ ul.no-dot li{
 
 ul.no-dot li a{
 	line-height: 1.1;
-	text-decoration: none;
-	color: black;
+	/*text-decoration: underline;*/
 }
 
 ul.no-dot li a:hover{
 	line-height: 1.1;
-	text-decoration: none;
-	color: #153275;
+	/*text-decoration: none;*/
+	/*color: #153275;*/
 }
 
 div.callout{
